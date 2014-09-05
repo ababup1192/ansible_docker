@@ -2,5 +2,4 @@
 ssh_port: 22
 ssh_timeout: 5
 
-user_name: docker
-user_groups: sudo
+user_groups: docker

@@ -2,13 +2,13 @@
 - name: install dotfiles from git repository
   git: repo=git@github.com:ababup1192/docker_server_dotfiles.git dest=/var/tmp/docker_server_dotfiles accept_hostkey=True
   sudo: False
-  tags: git
+  tags: dotfiles
 
 - name: copy .dockerrc
   shell: cp /var/tmp/docker_server_dotfiles/.dockerrc /home/{{ user_name }}
-  tags: git
+  tags: dotfiles
 
 - name: copy .zshrc
   shell: cp /var/tmp/docker_server_dotfiles/.zshrc /home/{{ user_name }}
-  tags: git
+  tags: dotfiles
 

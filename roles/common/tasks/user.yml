@@ -5,7 +5,7 @@
     uid={{ user_uid }}
     password={{ user_password }}
     shell=/bin/zsh
-    group=docker
+    group={{ user_group }}
   tags: user
 
 - name: change to sudo user

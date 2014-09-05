@@ -1,4 +1,5 @@
 # gitignore
 
 .vagrant/
+host_vars/ionazn.org
 

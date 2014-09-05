@@ -3,5 +3,5 @@
 - include: system.yml
 - include: utility.yml
 - include: user.yml
-- include: gitfiles.yml
+- include: dotfiles.yml
 - include: service.yml
