@@ -1,0 +1,7 @@
+---
+- include: ssh.yml
+- include: system.yml
+- include: utility.yml
+- include: user.yml
+- include: gitfiles.yml
+- include: service.yml

@@ -1,0 +1,3 @@
+[docker-server]
+ionazn.org ansible_ssh_user=ionazn
+

@@ -1,0 +1,31 @@
+---
+- name: install the docker-io rpm from a remote repo
+  get_url: url=http://ftp-srv2.kddilabs.jp/Linux/distributions/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm dest=/var/tmp/epel-release-6-8.noarch.rpm
+  tags: utility
+
+- name: install docker-io rpm from a local file
+  yum: name=/var/tmp/epel-release-6-8.noarch.rpm
+  tags: utility
+
+- name: install yum packages
+  yum: name={{item}} state=installed
+  with_items:
+    - vim
+    - git
+    - zsh
+    - curl
+    - docker-io
+  tags: utility
+
+- name: get peco from a remote repo
+  get_url: url=https://github.com/peco/peco/releases/download/v0.2.8/peco_linux_amd64.tar.gz dest=/var/tmp/peco_linux_amd64.tar.gz
+  tags: utility
+
+- name: unarchive peco file
+  unarchive: src=/var/tmp/peco_linux_amd64.tar.gz dest=/var/tmp copy=no
+  tags: utility
+
+- name: copy peco executable binary
+  shell: creates=/usr/local/bin/peco cp /var/tmp/peco_linux_amd64/peco /usr/local/bin/peco
+  tags: utility
+

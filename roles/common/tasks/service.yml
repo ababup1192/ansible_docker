@@ -1,0 +1,8 @@
+---
+- name: rewrite docker setting
+  lineinfile: dest=/etc/sysconfig/docker regexp=^other_args line='other_args=\"-H 127.0.0.1:4243\"'
+  tags: service
+
+- name: run and enable docker
+  service: name=docker state=running enabled=yes
+  tags: service

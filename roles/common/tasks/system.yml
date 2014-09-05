@@ -1,0 +1,4 @@
+---
+- name: install yum-fastestmirror
+  yum: name=yum-fastestmirror state=installed
+  tags: system

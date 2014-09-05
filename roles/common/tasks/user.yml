@@ -1,0 +1,17 @@
+---
+- name: create shell user.
+  user:
+    name={{ user_name }}
+    uid={{ user_uid }}
+    password={{ user_password }}
+    shell=/bin/zsh
+    group=docker
+  tags: user
+
+- name: change to sudo user
+  lineinfile: dest=/etc/sudoers state=present regexp='^%ADMIN ALL\=' line='{{ user_name }} ALL=(ALL) ALL' validate='visudo -cf %s'
+  tags: user
+
+- name: ensure public key is in authorized_keys
+  authorized_key: user={{ user_name }} key="{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
+  tags: user
