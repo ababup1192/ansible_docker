@@ -1,0 +1,24 @@
+AnsibleでDocker環境を構築する。
+構築されたDocker環境ではzshによるaliasやpecoによる絞込実行もおこなえる。
+
+[vagrantによるテスト環境構築手順]
+
+$ vagrant up 						# vagrant環境構築
+$ vagrant status 					# vagrant環境の確認
+$ ansible-playbook site.yml 		# ansible-playbook によるテスト環境の構築
+$ vagrant ssh ansible 				# vagrant環境へssh
+$ vagrant destroy ansible			# vagrant環境の破壊
+
+[vagrantによる本番環境構築手順]
+ansible-playbook -i production site.yml -kK # rootユーザの認証をしてからタスク実行。
+
+[opensslコマンドによるソルト付きパスワード作成]
+$ openssl passwd -salt 'Salt' -1 'password'
+結果を「host_vars」ディレクトリのホスト名のファイル名に書き込む。
+
+[Githubのpull用SSH key作成]
+$ ssh-keygen -q -f ~/.ssh/github_deploy  # keyの作成
+$ ssh-add ~/.ssh/github_deploy			 # keyの追加
+$ ssh-add -l							 # keyの追加確認
+$ ssh -T git@github.com					 # Githubとの通信確認
+

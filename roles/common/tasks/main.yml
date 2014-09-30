@@ -1,7 +1,8 @@
 ---
-- include: ssh.yml
+#- include: ssh.yml
 - include: system.yml
 - include: utility.yml
 - include: user.yml
-- include: dotfiles.yml
+- include: shell.yml
 - include: service.yml
+- include: workspace.yml

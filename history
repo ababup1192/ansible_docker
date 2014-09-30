@@ -1,0 +1,3568 @@
+    1  23.4.2014 15:29  cd git
+    2  23.4.2014 15:29  cat _git-info
+    3  23.4.2014 15:30  cd ~/.zprezto && git fetch ; git reset --hard origin/master
+    4  23.4.2014 16:15  cd prompt
+    5  23.4.2014 16:15  cd functions
+    6  23.4.2014 16:15  subl prompt_paradox_setup
+    7  23.4.2014 16:17  zshr
+    8  23.4.2014 16:20  cd modules
+    9  23.4.2014 16:20  cd prompt/functions
+   10  23.4.2014 16:20  subl prompt_powerline_setup
+   11  23.4.2014 16:21  vim .zprezto
+   12  23.4.2014 16:22  git clone https://github.com/skwp/dotfiles ~/.yadr
+   13  23.4.2014 16:22  cd ~/.yadr && rake install
+   14  23.4.2014 16:25  touch ~/.secrets
+   15  23.4.2014 16:25  cd iterm2-colors-solarized/
+   16  23.4.2014 16:26  open Solarized\ Dark.itermcolors
+   17  23.4.2014 16:27  vim .zpreztorc
+   18  23.4.2014 16:28  subl .zpreztorc
+   19  23.4.2014 16:29  cd modules/prompt/functions
+   20  23.4.2014 16:29  subl prompt_giddie_setup
+   21  23.4.2014 16:31  rm -rm .yadr
+   22  23.4.2014 16:31  rm -r .yadr
+   23  23.4.2014 16:31  rm -rf .yadr
+   24  23.4.2014 16:32  rm .vimrc
+   25  23.4.2014 16:34  subl .zprezto/modules/prompt/functions/prompt_giddie_setup
+   26  23.4.2014 16:38  azsh
+   27  23.4.2014 16:40  subl .zshrc_cp
+   28  23.4.2014 16:40  ls Copy
+   29  23.4.2014 16:41  java
+   30  23.4.2014 16:45  zsh
+   31  23.4.2014 16:47  mux
+   32  23.4.2014 16:47  mux start mimamorl
+   33  23.4.2014 16:47  :q!
+   34  23.4.2014 16:47  :kill-session
+   35  23.4.2014 16:49  cat .tmux.conf.backup
+   36  23.4.2014 16:50  rm .tmux.conf
+   37  23.4.2014 16:50  cp .tmux.conf.backup .tmux.conf
+   38  23.4.2014 16:50  cd ~/Copy/conference/somet_2014/paper;clear
+   39  23.4.2014 16:50  ssh-mimamorl
+   40  23.4.2014 16:50  ssh-zaoriku
+   41  23.4.2014 16:51  subl .tmuxinator/mimamorl.yml
+   42  23.4.2014 16:55  ps aux |grep weechat
+   43  23.4.2014 16:55  kill 2471
+   44  23.4.2014 16:57  vim .gitconfig
+   45  23.4.2014 17:01  rm .gitconfig
+   46  23.4.2014 17:01  cp .gitconfig.backup .gitconfig
+   47  23.4.2014 17:02  git config --global core.editor 'vim -c "set fenc=utf-8"'
+   48  23.4.2014 17:02  subl .gitconfig
+   49  23.4.2014 17:03  rm -r .vim
+   50  23.4.2014 17:03  cp -r .vim.backup .vim
+   51  23.4.2014 17:04  cp .vimrc.backup .vimrc
+   52  23.4.2014 17:05  cd .zprezto
+   53  23.4.2014 17:05  vim init.zsh
+   54  23.4.2014 17:06  rm .gitignore
+   55  23.4.2014 17:07  mv .gitignore.backup .gitignore
+   56  24.4.2014 14:32  git remote add origin git@github.com:ababup1192/mimamorlWeb.git
+   57  24.4.2014 14:33  git remote add origin git@github.com:ababup1192/mimamorlHTML.git
+   58  24.4.2014 14:33  git remote -v
+   59  24.4.2014 14:33  git remote add origin git@github.com:ababup1192/mimamorlAPI.git
+   60  24.4.2014 17:08  gcc grade_calculator.c
+   61  24.4.2014 18:46  clear
+   62  25.4.2014 21:08  -d "card="tok_5SH9YXbIK598062""
+   63  24.4.2014 19:31  curl "https://api.webpay.jp/v1/charges" \\
+   64  25.4.2014 21:08  -d "card=tok_5SH9YXbIK598062"\\
+   65  25.4.2014 21:08  \n: 1398335545:0;curl "https://api.webpay.jp/v1/customers" \\
+   66  25.4.2014 21:08  -u "test_secret_eHn4TTgsGguBcW764a2KA8Yd": \\
+   67  25.4.2014 21:08  -d "card=tok_5SH9YXbIK598062"
+   68  24.4.2014 19:33  curl "https://api.webpay.jp/v1/customers", "test_secret_eHn4TTgsGguBcW764a2KA8Yd": card=tok_5SH9YXbIK598062"\n"
+   69  24.4.2014 19:40  cd webpay_test
+   70  24.4.2014 19:43  cd p
+   71  25.4.2014 21:08
+   72  25.4.2014 08:50  git commit .
+   73  25.4.2014 09:44  subl grade.rb
+   74  25.4.2014 09:46  mv grade.rb grade_calculator.rb
+   75  25.4.2014 09:47  rm grade.rb
+   76  25.4.2014 10:20  ruby grade_calculator.
+   77  25.4.2014 10:20  ruby grade_calculator.rb
+   78  25.4.2014 10:27  cat grade_calculator.c
+   79  25.4.2014 10:27  subl grade_calculator.c
+   80  25.4.2014 10:27  wc grade_calculator.c
+   81  25.4.2014 20:14  subl grade_calculator.rb
+   82  25.4.2014 20:15  subl grade_calculator1.rb
+   83  25.4.2014 20:22  ruby grade_calculator1.rb
+   84  25.4.2014 20:37  cp grade_calculator1.rb grade_calculator2.rb
+   85  25.4.2014 21:07  subl .tmux.conf
+   86  25.4.2014 21:11  ~/Workspace on ma~/Workspace on master!
+   87  25.4.2014 21:12  cd git_sample_project
+   88  25.4.2014 21:17  ruby grade_calculator2.rb
+   89  25.4.2014 21:25  cat grade_calculator.rb
+   90  25.4.2014 21:26  wc grade_calculator
+   91  25.4.2014 21:26  wc grade_calculator.rb
+   92  25.4.2014 21:26  wc grade_calculator2.rb
+   93  25.4.2014 21:27  mkdir c_grade_calc
+   94  25.4.2014 21:27  mv grade_calculator.c c_grade_calc
+   95  25.4.2014 21:27  cp grade.csv c_grade_calc
+   96  25.4.2014 21:28  mkdir rb_grade_calc
+   97  25.4.2014 21:28  mv *.rb rb_grade_calc
+   98  25.4.2014 21:29  mv grade.csv rb_grade_calc
+   99  25.4.2014 21:29  rm hello.c
+  100  25.4.2014 21:29  mkdir handout
+  101  25.4.2014 21:29  mv *.pdf handout
+  102  25.4.2014 21:30  mv handout1.pdf sccp_introduction.pdf
+  103  25.4.2014 21:31  mkdir grade_calculator
+  104  25.4.2014 21:31  mv -f rb_grade_calc grade_calculator
+  105  25.4.2014 21:31  mv -f c_grade_calc grade_calculator
+  106  25.4.2014 21:43  awk
+  107  25.4.2014 21:43  cd c_grade_calc
+  108  25.4.2014 21:44  awk -F "," "NR>1 {print $1}" grade.csv
+  109  25.4.2014 21:45  awk -F "," "NR>1 {sum=$1+$2+$3+$4+$5}" "print sun" grade.csv
+  110  25.4.2014 21:45  awk -F "," "NR>1 {sum=$1+$2+$3+$4+$5}" "print sum" grade.csv
+  111  25.4.2014 21:46  awk -F "," "BEGIN{sum = 0} NR>1 {sum=$1+$2+$3+$4+$5}" "print sum" grade.csv
+  112  25.4.2014 21:46  awk -F "," "NR>1 {sum=$1+$2+$3+$4+$5}" grade.csv
+  113  25.4.2014 21:46  awk -F "," "NR>1 {print $1+$2+$3+$4+$5}" grade.csv
+  114  25.4.2014 21:47  awk -F "," "NR>1 {print $0}" grade.csv
+  115  25.4.2014 21:47  awk -F "," "NR>1 {print $1 + $2}" grade.csv
+  116  25.4.2014 21:47  awk -F "," "NR>1 {print ($1 + $2)}" grade.csv
+  117  25.4.2014 21:47  awk -F "," "NR>1 {print $1+$2}" grade.csv
+  118  25.4.2014 21:47  awk -F "," "NR>1 {print ($1+$2)}" grade.csv
+  119  25.4.2014 21:49  awk -F "," "BEGIN{sum=0} NR>1 {print $1+$2}" grade.csv
+  120  25.4.2014 21:49  awk -F "," "BEGIN{sum=0} NR>1 {print $1}" grade.csv
+  121  25.4.2014 21:49  awk -F "," "BEGIN{sum=0} NR>1 {sum+=$1}" grade.csv
+  122  25.4.2014 21:49  awk -F "," "BEGIN{sum=0} NR>1 {sum=sum+$1}" grade.csv
+  123  25.4.2014 21:49  awk -F "," "BEGIN{sum=0} NR>1 {sum=sum+$1} {print sum}" grade.csv
+  124  25.4.2014 21:50  awk -F "," "BEGIN{sum=0} NR>1 {sum=sum+$1[0]} {print sum}" grade.csv
+  125  25.4.2014 21:51  awk -F "BEGIN{FS = "," sum=0} NR>1 {sum=sum+$1]} {print sum}" grade.csv
+  126  25.4.2014 21:51  awk -F "BEGIN{FS = "," sum=0} NR>1 {sum=sum+$1]} END{print sum}" grade.csv
+  127  25.4.2014 21:53  awk -F 'BEGIN{FS = "," sum=0} NR>1 {sum=sum+$1]} END{print sum}' grade.csv
+  128  25.4.2014 21:53  cat grade.csv| awk -F 'BEGIN{FS = "," sum=0} NR>1 {sum=sum+$1]} END{print sum}'
+  129  25.4.2014 21:53  cat grade.csv| awk 'BEGIN{FS = "," sum=0} NR>1 {sum=sum+$1]} END{print sum}'
+  130  25.4.2014 21:53  cat grade.csv| awk 'BEGIN{FS = "," sum=0} NR>1 {sum=sum+$1} END{print sum}'
+  131  25.4.2014 21:54  cat grade.csv| awk 'BEGIN{FS = "," sum=0} NR>1{sum=sum+$1} END{print sum}'
+  132  25.4.2014 21:54  cat grade.csv| awk 'BEGIN{FS="," sum=0} NR>1{sum=sum+$1} END{print sum}'
+  133  25.4.2014 21:54  cat grade.csv| awk 'BEGIN{FS="," sum=0} NR>1{sum=sum+$1} END{print NR}'
+  134  25.4.2014 21:54  cat grade.csv| awk 'BEGIN{FS="," sum=0} NR>1{} END{print NR}'
+  135  25.4.2014 21:54  cat grade.csv| awk 'BEGIN{FS=","} NR>1{} END{print NR}'
+  136  25.4.2014 21:54  cat grade.csv| awk 'BEGIN{FS="," a=0} NR>1{} END{print NR}'
+  137  25.4.2014 21:54  cat grade.csv| awk 'BEGIN{FS=","la=0} NR>1{} END{print NR}'
+  138  25.4.2014 21:54  cat grade.csv| awk 'BEGIN{FS=",";a=0} NR>1{} END{print NR}'
+  139  25.4.2014 21:54  cat grade.csv| awk 'BEGIN{FS=",";a=0} NR>1{} END{print a}'
+  140  25.4.2014 21:55  cat grade.csv| awk 'BEGIN{FS=",";sum=0} NR>1{sum=sum+$1} END{print a}'
+  141  25.4.2014 21:55  cat grade.csv| awk 'BEGIN{FS=",";sum=0} NR>1{sum=sum+$1} END{print sum}'
+  142  25.4.2014 21:55  cat grade.csv| awk 'BEGIN{FS=",";sum=0} NR>1{sum=sum+$1+$2+$3+$4+$5} END{print sum}'
+  143  25.4.2014 21:55  cat grade.csv| awk 'BEGIN{FS=",";sum=0} NR>1{sum=sum+$1+$2+$3+$4+$5} END{print sum;print sum/NR/5}'
+  144  25.4.2014 21:55  cat grade.csv| awk 'BEGIN{FS=",";sum=0} NR>1{sum=sum+$1+$2+$3+$4+$5} END{print sum;print sum/(NR/5)}'
+  145  25.4.2014 21:56  cat grade.csv| awk 'BEGIN{FS=",";sum=0} NR>1{sum=sum+$1+$2+$3+$4+$5} END{print sum;print sum/(NR*5)}'
+  146  25.4.2014 21:56  awk -F 'BEGIN{FS=",";sum=0} NR>1{sum=sum+$1+$2+$3+$4+$5} END{print sum;print sum/((NR-1)*5)}' grade.csv
+  147  25.4.2014 21:56  awk -F 'BEGIN{FS=",";sum=0} NR>1{sum=sum+$1+$2+$3+$4+$5} END{print sum;print sum/((NR-1)*5)}' "grade.csv"
+  148  25.4.2014 21:56  cat grade.csv| awk 'BEGIN{FS=",";sum=0} NR>1{sum=sum+$1+$2+$3+$4+$5} END{print sum;print sum/((NR-1)*5)}'
+  149  25.4.2014 21:58  cat grade.csv| awk "," 'BEGIN{sum=0} NR>1{sum=sum+$1+$2+$3+$4+$5} END{print sum;print sum/((NR-1)*5)}'
+  150  25.4.2014 21:58  awk -F "," 'BEGIN{sum=0} NR>1{sum=sum+$1+$2+$3+$4+$5} END{print sum;print sum/((NR-1)*5)}' grade.csv
+  151  25.4.2014 21:59  mkdir awk_grade_calc
+  152  25.4.2014 21:59  cp ../rb_grade_calc/grade.csv .
+  153  25.4.2014 22:00  subl grade_calculator.awk
+  154  25.4.2014 22:01  cd awk_grade_calc
+  155  25.4.2014 22:01  git comit
+  156  25.4.2014 22:02  cd grade_calculator
+  157  25.4.2014 22:02  cd rb_grade_calc
+  158  25.4.2014 22:02  subl grade_calculator2.rb
+  159  25.4.2014 22:10  mv git_sample_project sccp_project_2014_first
+  160  25.4.2014 22:25  gem install --local net-ssh
+  161  25.4.2014 22:25  gem install --local ssh
+  162  25.4.2014 22:28  du -h
+  163  25.4.2014 22:29  du -h|more
+  164  25.4.2014 22:29  man du
+  165  25.4.2014 22:30  du -hs
+  166  25.4.2014 22:31  du -s * | sort -nr | head -10
+  167  26.4.2014 18:24  cat project/Build.
+  168  26.4.2014 18:24  cat project/build.properties
+  169  26.4.2014 18:25  cat project/Build.scala
+  170  26.4.2014 19:33  cd Dropbox/ミマモール
+  171  26.4.2014 19:33  cd Server管理
+  172  26.4.2014 19:33  cd DB設計
+  173  26.4.2014 23:42  git -u push origin develop
+  174  26.4.2014 23:42  git -u push develop
+  175  27.4.2014 12:12  subl Environment.scala
+  176  27.4.2014 12:13  cd views
+  177  27.4.2014 12:13  cd plan
+  178  27.4.2014 12:13  subl plan.scala.html
+  179  27.4.2014 21:03  subl x.rb
+  180  27.4.2014 21:04  rb x.rb
+  181  27.4.2014 21:04  ruby x.rb
+  182  27.4.2014 21:04  rm x.rb
+  183  27.4.2014 23:56  sudo mysql.server top
+  184  28.4.2014 00:41  cd WorkSpace/temp/ls
+  185  28.4.2014 00:41  cd WorkSpace/temp/
+  186  28.4.2014 00:48  rm test.c
+  187  28.4.2014 10:05  ri String
+  188  28.4.2014 13:46  rm Te*
+  189  28.4.2014 13:46  rm -r Test
+  190  28.4.2014 13:48  rm -r TestProject
+  191  28.4.2014 13:48  rm -rf TestProject
+  192  28.4.2014 14:30  git rm .idea/*
+  193  28.4.2014 14:30  git rm -r .idea/*
+  194  28.4.2014 14:41  more .git
+  195  28.4.2014 14:41  more .gitignore
+  196  29.4.2014 09:34  cd dc_utf_multi
+  197  29.4.2014 09:34  platex dc.tex
+  198  29.4.2014 09:34  gen-tex dc
+  199  29.4.2014 09:59  cd Library/Safari
+  200  29.4.2014 09:59  cd Databases
+  201  29.4.2014 10:00  cd LocalStorage
+  202  29.4.2014 10:00  cd Sa
+  203  29.4.2014 10:00  cd Safari/ls
+  204  29.4.2014 10:00  cd Safari/
+  205  29.4.2014 10:01  subl Bookmarks.plist
+  206  29.4.2014 10:13  seq -10 2 10
+  207  29.4.2014 10:13  seq -10 2 300
+  208  29.4.2014 10:14  seq -10 2 300 | cat -n
+  209  29.4.2014 10:15  seq -10 2 300 | cat -n | grep "^ +100"
+  210  29.4.2014 10:16  seq -10 2 300 | cat -n | grep "^   100"
+  211  29.4.2014 10:16  seq -10 2 300 | cat -n | grep "^*100"
+  212  29.4.2014 10:17  seq -10 2 300 | cat -n | grep "^.+100"
+  213  29.4.2014 10:18  seq -10 2 300 | cat -n | grep "^.{2}100"
+  214  29.4.2014 10:18  seq -10 2 300 | cat -n | grep "^.{1}100"
+  215  29.4.2014 10:18  seq -10 2 300 | cat -n | grep "^.{4}100"
+  216  29.4.2014 10:18  seq -10 2 300 | cat -n | grep "^.{3}100"
+  217  29.4.2014 10:18  seq -10 2 300 | cat -n | grep "^.{3}[100]"
+  218  29.4.2014 10:18  seq -10 2 300 | cat -n | grep "^.{3}[0-9]"
+  219  29.4.2014 10:18  seq -10 2 300 | cat -n | grep "^+[0-9]"
+  220  29.4.2014 10:18  seq -10 2 300 | cat -n | grep "^ +[0-9]"
+  221  29.4.2014 10:18  seq -10 2 300 | cat -n | grep "^\ +[0-9]"
+  222  29.4.2014 10:18  seq -10 2 300 | cat -n | grep '^\ +[0-9]'
+  223  29.4.2014 10:18  seq -10 2 300 | cat -n | grep '^ +[0-9]'
+  224  29.4.2014 10:18  seq -10 2 300 | cat -n | grep '^ +100'
+  225  29.4.2014 10:19  seq -10 2 300 | cat -n | grep '^   100'
+  226  29.4.2014 10:20  seq -10 2 300 | cat -n | grep '^[[:blank:]][[:blank:]][[:blank:]]100'
+  227  29.4.2014 10:20  seq -10 2 300 | cat -n | grep '^[[:blank:]]\{3}100'
+  228  29.4.2014 10:20  seq -10 2 300 | cat -n | grep '^[[:blank:]]{3}100'
+  229  29.4.2014 10:20  seq -10 2 300 | cat -n | grep '^[[:blank:]]\{2}100'
+  230  29.4.2014 10:20  seq -10 2 300 | cat -n | grep '^[[:blank:]]+100'
+  231  29.4.2014 10:20  seq -10 2 300 | cat -n | grep '^[[:blank:]]\+100'
+  232  29.4.2014 10:21  seq -10 2 300 | cat -n | grep '\^ \+100'
+  233  29.4.2014 10:21  seq -10 2 300 | cat -n | grep '^.\+100'
+  234  29.4.2014 10:21  seq -10 2 300 | cat -n | grep '^.\+{3}100'
+  235  29.4.2014 10:21  seq -10 2 300 | cat -n | grep '^.\{3}100'
+  236  29.4.2014 10:21  seq -10 2 300 | cat -n | grep '^.\{2}100'
+  237  29.4.2014 10:21  seq -10 2 300 | cat -n | grep '^.{2}100'
+  238  29.4.2014 10:21  seq -10 2 300 | cat -n | grep '^.{3}100'
+  239  29.4.2014 10:22  seq -10 2 300 | cat -n | grep '^ \+100'
+  240  29.4.2014 10:22  seq -10 2 300 | cat -n | grep "^ \+100"
+  241  29.4.2014 10:24  seq -100 2 300 | cat -n | grep "^ {2\}100"
+  242  29.4.2014 10:24  seq -100 2 300 | cat -n | grep "^ {\2}100"
+  243  29.4.2014 10:24  seq -100 2 300 | cat -n | grep "^ \{2\}100"
+  244  29.4.2014 10:24  seq -100 2 300 | cat -n | grep "^ \{3\}100"
+  245  29.4.2014 10:24  seq -100 2 300 | cat -n | grep '^ \{3\}100'
+  246  29.4.2014 10:27  seq -100 2 300 | cat -n | grep '98\$'
+  247  29.4.2014 10:27  seq -100 2 300 | cat -n | grep '98$'
+  248  29.4.2014 10:28  seq -100 2 300 | cat -n | grep '\t98$'
+  249  29.4.2014 10:28  seq -100 2 300 | cat -n | grep '\t'98$
+  250  29.4.2014 10:56  seq -100 2 300 | cat -n | grep '^ +100'
+  251  29.4.2014 10:56  seq -100 2 300 | cat -n | grep '^ \+100'
+  252  29.4.2014 10:56  seq -100 2 300 | cat -n | grep ^' '\100
+  253  29.4.2014 10:56  seq -100 2 300 | cat -n | grep ^' '100
+  254  29.4.2014 10:57  seq -100 2 300 | cat -n | grep ^" "100
+  255  29.4.2014 10:57  seq -100 2 300 | cat -n | grep "^ \+100"
+  256  29.4.2014 10:58  seq -100 2 300 | cat -n | grep "^ \+100.+\d"
+  257  29.4.2014 10:58  seq -100 2 300 | cat -n | grep "^ \+100\.\+\d"
+  258  29.4.2014 10:58  seq -100 2 300 | cat -n | grep "^ \+100\.\+\d+"
+  259  29.4.2014 10:58  seq -100 2 300 | cat -n | grep "^ \+100\.\+\d^+"
+  260  29.4.2014 10:58  seq -100 2 300 | cat -n | grep "^ \+100\.\+\d\+"
+  261  29.4.2014 10:58  seq -100 2 300 | cat -n | grep "^ \+100.\+\d\+"
+  262  29.4.2014 10:59  seq -100 2 300 | cat -n | grep "^ \+100.\+(\d\+)$"
+  263  29.4.2014 10:59  seq -100 2 300 | cat -n | grep "^ \+100.\+(\d\+)\$"
+  264  29.4.2014 10:59  seq -100 2 300 | cat -n | grep "^ \+100.\+(\d\+)"
+  265  29.4.2014 10:59  seq -100 2 300 | cat -n | grep "^ \+100.\+(\d+)"
+  266  29.4.2014 10:59  seq -100 2 300 | cat -n | grep "^ \+100.\+(\d)+"
+  267  29.4.2014 10:59  seq -100 2 300 | cat -n | grep "^ \+100.\+\(\d+\)"
+  268  29.4.2014 10:59  seq -100 2 300 | cat -n | grep "^ \+100.\+\(\d\+\)"
+  269  29.4.2014 10:59  seq -100 2 300 | cat -n | grep "^ \+100.\+\(\d\+\)" | cat $0
+  270  29.4.2014 10:59  seq -100 2 300 | cat -n | grep "^ \+100.\+\(\d\+\)" | cat $1
+  271  29.4.2014 10:59  seq -100 2 300 | cat -n | grep "^ \+100.\+\(\d\+\)"$
+  272  29.4.2014 11:00  seq -100 2 300 | cat -n | grep "^ \+100.\+\(\d\+\)$" | cat
+  273  29.4.2014 11:03  seq -100 2 300 | cat -n | grep -o "^ \+100.\+\(\d\+\)$" | cat
+  274  29.4.2014 11:03  seq -100 2 300 | cat -n | grep -o "^ \+100.\+\(\d\+\)$"
+  275  29.4.2014 11:03  seq -100 2 300 | cat -n | grep "^ \+100.\+\(\d\+\)$"
+  276  29.4.2014 11:04  seq -100 2 300 | cat -n | grep -A1 "^ \+100.\+\(\d\+\)$"
+  277  29.4.2014 11:04  seq -100 2 300 | cat -n | grep -A0 "^ \+100.\+\(\d\+\)$"
+  278  29.4.2014 11:05  seq -100 2 300 | cat -n | grep -A10 "^ \+100.\+\(\d\+\)$"
+  279  29.4.2014 16:25  man find
+  280  29.4.2014 16:27  find -name reference
+  281  29.4.2014 16:28  find / -name reference
+  282  29.4.2014 16:28  find / -name what
+  283  29.4.2014 16:28  find . -name what
+  284  29.4.2014 16:29  find . -name "*.pdf"
+  285  29.4.2014 16:29  find . -name "*.pdf" |grep what
+  286  29.4.2014 17:10  ls|grep ACM
+  287  29.4.2014 17:10  ls|grep VPL
+  288  29.4.2014 17:10  ls|grep Scala
+  289  29.4.2014 17:10  ls|grep scala
+  290  29.4.2014 17:10  ls|grep -i Scala
+  291  29.4.2014 17:10  ls|grep -i scala
+  292  29.4.2014 17:10  ls|grep -i vpl
+  293  29.4.2014 17:11  ls|grep 0\d
+  294  29.4.2014 17:11  ls|grep 0"\d"
+  295  29.4.2014 17:11  ls|grep (0|1)"\d"
+  296  29.4.2014 17:11  ls|grep (0|1) "\d"
+  297  30.4.2014 08:16  ls|grep "\[0|1\]?\d"
+  298  30.4.2014 08:16  ls|grep "\(0|1\)?\d"
+  299  30.4.2014 08:16  ls|grep "\(01\)?\d"
+  300  30.4.2014 08:16  ls|grep "(01)?\d"
+  301  30.4.2014 08:16  ls|grep "0\d"
+  302  30.4.2014 08:16  ls|grep "1\d"
+  303  30.4.2014 08:17  ls|grep "\[01\]?\d"
+  304  30.4.2014 08:19  ls|grep "(0)(1)?\d"
+  305  30.4.2014 08:19  ls|grep "\(0\)\(1\)?\d"
+  306  30.4.2014 08:19  ls|grep "[01]?\d"
+  307  30.4.2014 08:20  ls|grep "0?1?\d"
+  308  30.4.2014 08:20  ls|grep "0\?1\?\d"
+  309  30.4.2014 08:20  ls|grep "(0)\?\d"
+  310  30.4.2014 08:20  ls|grep "(01)\?\d"
+  311  30.4.2014 08:20  ls|grep "(0|1)\?\d"
+  312  30.4.2014 08:20  ls|grep "\(0\|1\)\?\d"
+  313  30.4.2014 08:21  ls|grep "\(0\|1\)\d"
+  314  30.4.2014 08:21  ls|grep "\(0|1\)\d"
+  315  30.4.2014 08:21  ls|grep "[01]\d"
+  316  30.4.2014 08:21  ls|grep "[^9]\d"
+  317  30.4.2014 08:22  ls|grep "[^9\d]\d"
+  318  30.4.2014 08:22  ls|grep "[^9]\d.pdf"
+  319  30.4.2014 08:22  ls|grep "[^7-9]\d.pdf"
+  320  30.4.2014 08:22  ls|grep "[^2-9]\d.pdf"
+  321  30.4.2014 08:22  ls|grep "[01]\d.pdf"
+  322  30.4.2014 08:30  g8
+  323  30.4.2014 12:53  brew install tig
+  324  30.4.2014 12:59  ls |grep vim
+  325  30.4.2014 12:59  ls |grep -i vim
+  326  30.4.2014 12:59  man grep
+  327  30.4.2014 16:29  ls |grep FP
+  328  30.4.2014 16:32  ls |grep "[^.cpp]$"
+  329  30.4.2014 16:32  ls |grep "^[.cpp]"
+  330  30.4.2014 16:32  ls |grep "[\.cpp]"
+  331  30.4.2014 16:32  ls |grep "[^.cpp]"
+  332  30.4.2014 17:41  nslookup 163.143.0.100
+  333  30.4.2014 17:42  nslookup 163.143.1.100
+  334  30.4.2014 17:42  nslookup rose.u-aizu.ac.jp
+  335  30.4.2014 17:42  nslookup it.rose.u-aizu.ac.jp
+  336  30.4.2014 17:49  ping 8.8.8.8
+  337  30.4.2014 18:02  ipconfig
+  338  30.4.2014 18:03  nslookup http://www.atmarkit.co.jp
+  339  30.4.2014 18:03  nslookup www.atmarkit.co.jp
+  340  30.4.2014 18:04  traceroute 218.223.36.241
+  341  30.4.2014 18:07  nslookup https://www.nic.ad.jp
+  342  30.4.2014 18:07  nslookup www.nic.ad.jp
+  343  30.4.2014 18:08  nslookup www.google.co.jp
+  344  30.4.2014 20:57  git clone https://github.com/dotcloud/docker.git
+  345  30.4.2014 20:59  vargrant init
+  346  30.4.2014 20:59  vagrant inti
+  347  30.4.2014 20:59  vagrant up --provider virtualbox
+  348  30.4.2014 21:04  where
+  349  30.4.2014 21:04  where ls
+  350  30.4.2014 21:04  where cd
+  351  30.4.2014 21:04  where grep
+  352  30.4.2014 21:05  less
+  353  30.4.2014 21:05  less q.log .
+  354  30.4.2014 21:05  less q.log
+  355  30.4.2014 21:06  cat q.log
+  356  30.4.2014 21:06  rm q.log
+  357  30.4.2014 21:06  vim .zshenv
+  358  30.4.2014 21:07  vim .zcompdump
+  359  30.4.2014 21:08  vim te
+  360  30.4.2014 21:10  brew install reattach-to-user-namespace
+  361  30.4.2014 21:11  vim .tmux.conf
+  362  30.4.2014 21:13  vim .vimrc
+  363  1.5.2014 09:03  cd handout
+  364  1.5.2014 14:05  ls |grep VLA
+  365  1.5.2014 14:05  ls |grep VPL
+  366  1.5.2014 14:06  ls |grep Scala
+  367  1.5.2014 14:07  ls |grep [01]\d
+  368  1.5.2014 14:08  ls |grep "[01]\d"
+  369  1.5.2014 14:08  ls |grep "IEEE"
+  370  1.5.2014 17:22  cd 2014/
+  371  1.5.2014 17:23  rm array.rb
+  372  1.5.2014 17:26  ruby prime_number.rb
+  373  1.5.2014 17:26  subl system_command.rb
+  374  1.5.2014 17:28  subl fizz_buzz.rb
+  375  1.5.2014 17:33  subl array.rb
+  376  1.5.2014 17:34  ruby array.rb
+  377  1.5.2014 17:35  subl array2.rb
+  378  1.5.2014 17:36  mv array.rb ruby_simple_samples
+  379  1.5.2014 17:36  mv array2.rb ruby_simple_samples
+  380  1.5.2014 17:38  ruby array2.rb
+  381  1.5.2014 17:38  mv -f array2.rb ruby_simple_samples
+  382  1.5.2014 17:39  subl array_iterator.rb
+  383  1.5.2014 17:42  ruby array_iterator.rb
+  384  1.5.2014 17:47  subl array_map.rb
+  385  1.5.2014 17:53  ruby system_command.rb
+  386  1.5.2014 17:56  ruby fizz_buzz.rb
+  387  1.5.2014 17:56  vim fiz.
+  388  1.5.2014 17:57  vim fiz.rb
+  389  1.5.2014 17:57  ruby fiz
+  390  1.5.2014 17:57  ruby fiz.rb
+  391  1.5.2014 18:00  f(x) = x + 1
+  392  1.5.2014 18:03  ruby array_map.rb
+  393  1.5.2014 20:37  subl memo
+  394  1.5.2014 20:37  subl prime_number.rb
+  395  1.5.2014 20:41  ruby fi
+  396  1.5.2014 20:41  ruby file_read.rb
+  397  1.5.2014 20:43  subl ruby_tk.rb
+  398  1.5.2014 20:44  ruby ruby_tk.rb
+  399  1.5.2014 20:45  cd WorkSpace/program/ruby
+  400  1.5.2014 20:52  mkdir rogue
+  401  1.5.2014 20:52  cd rogue
+  402  1.5.2014 20:54  subl stage.rb
+  403  1.5.2014 21:00  subl game_main.rb
+  404  1.5.2014 21:10  ruby game_main.rb
+  405  1.5.2014 21:16  kill 15383
+  406  1.5.2014 21:24  ruby game_main.rb
+  407  1.5.2014 21:45  open -a Preview maze.eps
+  408  1.5.2014 21:46  ruby test.rb 10
+  409  1.5.2014 21:49  rm stage.rb
+  410  1.5.2014 21:49  rm maze.eps
+  411  1.5.2014 22:06  rm -rf rogue
+  412  1.5.2014 22:06  mkdir AOJ
+  413  1.5.2014 22:06  mkdir vol0
+  414  1.5.2014 22:07  subl 0.rb
+  415  1.5.2014 22:08  ruby 0.rb
+  416  1.5.2014 22:09  subl 1.rb
+  417  1.5.2014 22:12  ruby 1
+  418  1.5.2014 22:12  ruby 1.rb
+  419  1.5.2014 22:13  ruby 1.rb < input
+  420  1.5.2014 22:21  cclear
+  421  2.5.2014 07:52  play new websocket_sample
+  422  2.5.2014 07:57  cd parser
+  423  2.5.2014 07:57  cd out/production/parser
+  424  2.5.2014 07:57  java Main 1+2
+  425  2.5.2014 07:59  brew install rogue
+  426  2.5.2014 09:33  ruby -e 'puts "test"'
+  427  2.5.2014 09:45  mkdir ruby_src
+  428  2.5.2014 09:57  cd ruby_src
+  429  2.5.2014 09:57  cat test.rb
+  430  2.5.2014 13:41  cd /usr/local/Cellar/play/2.2.1/libexec/samples/scala
+  431  2.5.2014 13:49  subl Application.scala
+  432  2.5.2014 13:49  subl ChatRoom.scala
+  433  2.5.2014 13:59  cp /usr/local/Cellar/play/2.2.1/libexec/samples/scala
+  434  2.5.2014 14:00  cp -r /usr/local/Cellar/play/2.2.1/libexec/samples/scala/websocket-chat .
+  435  2.5.2014 14:02  subl chatRoom.scala.js
+  436  2.5.2014 14:07  subl routes
+  437  2.5.2014 14:07  subl conf/routes
+  438  2.5.2014 14:07  play run
+  439  2.5.2014 14:11  cd app/views
+  440  2.5.2014 14:11  subl chatRoom.scala.html
+  441  2.5.2014 19:28  play-dist websocket-chat
+  442  2.5.2014 19:29  ./websocket_sample
+  443  2.5.2014 19:53  ssh mimamrol
+  444  2.5.2014 20:05  compile
+  445  2.5.2014 20:06  unzip websocket_sample-1.0-SNAPSHOT.zip
+  446  2.5.2014 20:06  mv websocket_sample-1.0-SNAPSHOT websocket-chat
+  447  2.5.2014 22:15  /usr/local/activator-0.4.2/activator ; exit;
+  448  3.5.2014 11:34  ruby test.rb | more
+  449  3.5.2014 11:52  ruby test.rb
+  450  3.5.2014 11:54  mv test.rb words_count.rb
+  451  3.5.2014 11:55  mv ~/Downloads/* .
+  452  3.5.2014 11:55  cat file_read.rb
+  453  3.5.2014 11:57  cd sccp/2014
+  454  3.5.2014 11:58  ruby words_count.rb
+  455  3.5.2014 16:54  cd ruby_simple_samples
+  456  3.5.2014 16:55  subl words_count.rb
+  457  3.5.2014 16:56  ruby words_count.rb dsa
+  458  3.5.2014 17:00  ruby words_count.rb ConstitutionOfJapan.txt
+  459  3.5.2014 17:00  ruby words_count.rb words_count.rb
+  460  3.5.2014 17:00  ruby words_count.rb fizz_buzz.rb
+  461  3.5.2014 17:00  subl file_read.rb
+  462  3.5.2014 17:02  ruby file_read.rb ConstitutionOfJapan.txt
+  463  3.5.2014 17:02  rm ConstitutionOfJapan.txt
+  464  3.5.2014 21:37  cd AOJ
+  465  3.5.2014 21:37  cd vol0
+  466  3.5.2014 21:38  subl 2.rb
+  467  3.5.2014 21:39  ruby input input
+  468  3.5.2014 21:40  cat input
+  469  3.5.2014 21:40  ruby 2.rb
+  470  3.5.2014 21:40  cat 1.rb
+  471  3.5.2014 21:41  ruby 2.rb input
+  472  3.5.2014 21:41  cat input| ruby 2.rb
+  473  3.5.2014 21:48  subl 3.rb
+  474  3.5.2014 21:49  subl 4.rb
+  475  3.5.2014 22:45  cat input| ruby 4.rb
+  476  3.5.2014 22:51  cat input| ruby 3.rb
+  477  4.5.2014 12:30  cd AkkaScala
+  478  4.5.2014 12:36  subl activator-sbt-atmos-shim.sbt
+  479  4.5.2014 12:37  subl activator-sbt-atmos-akka-shim.sbt
+  480  4.5.2014 13:00  .s
+  481  4.5.2014 13:38  rm -rf AkkaScala
+  482  4.5.2014 16:27  subl sbt-assembly.sbt
+  483  4.5.2014 20:38  which Java
+  484  4.5.2014 20:52  rm -rf Test
+  485  4.5.2014 20:55  cd /Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk
+  486  4.5.2014 20:55  cd Contents/Home
+  487  4.5.2014 20:55  cd jre
+  488  4.5.2014 22:34  cd AkkaTest
+  489  4.5.2014 22:43  sbt
+  490  4.5.2014 23:52  cd echo
+  491  4.5.2014 23:53  java -jar hello-akka-assembly-1.0.jar
+  492  4.5.2014 23:53  telnet 127.0.0.1 11111
+  493  4.5.2014 23:55  ssh mi
+  494  5.5.2014 09:09  lsof -i:11111
+  495  5.5.2014 09:10  netstat -ln
+  496  5.5.2014 09:10  netstat -ln|grep 80
+  497  5.5.2014 09:10  netstat -ln|grep 11111
+  498  5.5.2014 09:30  telnet www5156ui.sakura.ne.jp 10468
+  499  5.5.2014 09:30  telnet www5156ui.sakura.ne.jp 10648
+  500  5.5.2014 09:30  telnet www5156ui.sakura.ne.jp 11111
+  501  5.5.2014 09:31  telnet www5156ui.sakura.ne.jp 1111
+  502  5.5.2014 09:34  ln -s target/scala-2.10 .
+  503  5.5.2014 09:34  mv scala-2.10 dist
+  504  5.5.2014 09:41  sdap
+  505  5.5.2014 09:41  dsalp
+  506  5.5.2014 09:44  telnet www5156ui.sakura.ne.jp 80
+  507  5.5.2014 10:16  mv hello-akka-assembly-1.0.jar akka.jar
+  508  5.5.2014 10:17  telnet www5156ui.sakura.ne.jp 25565
+  509  5.5.2014 10:32  telnet localhost 25565
+  510  5.5.2014 10:47  cd websocket_sample
+  511  5.5.2014 12:44  mv AkkaTest NotifyAOJJudgeStatusService
+  512  5.5.2014 12:46  mv websocket_sample NotifyAOJJudgeStatusService
+  513  5.5.2014 12:46  mv NotifyAOJJudgeStatusService AOJJudgeStatusQueue
+  514  5.5.2014 12:50  git rm .
+  515  5.5.2014 12:50  git rm -r .
+  516  5.5.2014 12:57  git remote add origin https://abab@bitbucket.org/abab/notifyaojjudgestatusservice.git
+  517  5.5.2014 13:01  git remote add origin https://abab@bitbucket.org/abab/aojjudgestatusqueue.git
+  518  5.5.2014 13:02  git checkout to
+  519  5.5.2014 13:08  rm -rf AkkaTest
+  520  5.5.2014 13:08  cd favorite
+  521  5.5.2014 13:08  rm -rf websocket_sample
+  522  5.5.2014 17:46  rm -rf AdobePDFViewer.plugin
+  523  5.5.2014 17:46  sudo rm -rf AdobePDFViewer.plugin
+  524  5.5.2014 17:49  cd /Library/Internet\ Plug-Ins
+  525  5.5.2014 17:49  rm -rf AdobePDFViewerNPAPI.plugin
+  526  5.5.2014 17:49  sudo rm -rf AdobePDFViewerNPAPI.plugin
+  527  5.5.2014 21:09  cd NotifyAOJJudgeStatusService/
+  528  5.5.2014 23:09  cd websocket-chat
+  529  5.5.2014 23:10  subl app/models/ChatRoom.scala
+  530  5.5.2014 23:26  git push -u --all
+  531  7.5.2014 04:01  locale
+  532  7.5.2014 12:46  cd WorkSpace/program/play/NotifyAOJJudgeStatusService
+  533  7.5.2014 13:01  java -jar AOJ-Judge-Status-Queue-assembly-1.0.jar
+  534  7.5.2014 15:27  which java
+  535  7.5.2014 15:29  /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/java -jar
+  536  7.5.2014 15:30  /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/bin/java -jar AOJ-Judge-Status-Queue-assembly-1.0.jar
+  537  7.5.2014 17:09  rm -rf websocket-chat
+  538  7.5.2014 17:09  rm websocket_sample-1.0-SNAPSHOT.zip
+  539  7.5.2014 17:10  mv Notify-AOJ-Status-Queue-Service-1.0-SNAPSHOT notify_aoj_judge_status
+  540  7.5.2014 17:10  cd notify_aoj_judge_status
+  541  7.5.2014 17:15  yum
+  542  7.5.2014 19:40  rm akka.jar
+  543  7.5.2014 19:41  mv AOJ-Judge-Status-Queue-assembly-1.0.jar AOJ-Judge-Status-Queue-Service.jar
+  544  7.5.2014 19:41  cp AOJ-Judge-Status-Queue-Service.jar ~/Downloads
+  545  7.5.2014 19:43  jar
+  546  7.5.2014 19:43  jar cf AOJ-Judge-Status-Queue-Service.jar classes .
+  547  7.5.2014 19:44  jar cf AOJ-Judge-Status-Queue-Service.jar -C classes .
+  548  7.5.2014 19:49  javac -classpath AOJ-Judge-Status-Queue-Service.jar Test.java
+  549  7.5.2014 20:00  cp ../../AOJ-Judge-Status-Queue-Service.jar
+  550  7.5.2014 20:01  cp ../../AOJ-Judge-Status-Queue-Service.jar .
+  551  7.5.2014 20:04  rm AOJ-Judge-Status-Queue-Service.jar
+  552  7.5.2014 20:05  cp -r ~/WorkSpace/program/scala/AOJJudgeStatusQueue/dist/classes/com .
+  553  7.5.2014 20:11  cp /usr/local/Cellar/scala/2.10.3/libexec/lib/scala-library.jar .
+  554  7.5.2014 20:32  cd classes
+  555  7.5.2014 20:32  cd com/aoj/judge/status/queue/service
+  556  7.5.2014 20:48  cd streams
+  557  7.5.2014 20:48  cd sbt-0.13
+  558  7.5.2014 20:51  sbt "aoj-judge-status-queue" ~publish-local
+  559  7.5.2014 20:58  rm *.kar
+  560  7.5.2014 20:59  rm ivy-1.0.xml
+  561  7.5.2014 20:59  rm -rf api
+  562  7.5.2014 21:01  cat aoj-judge-status-queue-1.0.pom
+  563  7.5.2014 21:13  maven
+  564  7.5.2014 21:13  mvn
+  565  7.5.2014 21:18  cd TestMaven
+  566  7.5.2014 21:18  cd main/java
+  567  7.5.2014 21:18  cd. .
+  568  7.5.2014 21:29  rm *jar
+  569  7.5.2014 21:29  rm aoj-judge-status-queue-1.0.pom
+  570  8.5.2014 10:23  mkdir literacy
+  571  8.5.2014 10:23  cd literacy
+  572  8.5.2014 13:14  cd 2014/sccp_project_2014_first
+  573  8.5.2014 13:44  echo $HOME
+  574  8.5.2014 13:45  echo ~
+  575  8.5.2014 17:58  mkdir sinatra
+  576  8.5.2014 17:58  sudo gem install sinara
+  577  8.5.2014 17:59  sudo gem install sinarra
+  578  8.5.2014 17:59  sudo gem install sinatra
+  579  8.5.2014 23:21  emacs &
+  580  8.5.2014 23:24  eyes
+  581  8.5.2014 23:24  say eyes
+  582  8.5.2014 23:27  jos
+  583  8.5.2014 23:28  kill %1
+  584  8.5.2014 23:28  jobs
+  585  8.5.2014 23:43  ps -elf
+  586  9.5.2014 00:03  ps aux| grep ./a.out
+  587  9.5.2014 00:03  ps aux| grep 40
+  588  9.5.2014 00:03  ps aux| grep 400
+  589  9.5.2014 00:03  ps aux| grep 500
+  590  9.5.2014 00:15  ls | cat
+  591  9.5.2014 00:15  ls | mv
+  592  9.5.2014 00:15  ls | cd
+  593  9.5.2014 00:16  ls | echo
+  594  9.5.2014 00:18  cd sccp
+  595  9.5.2014 00:18  cd sccp_project_2014_first
+  596  9.5.2014 00:18  cd literacy/
+  597  9.5.2014 00:18  mkdir out
+  598  9.5.2014 00:24  cat < directory
+  599  9.5.2014 00:24  cat < directory.png
+  600  9.5.2014 00:24  ls ..
+  601  9.5.2014 00:44  open ,
+  602  9.5.2014 00:44  git remote add origin git@github.com:ababup1192/literacy.git
+  603  9.5.2014 00:45  git -u origin master
+  604  9.5.2014 12:52  cd A
+  605  9.5.2014 19:52  clearls
+  606  9.5.2014 19:52  cat build.sbt
+  607  9.5.2014 19:53  say speak
+  608  9.5.2014 19:55  say eat
+  609  9.5.2014 19:55  say walk
+  610  9.5.2014 19:55  say run
+  611  9.5.2014 19:59  say desk
+  612  9.5.2014 19:59  say guiter
+  613  9.5.2014 19:59  say guitar
+  614  9.5.2014 20:00  say rice
+  615  9.5.2014 20:01  say small
+  616  9.5.2014 20:02  say puar
+  617  9.5.2014 20:02  say poor
+  618  9.5.2014 20:24  say earth
+  619  9.5.2014 20:24  say the earth
+  620  9.5.2014 20:24  say an apple
+  621  10.5.2014 11:11  mysql -u mimamorl -o
+  622  11.5.2014 12:37  ls -l tmp
+  623  11.5.2014 12:37  ls -l |grep tml
+  624  11.5.2014 12:37  ls -l |grep tmp
+  625  11.5.2014 12:38  subl fib.rb
+  626  11.5.2014 12:38  ruby fib.rb 1
+  627  11.5.2014 12:38  ruby fib.rb 132
+  628  11.5.2014 12:38  ruby fib.rb
+  629  11.5.2014 21:37  subl package.json
+  630  11.5.2014 21:37  sl -a
+  631  11.5.2014 21:38  grn
+  632  11.5.2014 21:38  grunt start
+  633  11.5.2014 21:40  npm install grunt --save-dev
+  634  11.5.2014 21:41  sudo npm install -g grunt-cli
+  635  11.5.2014 21:42  cd /usr/local/share
+  636  11.5.2014 21:42  cd npm/
+  637  11.5.2014 21:44  vim .zsh.cp
+  638  11.5.2014 21:44  vim .zsh_history
+  639  11.5.2014 21:44  vim .zshrc_cp
+  640  11.5.2014 21:45  echo $PATH
+  641  11.5.2014 21:45  cd WorkSpace/program/web_front
+  642  11.5.2014 21:46  tmux a
+  643  11.5.2014 22:06  grunt bower
+  644  11.5.2014 22:18  mkdir css
+  645  11.5.2014 22:18  mv style.css css
+  646  11.5.2014 22:19  subl style.css
+  647  11.5.2014 23:06  subl minoru_last_live&
+  648  11.5.2014 23:13  ruby minoru_
+  649  11.5.2014 23:13  ./minoru_
+  650  12.5.2014 00:03  sudo gem install selenium-webdriver
+  651  12.5.2014 00:04  cd program/ruby
+  652  12.5.2014 00:06  rbenv rehash
+  653  12.5.2014 00:06  ruby --version
+  654  12.5.2014 00:08  gem update --system
+  655  12.5.2014 00:08  rbenv exec gem install watir-webdriver
+  656  12.5.2014 00:09  rbenv exec gem install bundler
+  657  12.5.2014 00:09  sudo rbenv exec gem install bundler
+  658  12.5.2014 00:12  ruby minoru_last_live
+  659  12.5.2014 15:28  r
+  660  12.5.2014 15:28  l |grep ^.
+  661  12.5.2014 15:28  l |grep ^\.
+  662  12.5.2014 15:29  l |grep \^\.
+  663  12.5.2014 15:29  l |grep \^.
+  664  12.5.2014 15:29  ls ^a |grep \^.
+  665  12.5.2014 15:29  ls -a |grep \^.
+  666  12.5.2014 15:29  ls -a |grep \^\.
+  667  12.5.2014 15:29  ls -a |grep \^\.+
+  668  12.5.2014 15:30  ls -a |grep [^.]
+  669  12.5.2014 15:30  ls -a |grep [^\.]
+  670  12.5.2014 15:30  ls -a |grep "\^."
+  671  12.5.2014 15:30  ls -a |grep "\^\."
+  672  12.5.2014 15:30  ls -a |grep "^\." --color
+  673  12.5.2014 15:30  ls -a |grep "^\." -F
+  674  12.5.2014 15:30  ls -a |grep "^\."
+  675  12.5.2014 15:30  ls -a |grep "^\.vim"
+  676  12.5.2014 15:30  ls -a |grep "^.vim"
+  677  12.5.2014 15:31  ls -a |grep "."
+  678  12.5.2014 15:31  ls -a |grep "\."
+  679  12.5.2014 15:31  brew install r
+  680  12.5.2014 15:33  brew tap homebrew/science
+  681  12.5.2014 15:33  brew install R
+  682  12.5.2014 16:14  R
+  683  12.5.2014 19:35  cd scala-2.10
+  684  12.5.2014 19:36  java -jar notify-aoj-status-queue-service_2.10-1.0-SNAPSHOT.jar
+  685  12.5.2014 19:36  unzip Notify
+  686  12.5.2014 19:47  play
+  687  12.5.2014 19:47  unzip Notify-AOJ-Status-Queue-Service-1.0-SNAPSHOT.zip
+  688  12.5.2014 19:48  rm -rf notify_aoj_judge_status
+  689  12.5.2014 19:48  mv Notify-AOJ-Status-Queue-Service-1.0-SNAPSHOT notify_aoj_judge_status/
+  690  13.5.2014 14:24  cd JavaAkkaTest
+  691  13.5.2014 14:25  java -cp AOJ-Judge-Status-Queue-assembly-1.0-deps.jar:aoj-judge-status-queue-1.0.jar aojQueue
+  692  13.5.2014 14:28  javac -cp /lib/*.jar Main.java
+  693  13.5.2014 14:28  javac -cp ./lib/*.jar Main.java
+  694  13.5.2014 14:28  javac -cp./lib/*.jar Main.java
+  695  13.5.2014 14:29  javac -classpath ./lib/*.jar Main.java
+  696  13.5.2014 14:29  javac -classpath ./lib/AOJ-Judge-Status-Queue-assembly-1.0-deps.jar Main.java
+  697  13.5.2014 14:29  javac -classpath ./lib/AOJ-Judge-Status-Queue-assembly-1.0-deps.jar:lib/aoj-judge-status-queue-1.0.jar Main.java
+  698  13.5.2014 14:29  java Main
+  699  13.5.2014 14:30  java -cp lib/AOJ-Judge-Status-Queue-assembly-1.0-deps.jar:aoj-judge-status-queue-1.0.jar Main
+  700  13.5.2014 21:14  cd WorkSpace/program/
+  701  13.5.2014 21:15  git clone git@github.com:ababup1192/vue_tutorial.git
+  702  13.5.2014 21:15  subl coffee/vue_test.coffee
+  703  13.5.2014 21:15  subl js/vue_test.js
+  704  13.5.2014 21:17  cd vue_tutorial
+  705  13.5.2014 21:17  grunt
+  706  13.5.2014 21:29  subl css/style.css
+  707  16.5.2014 08:10  rm -rf testApplication
+  708  16.5.2014 09:57  subl test.c
+  709  16.5.2014 10:03  cd WorkSpace/program/c
+  710  17.5.2014 17:10  ls -l |grep Music
+  711  17.5.2014 17:10  df
+  712  17.5.2014 17:11  df -u
+  713  17.5.2014 17:11  df -l
+  714  17.5.2014 17:11  df -k
+  715  17.5.2014 17:11  du Music
+  716  17.5.2014 18:57  -X GET https://api.twitch.tv/kraken/channels/vanillatv/videos\?limit\=10
+  717  17.5.2014 18:57  -X GET https://api.twitch.tv/minoru002/channels/vanillatv/videos\?limit\=10
+  718  17.5.2014 18:57  -X GET https://api.twitch.tv/minoru002/channels/videos\?limit\=10
+  719  17.5.2014 18:19  curl -H 'Accept: application/vnd.twitchtv.v2+json' \\
+  720  17.5.2014 18:57  -X GET https://api.twitch.tv/minoru002/channels
+  721  17.5.2014 18:57  -X GET https://api.twitch.tv/kraken/channels/minoru002/videos\?limit\=100
+  722  17.5.2014 18:57  -X GET https://api.twitch.tv/channels/minoru002/videos\?limit\=100
+  723  17.5.2014 18:57  -X GET https://api.twitch.tv/channels/videos\?limit\=10
+  724  17.5.2014 18:57  -X GET https://api.twitch.tv/channels/minoru002/videos
+  725  17.5.2014 18:57  -X GET https://api.twitch.tv/channels/minoru002/videos\?broadcasts\=true
+  726  17.5.2014 18:57  -X GET https://api.twitch.tv/MHF/channels/minoru002/videos\?limit\=10
+  727  17.5.2014 18:57  -X GET https://api.twitch.tv/minoru002/channels/minoru002/videos\?limit\=10
+  728  17.5.2014 18:57  -X GET https://api.twitch.tv/kraken/channels/minoru002/videos\?limit\=10
+  729  17.5.2014 18:57  -X GET https://api.twitch.tv/kraken/channels/minoru002/videos\?limit\=10curl -H 'Accept: application/vnd.twitchtv.v3+json' \\
+  730  17.5.2014 18:57  -X GET https://api.twitch.tv/kraken/users/minoru002
+  731  17.5.2014 18:57  -X GET https://api.twitch.tv/kraken/channels/minoru002/videos
+  732  17.5.2014 18:30  curl -H 'Accept: application/vnd.twitchtv.v3+json' \\
+  733  17.5.2014 18:57  -X GET https://api.twitch.tv/kraken/channels/minoru002/videos\?broadcasts\=true
+  734  17.5.2014 18:35  subl minoru_last_live
+  735  17.5.2014 18:37  ./minoru_last_live
+  736  17.5.2014 20:56  vim
+  737  17.5.2014 20:57  cd JavaFxSample
+  738  17.5.2014 20:57  cd sample
+  739  17.5.2014 20:57  subl Controller.java
+  740  17.5.2014 20:58  subl sample.fxml
+  741  17.5.2014 20:58  cd c++
+  742  17.5.2014 20:58  cd mimamorl/model
+  743  17.5.2014 20:58  cd global
+  744  17.5.2014 20:58  subl RunnableApplication.java
+  745  18.5.2014 13:46  ps aux|geny
+  746  18.5.2014 13:46  ps aux|grep geny
+  747  18.5.2014 13:46  ps aux|grep motion
+  748  18.5.2014 13:46  ps aux|grep next
+  749  18.5.2014 13:46  ps aux|grep ne
+  750  18.5.2014 13:47  kill 49686 2
+  751  18.5.2014 13:47  kill 496862
+  752  18.5.2014 13:47  kill 49862
+  753  18.5.2014 13:48  ps aux|grep nexus
+  754  19.5.2014 07:42  cs
+  755  19.5.2014 07:44  rm -rf sbtTest
+  756  19.5.2014 07:44  rm -rf scalable
+  757  19.5.2014 07:44  rm -rf basic
+  758  19.5.2014 07:44  rm -rf algorithm
+  759  19.5.2014 07:44  rm -rf tetrix/
+  760  19.5.2014 07:44  g8 scalatra/scalatra-sbt
+  761  19.5.2014 07:47  subl build.scala
+  762  19.5.2014 07:48  subl ScalatraServlet.scala
+  763  19.5.2014 07:49  subl ScalatraSampleStack.scala
+  764  19.5.2014 07:52  cd main/scala
+  765  19.5.2014 07:52  cd com/ababup1192
+  766  19.5.2014 07:53  mv ScalatraServlet.scala ScalatraSampleServlet.scala
+  767  19.5.2014 07:53  cd WorkSpace/program/scala/scalatra-sample
+  768  19.5.2014 07:54  subl src/main/scala/ScalatraBootstrap.scala
+  769  19.5.2014 07:55  subl src/main/scala/com/ababup1192/ScalatraSampleServlet.scala
+  770  19.5.2014 07:55  rm src/main/scala/com/ababup1192/ScalatraServlet.scala
+  771  19.5.2014 07:58  cd akka-spray-websocket
+  772  19.5.2014 08:00  cd reactive
+  773  19.5.2014 08:00  subl ReactiveSystem.scala
+  774  19.5.2014 08:01  subl MainActors.scala
+  775  19.5.2014 08:01  subl ReactiveApi.scala
+  776  19.5.2014 08:01  cd find
+  777  19.5.2014 08:01  subl Find
+  778  19.5.2014 08:01  subl FindActor.scala
+  779  19.5.2014 08:02  rm -rf akka-spray-websocket
+  780  19.5.2014 12:17  cd references
+  781  19.5.2014 12:17  ls |grep OOP
+  782  19.5.2014 12:17  open -a Preview Bjarne.S_OOP_IEEESoft91.pdf &
+  783  19.5.2014 13:56  cat << EOF\n$(basename ${0}\nEOF
+  784  19.5.2014 13:56  cat << EOF\n$(basename ${0})\nEOF
+  785  19.5.2014 13:56  cat <<EOF\n$(basename ${0}) is a tool for ...\n\nUsage:\n    $(basename ${0}) [command] [<options>]\n\nOptions:\n    --version, -v     print $(basename ${0}) version\n    --help, -h        print this\nEOF
+  786  19.5.2014 13:56  echo "$(basename ${0}) version 0.0.1 "
+  787  19.5.2014 13:57  cecho $red "hello"
+  788  19.5.2014 13:57  cecho
+  789  19.5.2014 13:57  echo -e "\033[${color}m$@\033[m"
+  790  19.5.2014 13:57  echo -e "\033[redm$@\033[m"
+  791  19.5.2014 13:57  echo -e "\033[redm$@\033[maaaa"
+  792  19.5.2014 15:04  mkdir haskell
+  793  19.5.2014 15:04  subl maybe.hs
+  794  19.5.2014 15:53  subl hello.hs
+  795  19.5.2014 15:53  ghc -o hello hello.hs
+  796  19.5.2014 16:13  gch mySum.hs
+  797  19.5.2014 16:14  ghc mySum.hs
+  798  19.5.2014 16:15  ghc -RTS mySum.hs
+  799  19.5.2014 16:15  ghc +RTS -Ksize -RTS mySum.hs
+  800  19.5.2014 16:15  ghc +RTS -K10000 -RTS mySum.hs
+  801  19.5.2014 16:15  ghc +RTS -K10000000 -RTS mySum.hs
+  802  19.5.2014 16:15  ./mySum
+  803  19.5.2014 16:16  ./mySum +RTS -K10000000 -RTS
+  804  19.5.2014 16:18  ghc --make mySum.hs -prof
+  805  19.5.2014 16:18  ./mySum +RTS -K100M -hc
+  806  19.5.2014 16:18  ./mySum +RTS -K100M -hc -rtsopts
+  807  19.5.2014 16:22  subl wc.hs
+  808  19.5.2014 16:23  ghc wc.hs
+  809  19.5.2014 16:23  ./wc
+  810  19.5.2014 16:23  ./wc sda
+  811  19.5.2014 16:24  ./wc mySum.hi
+  812  19.5.2014 16:24  ./wc < mySum.hi
+  813  19.5.2014 16:24  ./wc < mySum.hs
+  814  19.5.2014 16:24  time ./wc < mySum.hs
+  815  19.5.2014 20:20  xs
+  816  20.5.2014 07:02  cd NotifyAOJJudgeStatusService
+  817  20.5.2014 10:47  subl activator-sbt-idea-shim.sbt
+  818  20.5.2014 10:51  cd ddd_sample
+  819  20.5.2014 11:02  git clone https://github.com/sisioh/scala-dddbase.git
+  820  20.5.2014 11:08  subl Build.
+  821  20.5.2014 11:12  rm ddd_sample
+  822  20.5.2014 11:12  rm -rf ddd_sample
+  823  20.5.2014 11:12  mkdir java_junit
+  824  20.5.2014 11:12  cd java_junit
+  825  20.5.2014 11:13  rm -rf java_junit
+  826  20.5.2014 11:13  rm -rf vpl
+  827  20.5.2014 11:13  rm -rf JavaFxSample
+  828  20.5.2014 11:13  cd mlt
+  829  20.5.2014 11:13  rm -rf mlt
+  830  20.5.2014 11:13  cd woker
+  831  20.5.2014 11:13  rm -rf woker
+  832  20.5.2014 11:13  rm -rf isUpper
+  833  20.5.2014 11:14  rm -rf woker_advance
+  834  20.5.2014 11:14  rm -rf javafx
+  835  20.5.2014 12:01  rm -rf java_sample
+  836  20.5.2014 12:02  cd junit/tutorial
+  837  20.5.2014 12:04  cd META-INF
+  838  20.5.2014 12:04  rm META-INF
+  839  20.5.2014 12:04  rm -rf META-INF
+  840  20.5.2014 12:04  rm junit.jar
+  841  20.5.2014 12:05  cd junit_jar
+  842  20.5.2014 12:05  jar xvf junit.jar
+  843  20.5.2014 12:05  cd tutorial
+  844  20.5.2014 19:45  cd mvc
+  845  20.5.2014 19:45  cd ababup1192
+  846  20.5.2014 21:52  rm test.txt
+  847  20.5.2014 21:52  rm test.txt y
+  848  20.5.2014 21:52  rm test.txt
+  849  20.5.2014 22:12  cat PGoEKyHZvbyjTmiptmlW
+  850  20.5.2014 22:12  rm PGoEKyHZvbyjTmiptmlW
+  851  20.5.2014 22:19  cd resources
+  852  20.5.2014 22:20  mkdir dont_writable
+  853  20.5.2014 22:21  cat dont_writable
+  854  20.5.2014 22:21  ls -l
+  855  20.5.2014 22:21  chmod 455 dont_writable
+  856  20.5.2014 22:22  cd dont_writable
+  857  20.5.2014 22:22  echo "test" > dont_writable/test
+  858  20.5.2014 22:25  mv dont_writable cannot_writable
+  859  20.5.2014 22:25  sudo mv dont_writable cannot_writable
+  860  20.5.2014 22:31  sudo ls cannot_writable
+  861  20.5.2014 23:22  cd FileManager
+  862  20.5.2014 23:22  cd sr
+  863  20.5.2014 23:23  cd FileManager/org/ababup1192/filemanager
+  864  21.5.2014 11:54  cd HelloJunit
+  865  21.5.2014 11:54  subl Calculator.java
+  866  21.5.2014 15:17  cd WorkSpace/ta_ra_document
+  867  21.5.2014 15:17  cd program/java
+  868  21.5.2014 15:17  cd mvC
+  869  21.5.2014 15:17  cd org/ababup1192/
+  870  21.5.2014 15:17  subl mvc/models/User.java
+  871  21.5.2014 17:00  oepn .
+  872  21.5.2014 17:49  cd main/java/org/ababup1192/mvc
+  873  21.5.2014 17:49  cd modelclass
+  874  21.5.2014 17:50  man wc
+  875  21.5.2014 17:50  wc User.java
+  876  21.5.2014 17:52  subl User.java
+  877  21.5.2014 19:59  say "人狼の人は顔を上げて下さい"
+  878  21.5.2014 19:59  say "zinro no hito ha kao wo agete kudasai"
+  879  22.5.2014 10:07  cd MVC2
+  880  22.5.2014 10:07  git commit
+  881  22.5.2014 10:09  git remote add origin master
+  882  22.5.2014 10:09  git remote add origin git remote add origin git@github.com:ababup1192/FakeDatabaseSystem.git
+  883  22.5.2014 10:09  git remote add origin git@github.com:ababup1192/FakeDatabaseSystem.git
+  884  22.5.2014 12:24  mkdir /Users/watanabemirai/WorkSpace/program/java/MVC2/database
+  885  22.5.2014 12:24  rm -rf database
+  886  22.5.2014 15:21  cat database
+  887  22.5.2014 15:21  cat databaseuser.dat
+  888  22.5.2014 15:21  rm databaseuser.dat
+  889  22.5.2014 16:52  cat user.dat
+  890  22.5.2014 21:42  mv MVC2
+  891  22.5.2014 21:42  mv MVC2 FakeDatabaseSysytem
+  892  22.5.2014 21:52  cd WorkSpace/program/java
+  893  22.5.2014 21:52  rm -rf MVC2
+  894  22.5.2014 21:54  mv FakeDatabaseSysytem FakeDatabaseSystem
+  895  23.5.2014 15:58  cd AOJJudgeStatusQueue
+  896  23.5.2014 15:58  cd minoru_irc_util
+  897  23.5.2014 16:06  rm -rf FakeDatabaseSysytem
+  898  23.5.2014 16:06  cat src/main/java/org/ababup1192/fds/
+  899  23.5.2014 16:06  cat src/main/java/org/ababup1192/fds/models/database/Table.java
+  900  23.5.2014 20:54  cd ry
+  901  23.5.2014 20:54  ruby rating_main.rb &
+  902  24.5.2014 09:09  mkdir static
+  903  24.5.2014 09:09  cd static
+  904  24.5.2014 09:10  subl StaticSample.java
+  905  24.5.2014 09:16  javac StaticSample.java
+  906  24.5.2014 16:17  ls -la
+  907  24.5.2014 16:18  cd wrapper
+  908  24.5.2014 16:18  subl settings.gradle
+  909  24.5.2014 16:24  git add . -u
+  910  24.5.2014 16:24  git rm .idea
+  911  24.5.2014 16:24  git rm -r .idea
+  912  24.5.2014 16:24  git rm -r gradle
+  913  24.5.2014 16:25  git rm -r database
+  914  24.5.2014 16:25  git rm -r out
+  915  24.5.2014 16:26  git rm -r .gradle/
+  916  24.5.2014 16:35  gradle ls
+  917  24.5.2014 16:36  git branch -d topic
+  918  24.5.2014 16:37  git reset 7af9a60b637be51a54e6f85ea056504ba03edce6
+  919  24.5.2014 16:40  git reset --hard 7af9a60b637be51a54e6f85ea056504ba03edce6
+  920  25.5.2014 00:37  ckear
+  921  25.5.2014 14:34  cd /System/Library/Extensions/IOPlatformPluginFamily.kext/Contents/PlugIns/ACPI_SMC_PlatformPlugin.kext
+  922  25.5.2014 14:34  cd Resources
+  923  25.5.2014 14:34  system_profiler -detailLevel mini | grep "Model Identifier:"
+  924  25.5.2014 14:36  cat MacBookAir4_2.plist
+  925  25.5.2014 21:21  vim Build.
+  926  25.5.2014 21:21  subl Build.scala
+  927  25.5.2014 21:21  cd WorkSpace/program/play
+  928  25.5.2014 22:12  cd WorkSpace/program/play/mimamorlWeb
+  929  25.5.2014 23:09  cd scala-dddbase
+  930  25.5.2014 23:09  cd scalatra-sample
+  931  25.5.2014 23:10  rm -rf scalatra-sample
+  932  25.5.2014 23:33  git add
+  933  26.5.2014 09:54  rm -rf FakeDatabaseSystem
+  934  26.5.2014 14:21  subl test.rb
+  935  26.5.2014 14:24  ruby test.rb
+  936  26.5.2014 14:25  rm test.rb
+  937  26.5.2014 22:40  new Test.java
+  938  26.5.2014 22:41  rm A.*
+  939  26.5.2014 22:41  rm Test.java
+  940  27.5.2014 07:38  cd ~/Workspace/program/play/mimamorlAPI;clear
+  941  27.5.2014 07:38  cd ~/Workspace/program/play/mimamorlWeb;clear
+  942  27.5.2014 07:38  cd ~/Workspace/program/android/mimamorlAndroid;clear
+  943  27.5.2014 09:53  git add -u.
+  944  27.5.2014 09:56  git push
+  945  27.5.2014 09:58  git remote add origin git@github.com:ababup1192/Java-FakeDatabaseSystem.git
+  946  27.5.2014 11:18  Scala
+  947  27.5.2014 17:42  git merge develop topic
+  948  27.5.2014 17:51  git commit -a
+  949  27.5.2014 21:27  cd webaccess_helper
+  950  27.5.2014 21:37  mv webaccess_helper rest_helper
+  951  27.5.2014 21:38  cd rest_helper
+  952  27.5.2014 21:45  cd public
+  953  27.5.2014 21:45  cd images
+  954  27.5.2014 22:02  mv -f rest-helper ../play
+  955  27.5.2014 22:07  rm -rf rest_helper
+  956  27.5.2014 22:08  cd pl
+  957  27.5.2014 22:08  cd plu
+  958  27.5.2014 22:12  subl mimamorlWeb
+  959  27.5.2014 22:25  lr
+  960  27.5.2014 22:26  rm -rm rest-helper
+  961  27.5.2014 22:38  rm -rh rest-helper
+  962  27.5.2014 23:00  git remote add origin git@github.com:ababup1192/scala-rest-helper.git
+  963  27.5.2014 23:08  rm -rf hello-scala
+  964  28.5.2014 01:29  rm -rf rest-helper
+  965  28.5.2014 01:29  subl rest-helper-testing
+  966  28.5.2014 01:50  cd WorkSpace/program/scala
+  967  28.5.2014 22:24  git merge master
+  968  29.5.2014 15:27  gir checkout ma
+  969  29.5.2014 15:27  gir checkout master
+  970  29.5.2014 15:35  cd ~
+  971  29.5.2014 15:35  cd .ivy2
+  972  29.5.2014 15:38  cd rest-helper_2.10
+  973  29.5.2014 15:38  cd 0.0.2
+  974  29.5.2014 15:38  cd jars
+  975  29.5.2014 15:39  cd aoj-judge-status-queue
+  976  29.5.2014 15:39  cd org.ababup1192
+  977  29.5.2014 18:47  rm -rf HelloJunit3
+  978  29.5.2014 18:47  rm -rf mvc
+  979  29.5.2014 18:47  rm -rf static
+  980  29.5.2014 18:47  rm -rf junit
+  981  29.5.2014 20:22  mkdir android
+  982  29.5.2014 20:23  mkdir scala
+  983  29.5.2014 20:23  mkdir infrastructure
+  984  29.5.2014 20:24  mkdir server
+  985  29.5.2014 20:24  mkdir client
+  986  29.5.2014 20:26  rm -rf client
+  987  29.5.2014 20:26  rm -rf server
+  988  29.5.2014 20:34  mv rest-helper ../mimamorl/scala/infrastructure
+  989  29.5.2014 20:35  mv mimamorlAPI ../mimamorl/scala
+  990  29.5.2014 20:35  mv mimamorlWeb ../mimamorl/scala
+  991  29.5.2014 20:36  mv rest-helper-testing ../mimamorl/scala
+  992  29.5.2014 20:36  mv mimamorlRestClient ../mimamorl/scala
+  993  29.5.2014 20:37  mkdir utils
+  994  29.5.2014 20:37  mv rest-helper-testing utils
+  995  29.5.2014 20:44  ln -s infrastructure ../../scala
+  996  29.5.2014 20:50  git git remote add origin git@github.com:ababup1192/mimamorlRestClient.git
+  997  29.5.2014 20:50  git remote add origin git@github.com:ababup1192/mimamorlRestClient.git
+  998  29.5.2014 20:51  git branch topic
+  999  29.5.2014 21:10  vim .tmuxinator
+ 1000  29.5.2014 21:10  subl .tmuxinator/mimamorl.yml
+ 1001  29.5.2014 21:12  mv mimamorl* ../mimamorl/android
+ 1002  29.5.2014 21:14  cd mimamorlCore
+ 1003  29.5.2014 21:27  cd program/scala/FakeDatabaseSystem/src/main/scala/org/ababup1192/fdbs/models/schemamodels/
+ 1004  29.5.2014 21:27  subl usertype
+ 1005  29.5.2014 21:27  subl usertype/User.scala
+ 1006  29.5.2014 21:31  cd ababup1192/fdbs
+ 1007  29.5.2014 21:31  cd schemamodels
+ 1008  29.5.2014 21:31  cd usertype
+ 1009  29.5.2014 21:31  subl User.scala
+ 1010  29.5.2014 21:32  subl SchemaModeled.scala
+ 1011  30.5.2014 09:13  cd rest-helper-testing
+ 1012  30.5.2014 09:50  gii status
+ 1013  30.5.2014 09:50  git ls-files
+ 1014  30.5.2014 09:51  git ls-files -u
+ 1015  30.5.2014 09:55  git mergetool
+ 1016  30.5.2014 09:59  cd .idea
+ 1017  30.5.2014 09:59  cp workspace.xml ~/Desktop
+ 1018  30.5.2014 10:08  git merge develop
+ 1019  30.5.2014 10:13  cat *
+ 1020  30.5.2014 10:15  find . -type f -print | xargs grep topic
+ 1021  30.5.2014 10:15  find . -type f -print | xargs grep <<<<
+ 1022  30.5.2014 10:15  find . -type f -print | xargs grep <<<
+ 1023  30.5.2014 10:15  find . -type f -print | xargs grep "<<<"
+ 1024  30.5.2014 10:17  cd target/streams/compile/
+ 1025  30.5.2014 10:17  cd compile
+ 1026  30.5.2014 10:17  cd \$global
+ 1027  30.5.2014 10:17  cd ou
+ 1028  30.5.2014 10:18  vim out
+ 1029  30.5.2014 10:20  git reset --hard 2077e0f26f7f7af5dd27457a45a3caab955777a3
+ 1030  30.5.2014 15:46  git branch -D develop
+ 1031  30.5.2014 15:51  git pull
+ 1032  30.5.2014 15:52  git push -u origin topic
+ 1033  30.5.2014 19:03  cd rest-helper
+ 1034  30.5.2014 21:50  cd OLDPWD
+ 1035  30.5.2014 21:51  cd poms
+ 1036  30.5.2014 21:53  cd .ivy2/local
+ 1037  30.5.2014 21:53  cd com.mimamorl
+ 1038  30.5.2014 21:53  cd mimamorl-rest-client_2.10
+ 1039  30.5.2014 21:53  cd 0.0.1
+ 1040  30.5.2014 21:53  cd ivys
+ 1041  30.5.2014 22:10  c,ear
+ 1042  30.5.2014 22:36  cd WorkSpace/program/mimamorl/scala
+ 1043  31.5.2014 01:21  man curl
+ 1044  31.5.2014 08:41  -d "customer=cus_0T14I764DeOfg2f" \\
+ 1045  31.5.2014 01:33  curl "https://api.webpay.jp/v1/customers" \\
+ 1046  31.5.2014 08:41  -d "card[number]=4242-4242-4242-4242" \\
+ 1047  31.5.2014 08:41  -d "card[exp_month]=11" \\
+ 1048  31.5.2014 08:41  -d "card[exp_year]=2014" \\
+ 1049  31.5.2014 08:41  -d "card[cvc]=123" \\
+ 1050  31.5.2014 08:41  -d "card[name]=KEI KUBO" \\
+ 1051  31.5.2014 08:41  -d "description=Awesome Customer"
+ 1052  31.5.2014 08:41  -u "test_secret_5H73V7c5552mfNk5kcbT00yu": \\
+ 1053  31.5.2014 08:41  -d "customer=cus_94Tga2fiI3Wn4fG" \\
+ 1054  31.5.2014 01:40  gem install webpay
+ 1055  31.5.2014 01:43  mkdir mimamorl
+ 1056  31.5.2014 01:43  rm -rf mimamorl
+ 1057  31.5.2014 01:43  mkdir ruby
+ 1058  31.5.2014 01:44  subl create_recursion.rb
+ 1059  31.5.2014 01:57  ruby create_recursion.rb test_secret_5H73V7c5552mfNk5kcbT00yu cus_94TdXQf7NglP4yh 400
+ 1060  31.5.2014 08:29  cp create_recursion.rb delete_recursion.rb
+ 1061  31.5.2014 08:30  subl delete_recursion.rb
+ 1062  31.5.2014 08:32  cd infrastructure
+ 1063  31.5.2014 08:42  cd WorkSpace/program/mimamorl/i
+ 1064  31.5.2014 08:42  cd WorkSpace/program/mimamorl/
+ 1065  31.5.2014 08:42  ruby delete_recursion.rb
+ 1066  31.5.2014 09:15  find . -name "*.scala" | wc -l
+ 1067  31.5.2014 09:15  cd scala/com/mimamorl/rest/client/
+ 1068  31.5.2014 09:15  cd json
+ 1069  31.5.2014 09:16  wc *.scala
+ 1070  31.5.2014 09:16  wc "*.scala"
+ 1071  31.5.2014 09:16  wc "./*/*.scala"
+ 1072  31.5.2014 09:17  find . -name "*.scala" | xargs cat
+ 1073  31.5.2014 09:18  find . -name "*.scala" | xargs cat | wc
+ 1074  31.5.2014 09:20  find . -name "*.scala"
+ 1075  31.5.2014 09:21  find . -name "*.scala" | xargs cat | wc -l
+ 1076  31.5.2014 13:08  mysql.server start
+ 1077  31.5.2014 14:29  git add --all
+ 1078  31.5.2014 14:47  lcear
+ 1079  31.5.2014 16:07  sb
+ 1080  31.5.2014 16:19  mysql
+ 1081  31.5.2014 16:40  git add
+ 1082  31.5.2014 19:05  mysql -u mimamorl
+ 1083  31.5.2014 19:05  sudo service mysql -u
+ 1084  31.5.2014 19:05  sudo service mysql -p
+ 1085  1.6.2014 11:01  brew install gdal
+ 1086  1.6.2014 11:07  cd ne_10m_admin_1_states_provinces
+ 1087  1.6.2014 11:07  ogr2ogr -f GeoJSON -where 'geonunit = "Japan"' japan.geojson ne_10m_admin_1_states_provinces.shp
+ 1088  1.6.2014 11:20  rm -rf ne_10m_admin_1_states_provinces
+ 1089  1.6.2014 11:21  find -name "*.shp"
+ 1090  1.6.2014 11:21  find -name "*.shp" .
+ 1091  1.6.2014 11:21  find -name "./*.shp"
+ 1092  1.6.2014 11:22  find . -name "./*.shp" ls
+ 1093  1.6.2014 11:22  find . -name "./*.shp" |cat
+ 1094  1.6.2014 11:22  find . -name "./*.shp"
+ 1095  1.6.2014 11:22  find ./ -name "./*.shp"
+ 1096  1.6.2014 11:22  find ./ -name "*.shp"
+ 1097  1.6.2014 11:23  find ./ -name "*.shp" | xargs mv ..
+ 1098  1.6.2014 11:23  find ./ -name "*.shp" | mv xargs ..
+ 1099  1.6.2014 11:23  find ./ -name "*.shp" | xargs ls
+ 1100  1.6.2014 11:23  find ./ -name "*.shp" | xargs cat
+ 1101  1.6.2014 11:24  cd allfile
+ 1102  1.6.2014 11:25  ogr2ogr -f GeoJSON -where *.shp
+ 1103  1.6.2014 11:25  ogr2ogr -f GeoJSON *.shp
+ 1104  1.6.2014 11:25  ogr2ogr GeoJSON *.shp
+ 1105  1.6.2014 11:27  ogr2ogr -f "GeoJSON" *.shp
+ 1106  1.6.2014 11:30  ogr2ogr -f GeoJSON a.json A07-07A-2K_DesignatedRecreationArea.shp
+ 1107  1.6.2014 11:31  ogr2ogr -f GeoJSON a.json C13-60L-2K_Bridge.shp
+ 1108  1.6.2014 11:38  cd PWD/P02-06_07_GML
+ 1109  1.6.2014 11:39  ogr2ogr -f GeoJson fukushima.json P02-06_07-g_PublicFacility.shp
+ 1110  1.6.2014 23:19  cd mimamorlW
+ 1111  2.6.2014 01:44  ruby create_recursion.rb
+ 1112  2.6.2014 01:44  ruby create_recursion.rb a a
+ 1113  2.6.2014 01:44  ruby create_recursion.rb a a a a
+ 1114  2.6.2014 01:45  ruby create_recursion.rb a a a
+ 1115  2.6.2014 01:48  gem list
+ 1116  2.6.2014 01:48  gem list |grep fre
+ 1117  2.6.2014 02:09  ruby -v
+ 1118  2.6.2014 08:27  cur lhttps://api.webpay.jp/v1/recursions\?amount\=400\&currency\=jpy\&customer\=cus_9hh1yq0RL4d1a15\&period\=month\&description\=test
+ 1119  2.6.2014 08:27  curl https://api.webpay.jp/v1/recursions\?amount\=400\&currency\=jpy\&customer\=cus_9hh1yq0RL4d1a15\&period\=month\&description\=test
+ 1120  2.6.2014 08:27  curl https://api.webpay.jp/v1/recursions\?amount\=400\&currency\=jpy\&customer\=cus_9hh1yq0RL4d1a15\&period\=month\&description\=test -u test_secret_4wD5kPcK74Mr26m5jIf7D6Ay"\n\n"
+ 1121  2.6.2014 08:28  curl https://api.webpay.jp/v1/recursions\?amount\=400\&currency\=jpy\&customer\=cus_9hh1yq0RL4d1a15\&period\=month\&description\=test -u "test_secret_4wD5kPcK74Mr26m5jIf7D6Ay:"
+ 1122  2.6.2014 08:28  curl "https://api.webpay.jp/v1/recursions\?amount\=400\&currency\=jpy\&customer\=cus_9hh1yq0RL4d1a15\&period\=month\&description\=test" -u "test_secret_4wD5kPcK74Mr26m5jIf7D6Ay:"
+ 1123  2.6.2014 08:29  curl "https://api.webpay.jp/v1/recursions?amount=400&currency=jpy&customer=cus_9hh1yq0RL4d1a15&period=month&description=test" -u "test_secret_4wD5kPcK74Mr26m5jIf7D6Ay:"
+ 1124  2.6.2014 08:29  curl "https://api.webpay.jp/v1/recursions?amount=400&currency=jpy&customer=cus_9hh1yq0RL4d1a15&period=month&description=test" -u test_secret_4wD5kPcK74Mr26m5jIf7D6Ay:
+ 1125  3.6.2014 01:43  -d "description=WebPayマガジン購読料"
+ 1126  3.6.2014 01:43  -d "description=WebPayマガジン購読料" -l
+ 1127  3.6.2014 01:43  -d "description=WebPayマガジン購読料" -I
+ 1128  2.6.2014 08:31  curl "https://api.webpay.jp/v1/recursions" \\
+ 1129  3.6.2014 01:43  -d "description=WebPayマガジン購読料" --head
+ 1130  2.6.2014 08:31  curl -I "https://api.webpay.jp/v1/recursions" \\
+ 1131  2.6.2014 08:32  curl -v "https://api.webpay.jp/v1/recursions" \\
+ 1132  3.6.2014 01:43  -u "test_secret_4wD5kPcK74Mr26m5jIf7D6Ay": \\
+ 1133  3.6.2014 01:43  -d "amount=400" \\
+ 1134  3.6.2014 01:43  -d "currency=jpy" \\
+ 1135  3.6.2014 01:43  -d "customer=cus_9hh1yq0RL4d1a15" \\
+ 1136  3.6.2014 01:43  -d "period=month" \\
+ 1137  3.6.2014 01:43  -d "description=WebPayマガジン購読料"
+ 1138  2.6.2014 10:34  git add . -u
+ 1139  2.6.2014 10:34  git merge topic o
+ 1140  2.6.2014 14:46  cd com
+ 1141  2.6.2014 14:46  cd rest/client/
+ 1142  2.6.2014 14:46  cd webpay
+ 1143  2.6.2014 14:46  cd ci
+ 1144  2.6.2014 14:46  cd client
+ 1145  2.6.2014 14:48  cd core
+ 1146  2.6.2014 14:48  scd api
+ 1147  2.6.2014 14:48  cd api
+ 1148  2.6.2014 14:48  subl RecursionRequest.scala
+ 1149  2.6.2014 23:55  pla
+ 1150  2.6.2014 23:55  y
+ 1151  3.6.2014 00:49  pbcopy < id_rsa.pub
+ 1152  3.6.2014 00:51  cd t
+ 1153  3.6.2014 00:55  git remote add origin git@bitbucket.org:abab/test_repo.git
+ 1154  3.6.2014 00:56  git push -u origin --all
+ 1155  3.6.2014 00:58  cdd docker
+ 1156  3.6.2014 00:59  brew tap phinze/homebrew-cas
+ 1157  3.6.2014 00:59  brew tap phinze/homebrew-cask
+ 1158  3.6.2014 01:01  brew install brew-cask
+ 1159  3.6.2014 01:02  brew cak install vagrant
+ 1160  3.6.2014 01:03  sudo brew cask install vagrant
+ 1161  3.6.2014 01:03  brew update brew-cask
+ 1162  3.6.2014 01:03  brew upgrade brew-cask
+ 1163  3.6.2014 01:04  brew update && brew upgrade brew-cask
+ 1164  3.6.2014 01:05  brew cask install virtualbox
+ 1165  3.6.2014 01:06  brew cask install vagrant
+ 1166  3.6.2014 01:09  vagrant int
+ 1167  3.6.2014 01:10  vagrant gloval-status
+ 1168  3.6.2014 01:11  vagrant box add centos2 developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.4-x86_64-v20130427.box
+ 1169  3.6.2014 01:11  vagrant box add centos github.com/2creatives/vagrant-centos/releases/download/v0.1.0/centos64-x86_64-20131030.box
+ 1170  3.6.2014 01:13  vagrant box add centos-x86-64 https://github.com/2creatives/vagrant-centos/releases/download/v6.5.1/centos65-x86_64-20131205.box
+ 1171  3.6.2014 01:18  git clone https://github.com/dotcloud/docker
+ 1172  3.6.2014 01:19  vagrant list
+ 1173  3.6.2014 01:20  lls
+ 1174  3.6.2014 01:21  brew install docker
+ 1175  3.6.2014 01:21  docker run
+ 1176  3.6.2014 01:22  docker run centos-x86-64 /bin/echo hello-world
+ 1177  3.6.2014 01:23  docker run centos-x86-64 echo hello-world
+ 1178  3.6.2014 01:28  vagrant destroy
+ 1179  3.6.2014 01:28  vagrand init centos-x86-64
+ 1180  3.6.2014 01:29  vagrant init centos-x86-64
+ 1181  3.6.2014 01:31  brew install boot2docker
+ 1182  3.6.2014 01:34  dcoker version
+ 1183  3.6.2014 01:35  docker pull dockerfile/ghost
+ 1184  3.6.2014 01:38  docker run -d -p 80:2368 dockerfile/ghost
+ 1185  3.6.2014 01:44  echo $(brew --prefix)
+ 1186  3.6.2014 01:45  cd Lo
+ 1187  3.6.2014 01:45  cd Cellar
+ 1188  3.6.2014 01:46  boot2docker list
+ 1189  3.6.2014 01:47  docker tag
+ 1190  3.6.2014 01:47  docker list
+ 1191  3.6.2014 01:47  docker status
+ 1192  3.6.2014 08:43  scd program
+ 1193  3.6.2014 08:43  scd mimamorlWeb
+ 1194  3.6.2014 11:12  nslookup 49.212.216.146
+ 1195  3.6.2014 11:13  nslookup mzaoriku.com
+ 1196  3.6.2014 11:49  jenkins.zaoriku.com
+ 1197  3.6.2014 11:50  nsloolup jenkins.zaoriku.com
+ 1198  3.6.2014 11:52  nslookup api.mimamorl.com
+ 1199  3.6.2014 12:09  nslookup www.zaoriku.com
+ 1200  3.6.2014 12:12  nslookupzaoriku.com
+ 1201  3.6.2014 12:12  nslookup zaoriku.com
+ 1202  3.6.2014 13:12  nslookup jenkins.zaoriku.com
+ 1203  3.6.2014 13:12  nslookup git.zaoriku.com
+ 1204  3.6.2014 15:56  echo "abc" > test
+ 1205  3.6.2014 15:57  mv test memo
+ 1206  3.6.2014 16:20  git remote add origin ssh://zaoriku@git.zaoriku.com:29418/ababup1192/test.git
+ 1207  3.6.2014 16:22  whoami
+ 1208  3.6.2014 16:32  git remote add origin http://git.zaoriku.com/git/ababup1192/test.git
+ 1209  3.6.2014 16:34  ssh://ababup1192@git.zaoriku.com:29418/ababup1192/test.git
+ 1210  3.6.2014 16:35  git remote add origin ssh://ababup1192@git.zaoriku.com:29418/ababup1192/test.git
+ 1211  3.6.2014 16:35  echo test2 >> memo
+ 1212  3.6.2014 16:38  ssh-keygen -t rsa "ababup1192@gmail.com"
+ 1213  3.6.2014 16:38  ssh-keygen -t rsa ababup1192@gmail.com
+ 1214  3.6.2014 16:41  ssh zaoriku@git.zaoriku.com
+ 1215  3.6.2014 16:42  ssh zaoriku@git.zaoriku.com -p 29418
+ 1216  3.6.2014 16:49  git remote rm origin
+ 1217  3.6.2014 16:50  rm -r test
+ 1218  3.6.2014 16:50  rm -fr test
+ 1219  3.6.2014 17:15  cd utils
+ 1220  3.6.2014 17:31  cd mimamorlWebhook
+ 1221  3.6.2014 17:34  rm -rf mimamorlWebhook
+ 1222  3.6.2014 17:50  subl mimamorlRestClient/build.sbt
+ 1223  3.6.2014 17:55  subl mimamorlWeb/project/Build.scala
+ 1224  3.6.2014 18:09  nslookup hook.mimamorl.com
+ 1225  3.6.2014 18:13  play dist
+ 1226  3.6.2014 19:47  mv mimamorl-hook-1.0 mimamorl-hook
+ 1227  3.6.2014 19:56  cd mimamorl-hook
+ 1228  3.6.2014 19:56  cd bui
+ 1229  3.6.2014 19:56  cd conf
+ 1230  3.6.2014 19:56  subl application.conf
+ 1231  3.6.2014 20:00  rm -rf mimamorl-hook
+ 1232  3.6.2014 20:18  curl https://hook.mimamorl.com/
+ 1233  3.6.2014 20:46  subl infrastructure/rest-helper/build.sbt
+ 1234  3.6.2014 20:53  brew list scala
+ 1235  3.6.2014 20:55  brew updagrade scala
+ 1236  3.6.2014 20:55  brew upgrade scala
+ 1237  3.6.2014 20:59  scala -version
+ 1238  3.6.2014 21:32  unzip mimamorl-hook-1.0.zip
+ 1239  3.6.2014 21:32  cd mimamorl-hook-1.0
+ 1240  3.6.2014 21:32  ./mimamorl-hook
+ 1241  3.6.2014 21:33  cd..
+ 1242  3.6.2014 21:47  rm -rf mimamorl-hook-1.0
+ 1243  3.6.2014 23:47  git cmmit
+ 1244  4.6.2014 12:51  git remote add http://git.zaoriku.com/git/ababup1192/test2.git
+ 1245  4.6.2014 12:51  git remote add origin http://git.zaoriku.com/git/ababup1192/test2.git
+ 1246  4.6.2014 12:59  id
+ 1247  5.6.2014 00:50  3cd ..
+ 1248  5.6.2014 08:59  c mimamorlWeb
+ 1249  5.6.2014 10:12  git merge topic
+ 1250  5.6.2014 10:13  cd mimamorlHook
+ 1251  5.6.2014 10:13  git
+ 1252  5.6.2014 10:15  echo abc > memo
+ 1253  5.6.2014 13:13  xs ..
+ 1254  5.6.2014 23:15  cd WorkSpace/mimamorl_task/japan-latest
+ 1255  5.6.2014 23:15  lcd ..
+ 1256  6.6.2014 00:54  subl project/Build.
+ 1257  6.6.2014 09:03  /Users/watanabemirai/Downloads/hello-scaloid/build.sbt
+ 1258  6.6.2014 09:33  keytool -genkey -v -keystore debug.keystore -alias androiddebugkey -keyalg RSA -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+ 1259  6.6.2014 09:41  which sbt
+ 1260  6.6.2014 09:45  ls -l |grep sbt
+ 1261  6.6.2014 09:46  cd sbt
+ 1262  6.6.2014 09:46  cd 0.13.0
+ 1263  6.6.2014 09:52  cd 2.11.1
+ 1264  6.6.2014 09:52  cd libexec
+ 1265  6.6.2014 09:59  cler
+ 1266  6.6.2014 10:12  gen-ide
+ 1267  6.6.2014 10:15  cd /usr/local/Cellar
+ 1268  6.6.2014 17:24  /usr/local/activator-1.1.3/activator ; exit;
+ 1269  6.6.2014 17:25  /usr/local/activator-1.1.2/activator ; exit;
+ 1270  6.6.2014 17:37  cleaar
+ 1271  7.6.2014 10:06  as;\n
+ 1272  7.6.2014 10:06  brew search aspell
+ 1273  7.6.2014 10:06  brew install aspelll
+ 1274  7.6.2014 10:06  brew install aspell
+ 1275  7.6.2014 10:07  aspell
+ 1276  7.6.2014 10:08  man aspell
+ 1277  7.6.2014 16:40  cd src/org/scaloid/hello
+ 1278  7.6.2014 16:40  cd assets
+ 1279  7.6.2014 16:41  c d..
+ 1280  7.6.2014 16:44  cd or
+ 1281  7.6.2014 17:04  mv res ./src/main
+ 1282  7.6.2014 17:12  rm gen
+ 1283  7.6.2014 17:12  rm -rf gen
+ 1284  7.6.2014 17:23  cd android-
+ 1285  7.6.2014 17:23  cd android-gen
+ 1286  7.6.2014 17:23  cd scaloid
+ 1287  7.6.2014 17:27  subl project
+ 1288  7.6.2014 17:27  subl project.properties
+ 1289  7.6.2014 17:28  subl build.properties
+ 1290  7.6.2014 17:40  git remote add origin git@github.com:ababup1192/scaloid-template.git
+ 1291  8.6.2014 09:39  cd production
+ 1292  8.6.2014 09:39  cd org/ababup1192/fds/
+ 1293  8.6.2014 09:40  cd org/ababup1192/fds/models
+ 1294  8.6.2014 09:41  cd production/FakeDatabaseSystem
+ 1295  8.6.2014 09:41  cd org
+ 1296  8.6.2014 09:41  cd ababup1192/fds/controllers
+ 1297  8.6.2014 09:41  java DataBaseSimulator
+ 1298  8.6.2014 09:44  java -jar fdbs
+ 1299  8.6.2014 09:46  cd database
+ 1300  8.6.2014 09:55  cls
+ 1301  8.6.2014 09:57  /bin/sh cls
+ 1302  8.6.2014 09:57  /usr/bin/clear
+ 1303  8.6.2014 10:16  rm fdbs.jar
+ 1304  8.6.2014 14:14  cd kr
+ 1305  8.6.2014 14:14  java -jar fdbs.jar
+ 1306  8.6.2014 14:15  vim fdbs
+ 1307  8.6.2014 14:15  chmod 700 fdbs
+ 1308  8.6.2014 14:16  fdbs
+ 1309  8.6.2014 14:16  ./fdbs
+ 1310  8.6.2014 14:21  cd ;;
+ 1311  8.6.2014 14:21  cd ll
+ 1312  8.6.2014 14:47  4
+ 1313  8.6.2014 14:47  ps aux | jar
+ 1314  8.6.2014 14:47  ps aux | grep jar
+ 1315  8.6.2014 14:47  cd artifacts
+ 1316  8.6.2014 14:47  cd fdbs
+ 1317  8.6.2014 14:55  java -jar fdbs.jar
+ 1318  8.6.2014 15:09  c
+ 1319  8.6.2014 15:30  cd us
+ 1320  8.6.2014 15:30  cd usr
+ 1321  8.6.2014 15:30  pws
+ 1322  8.6.2014 15:31  la
+ 1323  8.6.2014 15:37  curl
+ 1324  8.6.2014 15:38  curl -I https://google.com/
+ 1325  8.6.2014 15:39  curl -I https://www.google.co.jp/
+ 1326  8.6.2014 15:43  curl https://www.google.co.jp/
+ 1327  8.6.2014 15:53  ping https://google.com/
+ 1328  8.6.2014 15:53  ping https://www.google.com/
+ 1329  8.6.2014 15:53  ping google.com
+ 1330  8.6.2014 15:53  ping www.mimamorl.com
+ 1331  8.6.2014 15:54  nslookup www.mimamorl.com
+ 1332  8.6.2014 15:54  nslookup 133.242.140.24
+ 1333  8.6.2014 15:55  traceroute https://mimamorl.com
+ 1334  8.6.2014 15:55  traceroute mimamorl.com
+ 1335  8.6.2014 16:35  vim build.sbt
+ 1336  9.6.2014 10:13  rm infrastructure
+ 1337  9.6.2014 10:13  c mimamorl
+ 1338  9.6.2014 10:14  mkdir scalable
+ 1339  9.6.2014 10:14  cd scalable
+ 1340  9.6.2014 10:14  mkdir stateful
+ 1341  9.6.2014 10:14  cd stateful
+ 1342  9.6.2014 10:14  subl BankAccount
+ 1343  9.6.2014 10:15  subl BankAccount.scala
+ 1344  9.6.2014 10:28  subl Time.scala
+ 1345  9.6.2014 15:00  rm -rf stateful
+ 1346  9.6.2014 19:12  vim config
+ 1347  9.6.2014 19:20  brew versions git
+ 1348  9.6.2014 19:38  ls |grep git
+ 1349  10.6.2014 07:16  ssh minoru
+ 1350  10.6.2014 07:27  ssh ionazn@www5156ui.sakura.ne.jp
+ 1351  10.6.2014 07:28  vim .ssh/config
+ 1352  10.6.2014 07:37  nslookup ionazn.com
+ 1353  10.6.2014 08:03  ssh mimamorl@mimamorl.com
+ 1354  10.6.2014 08:14  nslookup mimamorl.com
+ 1355  10.6.2014 12:37  vim .ssh/known_hosts
+ 1356  10.6.2014 13:20  cd universal
+ 1357  10.6.2014 13:20  unzip play-java-1.0-SNAPSHOT.zip
+ 1358  10.6.2014 13:37  ssh
+ 1359  10.6.2014 14:33  cd universal/i
+ 1360  10.6.2014 14:33  cd universal/
+ 1361  10.6.2014 14:34  cd play-java-1.0-SNAPSHOT/l
+ 1362  10.6.2014 14:34  cd play-java-1.0-SNAPSHOT/
+ 1363  10.6.2014 14:35  ./play-java
+ 1364  10.6.2014 15:23  kill 29354
+ 1365  10.6.2014 15:23  kill 29424
+ 1366  10.6.2014 15:23  kill 28379
+ 1367  10.6.2014 15:23  ps aux|grep ssh
+ 1368  10.6.2014 15:23  ssh ionazn
+ 1369  10.6.2014 15:25  ssh -p 2020 ababup1192@www5156ui.sakura.ne.jp
+ 1370  10.6.2014 16:05  mv Untitled.png table.png
+ 1371  10.6.2014 16:05  lc
+ 1372  10.6.2014 16:06  open -a Preview table.png
+ 1373  10.6.2014 16:06  open -a Firefox table.png
+ 1374  10.6.2014 16:07  open -a Safari table.png
+ 1375  10.6.2014 16:09  subl table.
+ 1376  10.6.2014 16:17  mysql -u root
+ 1377  10.6.2014 16:28  sudo mysql.server restart
+ 1378  10.6.2014 16:30  mysql -u root.localhost -p
+ 1379  10.6.2014 16:30  mysql -u root@localhost -p
+ 1380  11.6.2014 07:31  ping ionazn.org
+ 1381  11.6.2014 07:32  ssh ababup1192@ionazn.org -p 2020
+ 1382  11.6.2014 07:32  ssh ionazn@ionazn.org
+ 1383  11.6.2014 07:55  cd /usr/local/opt/mysql/bin
+ 1384  11.6.2014 07:55  cat my.cnf
+ 1385  11.6.2014 07:56  more my.cnf
+ 1386  11.6.2014 07:56  cat my-new.cnf
+ 1387  11.6.2014 07:57  vim my.cnf
+ 1388  11.6.2014 08:01  mysqladmin -u root password 'root'
+ 1389  11.6.2014 08:01  sudo mysqladmin -u root password 'root'
+ 1390  11.6.2014 08:01  sudo mysqladmin -u root password 'root' -p
+ 1391  11.6.2014 08:06  mysql_upgrade -u root -p
+ 1392  11.6.2014 08:06  mysql -u root -p
+ 1393  11.6.2014 08:11  cd hello-play-java
+ 1394  11.6.2014 08:11  cd db
+ 1395  11.6.2014 08:11  subl table.sql
+ 1396  11.6.2014 08:11  mysql -u pjuser -p
+ 1397  11.6.2014 08:48  ssh ionazno
+ 1398  11.6.2014 12:31  ssh ionazn-java
+ 1399  11.6.2014 12:51  echo "test" >> memo
+ 1400  11.6.2014 12:52  git rete add origin ssh://ababup1192@git.zaoriku.com:29418/ababup1192/test2.git
+ 1401  11.6.2014 12:52  git remote add origin ssh://ababup1192@git.zaoriku.com:29418/ababup1192/test2.git
+ 1402  11.6.2014 12:52  ssh ababup1192@git.zaoriku.com -p 29418
+ 1403  11.6.2014 12:53  ssh ababup1192@zaoriku.com -p 29418
+ 1404  11.6.2014 12:53  ssh zaoriku@zaoriku.com
+ 1405  12.6.2014 07:30  mkdir ruchi
+ 1406  12.6.2014 08:17  cd out
+ 1407  12.6.2014 08:18  cd java/org/ababup1192/fds/config/ls
+ 1408  12.6.2014 08:18  cd java/org/ababup1192/fds/
+ 1409  12.6.2014 08:18  cd con
+ 1410  12.6.2014 08:18  cd controllers
+ 1411  12.6.2014 08:18  cd manipulate
+ 1412  12.6.2014 08:18  cd selector
+ 1413  12.6.2014 08:18  subl DBManipulateSelector.java
+ 1414  12.6.2014 08:32  cd ruchi
+ 1415  13.6.2014 17:31  claer
+ 1416  13.6.2014 17:31  clar
+ 1417  14.6.2014 11:50  cd F
+ 1418  14.6.2014 11:50  cd FakeDatabaseSystem
+ 1419  15.6.2014 05:57  find -name Start /
+ 1420  15.6.2014 05:57  find / -name Start
+ 1421  15.6.2014 05:57  find / -name "Star"
+ 1422  15.6.2014 05:57  find / -name steam
+ 1423  15.6.2014 05:58  cd Steam.app
+ 1424  15.6.2014 05:58  cd Contents
+ 1425  15.6.2014 05:58  cd MacOS
+ 1426  15.6.2014 05:59  cd cd
+ 1427  15.6.2014 05:59  cd /Library
+ 1428  15.6.2014 05:59  cd Library/l
+ 1429  15.6.2014 05:59  cd Library/
+ 1430  15.6.2014 05:59  cd Application\ S
+ 1431  15.6.2014 05:59  cd Application\
+ 1433  15.6.2014 06:00  cd Steam
+ 1434  15.6.2014 06:00  cd SteamApps
+ 1435  15.6.2014 06:00  cd Starbound
+ 1436  15.6.2014 06:00  cd linux64
+ 1437  15.6.2014 06:01  cd universe
+ 1438  15.6.2014 06:01  cd linux32
+ 1439  15.6.2014 06:01  ./starbound_server
+ 1440  15.6.2014 08:00  ssh root@www5156ui.sakura.ne.jp
+ 1441  15.6.2014 08:01  ssh root@ionazn
+ 1442  15.6.2014 08:27  cd .s
+ 1443  15.6.2014 15:33  git merge topic
+ 1444  15.6.2014 15:33  git checkout topic
+ 1445  16.6.2014 09:15  gen-tex bare_conf.tex
+ 1446  16.6.2014 09:16  gen-tex bare_conf
+ 1447  16.6.2014 09:25  subl abstract.tex
+ 1448  16.6.2014 09:28  subl conclusion.tex
+ 1449  16.6.2014 09:37  subl xuml.tex
+ 1450  16.6.2014 09:38  subl xuml_and_dsl.tex
+ 1451  16.6.2014 09:53  mv xuml_and_dsl.tex related_works.tex
+ 1452  16.6.2014 10:06  subl dsl_coding.tex
+ 1453  17.6.2014 11:16  subl .gitignore
+ 1454  17.6.2014 11:20  git remote add origin git@bitbucket.org:abab/scis_and_isis_2014.git
+ 1455  19.6.2014 13:49  subl Main
+ 1456  19.6.2014 13:49  subl Main.scala
+ 1457  19.6.2014 13:50  scala Main (232)
+ 1458  19.6.2014 13:50  scala Main "(232)"
+ 1459  19.6.2014 13:50  scala Main "(2323232)"
+ 1460  19.6.2014 13:50  scala Main "(2323232"
+ 1461  19.6.2014 13:50  scala Main "2323232"
+ 1462  19.6.2014 13:55  scalac Main.scala
+ 1463  19.6.2014 13:55  scala Main
+ 1464  19.6.2014 13:55  mv Main.scala Test1.scala
+ 1465  19.6.2014 13:55  rm *.class
+ 1466  19.6.2014 13:55  rm -f *.class
+ 1467  19.6.2014 13:55  scala Test1.scala
+ 1468  19.6.2014 14:08  scalac Test1.scala
+ 1469  19.6.2014 14:15  d ..
+ 1470  19.6.2014 14:19  cd Do
+ 1471  19.6.2014 14:19  scalac test.scala
+ 1472  19.6.2014 14:20  scala Test1
+ 1473  19.6.2014 15:09  yacc
+ 1474  19.6.2014 15:09  yacc --version
+ 1475  19.6.2014 15:10  rm * -f
+ 1476  19.6.2014 15:10  sudo rm -rf *
+ 1477  19.6.2014 15:11  yacc -dv tinyc.y
+ 1478  19.6.2014 15:11  lex lex tinyc.l
+ 1479  19.6.2014 15:11  mv tinyc.l.txt tinyc.l
+ 1480  19.6.2014 15:12  lex tinyc.l
+ 1481  19.6.2014 15:14  mv Makefile.txt Makefile
+ 1482  19.6.2014 15:14  subl tinyc.y
+ 1483  19.6.2014 15:15  ./tinyc
+ 1484  19.6.2014 15:16  clean
+ 1485  19.6.2014 15:16  clang
+ 1486  19.6.2014 15:16  make clean
+ 1487  19.6.2014 15:18  cd cparse
+ 1488  19.6.2014 15:18  subl Makefile
+ 1489  19.6.2014 15:19  flex
+ 1490  19.6.2014 15:19  rm -rf cparse
+ 1491  19.6.2014 15:21  flex -l if.l
+ 1492  19.6.2014 15:21  yacc -dv -y if.y
+ 1493  19.6.2014 15:21  gcc -m32 -w y.tab.c lex.yy.c
+ 1494  19.6.2014 15:22  subl main.c
+ 1495  19.6.2014 15:22  ./a.out < main.c
+ 1496  19.6.2014 15:22  subl if.
+ 1497  19.6.2014 15:22  subl if.l
+ 1498  19.6.2014 15:23  subl if_input.c
+ 1499  19.6.2014 15:23  ./a.out < if_input.c
+ 1500  19.6.2014 15:24  cat if.l
+ 1501  19.6.2014 15:24  cat if.y
+ 1502  19.6.2014 15:27  sudo rm *
+ 1503  19.6.2014 16:28  cd HelloOOP
+ 1504  19.6.2014 16:28  cd org/ababup1192/hoop
+ 1505  19.6.2014 16:29  cd models
+ 1506  19.6.2014 16:29  cat User
+ 1507  19.6.2014 16:29  cat User.java
+ 1508  21.6.2014 14:05  cd doctor
+ 1509  21.6.2014 14:05  cd プロ
+ 1510  21.6.2014 14:05  cd プログラミング入門
+ 1511  21.6.2014 19:16  git remote add origin git@github.com:ababup1192/prog0.git
+ 1512  21.6.2014 22:37  cd TA
+ 1513  21.6.2014 22:37  cd 2014
+ 1514  21.6.2014 22:37  cd prog0
+ 1515  23.6.2014 09:21  cd ta_rating
+ 1516  23.6.2014 09:21  mkdir file_collector
+ 1517  23.6.2014 09:22  cd file_collector
+ 1518  23.6.2014 09:22  cd file
+ 1519  23.6.2014 09:22  vim file_collector
+ 1520  24.6.2014 18:35  mkdir msgPack
+ 1521  24.6.2014 18:40  cd com/example
+ 1522  24.6.2014 18:41  mv example ababup1192
+ 1523  24.6.2014 18:41  mv com org
+ 1524  24.6.2014 18:41  cd org/ababup1192
+ 1525  24.6.2014 18:42  mv Hello.scala MsgPack.scala
+ 1526  24.6.2014 18:42  subl MsgPack.scala
+ 1527  24.6.2014 20:27  cd msgPack
+ 1528  24.6.2014 22:44  npm install –save-dev gulp
+ 1529  24.6.2014 22:50  npm -version
+ 1530  24.6.2014 22:50  sudo npm install –save-dev gulp
+ 1531  24.6.2014 22:50  sudo npm install –g gulp
+ 1532  24.6.2014 22:51  sudo npm install -g gulp
+ 1533  24.6.2014 22:51  npm install --save-dev gulp
+ 1534  24.6.2014 23:09  vim Gruntfile.coffee
+ 1535  24.6.2014 23:10  mkdir gulp_base
+ 1536  24.6.2014 23:14  say bower
+ 1537  24.6.2014 23:15  say hello
+ 1538  24.6.2014 23:15  say hello hayashi tatsuhiko
+ 1539  24.6.2014 23:15  man say
+ 1540  24.6.2014 23:16  say hello hayashi tatsuhiko -v Victora
+ 1541  24.6.2014 23:16  say hello hayashi tatsuhiko -v Victoria
+ 1542  24.6.2014 23:17  npm install gulp-coffee gulp-jade gulp-bower gulp-watch --save-dev
+ 1543  24.6.2014 23:23  cp ../base/bower.json
+ 1544  24.6.2014 23:23  cp ../base/bower.json .
+ 1545  24.6.2014 23:26  vim gulpfile.js
+ 1546  24.6.2014 23:35  git remote add origin git@github.com:ababup1192/gulp_base.git
+ 1547  24.6.2014 23:35  git push origin master
+ 1548  24.6.2014 23:56  rm -rf gulp-bower
+ 1549  25.6.2014 00:04  vim bower_components
+ 1550  25.6.2014 00:04  cd bower_components/o
+ 1551  25.6.2014 00:04  cd bower_components/
+ 1552  25.6.2014 00:04  cd bootstrap/o
+ 1553  25.6.2014 00:04  cd bootstrap/
+ 1554  25.6.2014 00:04  vim bowero
+ 1555  25.6.2014 00:15  cd gulp-bower-files
+ 1556  25.6.2014 00:16  mkdir jade
+ 1557  25.6.2014 00:20  subl main.jade
+ 1558  25.6.2014 00:22  vim main.jade
+ 1559  25.6.2014 00:25  cat main.html
+ 1560  25.6.2014 00:25  vim main.html
+ 1561  25.6.2014 00:34  mv main.jade index.jade
+ 1562  25.6.2014 00:34  rm main.html
+ 1563  25.6.2014 00:35  gulp jade
+ 1564  25.6.2014 00:35  gulp connect
+ 1565  25.6.2014 00:35  vim gulpfile.
+ 1566  25.6.2014 00:53  vim dist/index.html
+ 1567  25.6.2014 01:10  mkdir sass
+ 1568  25.6.2014 01:11  vim main.scss
+ 1569  25.6.2014 01:13  vim dist
+ 1570  25.6.2014 01:14  vim ./sass/main.scss
+ 1571  25.6.2014 01:15  gulp sass
+ 1572  25.6.2014 01:17  vim jade/index.jade
+ 1573  25.6.2014 01:18  vim sass
+ 1574  25.6.2014 01:18  vim sass/main.scss
+ 1575  25.6.2014 01:23  vim gulpfile.coffee
+ 1576  25.6.2014 01:24  subl
+ 1577  25.6.2014 08:37  cd WorkSpace/pr
+ 1578  25.6.2014 08:42  mkdir coffee
+ 1579  25.6.2014 08:44  cp test.coffee test
+ 1580  25.6.2014 08:45  gulp coffee
+ 1581  25.6.2014 08:45  cat test.js
+ 1582  25.6.2014 12:47  subl coffee/test.coffee
+ 1583  25.6.2014 12:57  npm install gulp-bower-src
+ 1584  25.6.2014 12:59  npm install --save-dev gulp-bower-src
+ 1585  25.6.2014 12:59  mkdir lib
+ 1586  25.6.2014 13:02  cat bower
+ 1587  25.6.2014 13:02  cat bower.json
+ 1588  25.6.2014 13:02  rm -rf bower_components
+ 1589  25.6.2014 13:03  cd dist/lib
+ 1590  25.6.2014 14:48  rm bower.json
+ 1591  25.6.2014 14:49  npm install -g bower
+ 1592  25.6.2014 14:49  bower init
+ 1593  25.6.2014 14:50  vim bower.json
+ 1594  25.6.2014 14:50  more ../base/bower.json
+ 1595  25.6.2014 14:51  bower install -save jquery bootstrap
+ 1596  25.6.2014 14:52  cd JAVA_HOME
+ 1597  25.6.2014 14:53  cd WorkSpace/program/web_front/gulp_base
+ 1598  25.6.2014 15:01  rm jquery.js
+ 1599  25.6.2014 15:02  cd jquery/dist
+ 1600  25.6.2014 15:04  cd fonts
+ 1601  25.6.2014 15:05  rm -rf +
+ 1602  25.6.2014 15:07  cd node_modules
+ 1603  25.6.2014 15:07  rm -rf gulp-bower-src
+ 1604  25.6.2014 15:08  cd jquery
+ 1605  25.6.2014 15:10  subl bower.json
+ 1606  25.6.2014 15:11  subl ../base/bower.json
+ 1607  25.6.2014 15:25  rm lib
+ 1608  25.6.2014 15:29  rm bootstrap
+ 1609  25.6.2014 15:30  rm bootstrap.min.
+ 1610  25.6.2014 15:30  rm bootstrap.min.css
+ 1611  25.6.2014 15:30  rm bootstrap.min.js
+ 1612  25.6.2014 15:31  ls js
+ 1613  25.6.2014 15:32  rm -rf bootstrap
+ 1614  25.6.2014 15:32  rm -rf jquery
+ 1615  25.6.2014 15:33  cd dist/css
+ 1616  25.6.2014 15:40  npm install gulp-filter --save-dev
+ 1617  25.6.2014 15:40  rm -rf *y
+ 1618  25.6.2014 15:43  rm -rf lib
+ 1619  25.6.2014 15:44  cd bower_components
+ 1620  25.6.2014 15:44  cd bootstrap
+ 1621  25.6.2014 15:58  subl test.jade
+ 1622  25.6.2014 15:59  subl test.coffee
+ 1623  25.6.2014 16:01  rm -rf dist
+ 1624  25.6.2014 16:01  gulp watch
+ 1625  25.6.2014 16:04  cd base
+ 1626  25.6.2014 16:04  subl Gruntfile.coffee
+ 1627  25.6.2014 18:33  cat test.coffee
+ 1628  25.6.2014 18:50  subls
+ 1629  25.6.2014 18:52  vim package.json
+ 1630  25.6.2014 18:53  gulp bower
+ 1631  25.6.2014 19:47  gulp
+ 1632  25.6.2014 21:26  subl main.css
+ 1633  25.6.2014 21:32  npm install gulp-plumber --save dev
+ 1634  25.6.2014 22:34  cat index.html
+ 1635  25.6.2014 23:00  jade -version
+ 1636  25.6.2014 23:00  jade -v
+ 1637  25.6.2014 23:00  jade --v
+ 1638  25.6.2014 23:00  brew upgrade jade
+ 1639  25.6.2014 23:01  npm update jade
+ 1640  25.6.2014 23:02  npm update -g jade
+ 1641  25.6.2014 23:02  jade
+ 1642  25.6.2014 23:03  sudo npm update -g jade
+ 1643  25.6.2014 23:03  npm uninstall -g jade
+ 1644  25.6.2014 23:04  npm install -g jade
+ 1645  25.6.2014 23:04  node --version
+ 1646  25.6.2014 23:05  brew update node
+ 1647  25.6.2014 23:05  brew update
+ 1648  25.6.2014 23:06  brew upgrade node
+ 1649  25.6.2014 23:07  npm update npm -g --prefix /usr/local
+ 1650  25.6.2014 23:07  npm --version
+ 1651  25.6.2014 23:08  npm update jade -g
+ 1652  25.6.2014 23:09  npm install jade@1.3.1
+ 1653  25.6.2014 23:09  npm install jade@1.3.1 -g
+ 1654  25.6.2014 23:09  jade@1.3.1 --version
+ 1655  25.6.2014 23:10  jade --version
+ 1656  25.6.2014 23:10  tmux
+ 1657  25.6.2014 23:10  d WorkSpace/program
+ 1658  25.6.2014 23:24  mkdir common
+ 1659  25.6.2014 23:24  subl head.jade
+ 1660  25.6.2014 23:27  cat head.html
+ 1661  25.6.2014 23:28  cd js
+ 1662  25.6.2014 23:50  subl article.jade
+ 1663  26.6.2014 00:00  mkdir util
+ 1664  26.6.2014 00:00  mv article.jade util
+ 1665  26.6.2014 00:00  subl list.jade
+ 1666  26.6.2014 00:23  subl index.html
+ 1667  26.6.2014 14:30  java --version
+ 1668  26.6.2014 15:49  subl jade/common/article.jade
+ 1669  26.6.2014 19:45  cd hello
+ 1670  26.6.2014 19:45  cd hello-scaloid
+ 1671  27.6.2014 17:05  subl tree.c
+ 1672  27.6.2014 18:51  gcc tree.c
+ 1673  27.6.2014 21:27  rm -rf gulp_base
+ 1674  27.6.2014 21:28  mv gulp_base html_basic
+ 1675  27.6.2014 21:28  git remote show
+ 1676  27.6.2014 21:29  git remote show origin
+ 1677  27.6.2014 21:29  git remote rm origin
+ 1678  27.6.2014 21:30  subl index.jade
+ 1679  27.6.2014 21:33  subl gulpfile.js
+ 1680  27.6.2014 21:34  npm install coffee-script gulp gulp-flatten gulp-plumber gulp-bower-files gulp-connect gulp-jade gulp-sass glp-coffee --save-dev
+ 1681  27.6.2014 21:35  npm install coffee-script gulp gulp-flatten gulp-plumber gulp-bower-files gulp-connect gulp-jade gulp-sass gulp-coffee --save-dev
+ 1682  27.6.2014 21:36  npm init
+ 1683  27.6.2014 21:36  npm install coffee-script gulp gulp-flatten gulp-plumber gulp-bower-files gulp-connect gulp-jade gulp-sass gulp-coffee gulp-util --save-dev
+ 1684  27.6.2014 21:36  npm install coffee-script gulp gulp-flatten gulp-plumber gulp-bower-files gulp-connect gulp-jade gulp-sass gulp-coffee --save-dev
+ 1685  27.6.2014 21:36  npm install coffee-script gulp
+ 1686  27.6.2014 21:37  npm install coffee-script
+ 1687  27.6.2014 21:37  subl npm-debug.log
+ 1688  27.6.2014 21:38  npm gulp-flatten
+ 1689  27.6.2014 21:39  npm install gulp-flatten
+ 1690  27.6.2014 21:39  npm install gulp-flatten --save-dev
+ 1691  27.6.2014 21:39  sudo npm install gulp-flatten --save-dev
+ 1692  27.6.2014 21:40  sudo npm install gulp-filter --save-dev
+ 1693  27.6.2014 21:40  npm install gulp-plumber --save-dev
+ 1694  27.6.2014 21:41  npm install gulp-bower-files --save-dev
+ 1695  27.6.2014 21:41  npm install gulp-connect --save-dev
+ 1696  27.6.2014 21:41  npm install gulp-jade --save-dev
+ 1697  27.6.2014 21:41  npm install gulp-sass --save-dev
+ 1698  27.6.2014 21:42  npm install gulp-coffee --save-dev
+ 1699  27.6.2014 21:44  subl sass/main.scss
+ 1700  27.6.2014 21:46  cat main.css
+ 1701  27.6.2014 21:46  subl gulpfile.
+ 1703  27.6.2014 22:18  ps aux | grep gulp
+ 1704  27.6.2014 22:25  cd li
+ 1705  27.6.2014 22:25  cd line-log
+ 1706  27.6.2014 22:25  cat 20130711_13.txt
+ 1707  27.6.2014 22:25  cat 20130730_13.txt
+ 1708  27.6.2014 22:26  rm -rf line-log
+ 1709  27.6.2014 22:26  cd logs
+ 1710  27.6.2014 22:26  cat application.log
+ 1711  27.6.2014 22:26  rm -rf logs
+ 1712  27.6.2014 22:26  cd aida
+ 1713  27.6.2014 22:26  rm -rf project
+ 1714  27.6.2014 22:26  sudo rm -rf project
+ 1715  27.6.2014 22:26  cat texput.log
+ 1716  27.6.2014 22:26  rm texput.log
+ 1717  27.6.2014 22:27  cd npm-25495-uTlGgu8h
+ 1718  27.6.2014 22:27  rm -rf tmp
+ 1719  27.6.2014 22:27  sudo rm -rf tmp
+ 1720  27.6.2014 22:27  cat dlmgr_.pro
+ 1721  27.6.2014 22:27  rm dlmgr_.pro
+ 1722  27.6.2014 22:27  mv bin #bin
+ 1723  27.6.2014 22:27  mv bin bin.bk
+ 1724  27.6.2014 22:28  mv bin.bk bim
+ 1725  27.6.2014 22:28  mv bim bin
+ 1726  27.6.2014 22:29  subl jade
+ 1727  27.6.2014 22:29  subl jade/index.jade
+ 1728  27.6.2014 23:07  subl dist/index.html
+ 1729  27.6.2014 23:55  subl main.sass
+ 1730  27.6.2014 23:58  subl dist/css/main.css
+ 1731  27.6.2014 23:58  rm dist/css/main.css
+ 1732  27.6.2014 23:58  cd dist
+ 1733  27.6.2014 23:58  cd css
+ 1734  28.6.2014 00:01  [
+ 1735  28.6.2014 00:01  npm install gulp-ruby-sass
+ 1736  28.6.2014 00:02  npm install gulp-ruby-sass --save-dev
+ 1737  28.6.2014 00:02  gul@
+ 1738  28.6.2014 00:03  rbenv exec gem install sass
+ 1739  28.6.2014 00:03  sass -version
+ 1740  28.6.2014 00:04  sass
+ 1741  28.6.2014 00:05  rm main.scss
+ 1742  28.6.2014 00:06  mv main.sass main.scss
+ 1743  28.6.2014 00:06  subl main.scss
+ 1744  30.6.2014 07:37  /Users/watanabemirai/WorkSpace/program/mimamorl/android/mimamorlAndroid/gradlew ; exit;
+ 1745  30.6.2014 07:39  gradle
+ 1746  30.6.2014 07:40  gradle androidDependencies
+ 1747  30.6.2014 07:40  aa
+ 1748  30.6.2014 07:40  ad
+ 1749  30.6.2014 07:40  a
+ 1750  30.6.2014 10:05  cd Copy/sccp
+ 1751  30.6.2014 10:05  cd s
+ 1752  30.6.2014 10:07  brew update imagemagick
+ 1753  30.6.2014 10:07  brew upgrade imagemagick
+ 1754  30.6.2014 10:07  convert rel-TextUML.png rel-TextUML.eps
+ 1755  30.6.2014 10:08  mv rel-TextUML.eps ..
+ 1756  30.6.2014 10:08  convert rel-yUML.png rel-yUML.eps
+ 1757  30.6.2014 10:08  mv *.eps ..
+ 1758  30.6.2014 10:34  gen-tex main.tex
+ 1759  30.6.2014 10:38  extractbb rel-yUML.png
+ 1760  30.6.2014 10:38  mv rel-yUML.xbb ..
+ 1761  30.6.2014 12:09  cd cd i
+ 1762  30.6.2014 12:10  rm rel-yUML.xbb
+ 1763  30.6.2014 12:12  rm *.log
+ 1764  30.6.2014 12:13  pdftops -eps rel-yUML.png.pdf
+ 1765  30.6.2014 12:13  rm rel-yUML.eps
+ 1766  30.6.2014 12:14  mv rel-yUML.png.eps ../rel-yUML.eps
+ 1767  30.6.2014 12:15  rm *pdf
+ 1768  30.6.2014 12:16  convert rel-yUML.png eps2:rel-yUML.eps
+ 1769  30.6.2014 13:06  git --version
+ 1770  30.6.2014 14:24  cd Copy/
+ 1771  1.7.2014 13:00  subl architecture.tex
+ 1772  2.7.2014 08:35  mkdir test
+ 1773  2.7.2014 08:35  subl Test.java
+ 1774  2.7.2014 12:44  ssh aizu pwd
+ 1775  2.7.2014 12:44  ssh aizu ls
+ 1776  2.7.2014 12:44  ssh aizu "cd / & ls"
+ 1777  2.7.2014 12:44  ssh aizu "cd / && ls"
+ 1778  2.7.2014 20:52  mkdir mac
+ 1779  2.7.2014 21:46  find /Applications/Xcode6-Beta.app -name swift | grep /bin/swift
+ 1780  2.7.2014 21:47  find /Applications/Xcode6-Beta2.app -name swift | grep /bin/swift
+ 1781  2.7.2014 21:50  source .zsh
+ 1782  2.7.2014 21:55  xcrun swift -i main.swift
+ 1783  2.7.2014 21:55  man xcurn
+ 1784  2.7.2014 21:55  xcrun
+ 1785  2.7.2014 21:55  xcrun main.swift
+ 1786  2.7.2014 21:56  sudo xcode-select -switch /Applications/Xcode6-Beta.app/Contents/Developer/
+ 1787  2.7.2014 21:56  sudo xcode-select -switch /Applications/Xcode6-Beta2.app/Contents/Developer/
+ 1788  2.7.2014 21:57  sudo xcrun cc
+ 1789  2.7.2014 21:57  xcrun swift
+ 1790  2.7.2014 21:57  man swift
+ 1791  2.7.2014 21:57  swift -help
+ 1792  2.7.2014 21:58  swict main.swift
+ 1793  2.7.2014 21:59  swift main.swift --sdk macosx
+ 1794  2.7.2014 21:59  swift main.swift -sdk macosx
+ 1795  2.7.2014 22:00  xcrun swift main.swift
+ 1796  2.7.2014 22:01  swift main
+ 1797  2.7.2014 22:01  swift -i main.swift
+ 1798  2.7.2014 22:05  git clone https://github.com/JugglerShu/XVim.git
+ 1799  2.7.2014 22:06  cd XVim
+ 1800  2.7.2014 22:06  mv XVim ..
+ 1801  2.7.2014 22:09  rm -rf XVim
+ 1802  2.7.2014 22:15  swift
+ 1803  2.7.2014 22:27  curl http://qfi.sh/XAlign/build/install.sh | sh
+ 1804  2.7.2014 22:32  rm -rf ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XAlign.xcplugin
+ 1805  2.7.2014 22:32  sudo rm -rf ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins/XAlign.xcplugin
+ 1806  2.7.2014 23:37  swift main.swift
+ 1807  3.7.2014 12:16  open -a Preview main.pdf
+ 1808  3.7.2014 16:02  cd mac
+ 1809  3.7.2014 16:02  ./main
+ 1810  3.7.2014 16:02  cat main
+ 1811  3.7.2014 16:02  cat main.swift
+ 1812  3.7.2014 16:09  cd SwiftTest
+ 1813  3.7.2014 16:09  subl main.swift
+ 1814  3.7.2014 16:11  c;ear
+ 1815  4.7.2014 09:20  subl dsl_uml.tex
+ 1816  4.7.2014 09:21  subl case_study.tex
+ 1817  4.7.2014 09:21  subl related_works.tex
+ 1818  4.7.2014 10:09  cd img
+ 1819  4.7.2014 18:28  cd html_basic
+ 1820  4.7.2014 18:28  git clone git@github.com:ababup1192/gulp_base.git
+ 1821  4.7.2014 18:29  cd gulp_base
+ 1822  4.7.2014 19:13  cd WorkSpace/mimamorl_task
+ 1823  4.7.2014 19:13  cd android/
+ 1824  4.7.2014 19:14  cd a
+ 1825  4.7.2014 21:49  display test
+ 1826  4.7.2014 21:49  display test.pgm
+ 1827  4.7.2014 21:55  brew uninstall imagemagick
+ 1828  4.7.2014 22:00  brew edit imagemagick
+ 1829  4.7.2014 22:00  brew install imagemagick --disable-openmp --build-from-source
+ 1830  4.7.2014 22:08  display -version
+ 1831  4.7.2014 22:09  display
+ 1832  4.7.2014 22:09  convert -list configure
+ 1833  4.7.2014 22:21  subl test
+ 1834  4.7.2014 22:21  subl test.pgm
+ 1835  4.7.2014 22:29  rm test.pgm
+ 1836  4.7.2014 22:30  ./a.out > test.pgm
+ 1837  4.7.2014 22:30  gcc test.c && rm test.pgm && ./a.out > test.pgm
+ 1838  4.7.2014 22:32  gcc test.c && rm test.pgm && ./a.out > test.pgm && open test.pgm
+ 1839  4.7.2014 22:32  vim test.pgm
+ 1840  4.7.2014 22:34  mv ~/Downloads/city.pgm .
+ 1841  4.7.2014 22:34  open city.pgm
+ 1842  4.7.2014 22:35  subl city.pgm
+ 1843  4.7.2014 22:59  cd web_front
+ 1844  4.7.2014 22:59  mkdir mapbox
+ 1845  4.7.2014 22:59  rm mapbox
+ 1846  4.7.2014 22:59  rm -rf mapbox
+ 1847  4.7.2014 22:59  mv gulp_base mapbox
+ 1848  4.7.2014 22:59  cd mapbox
+ 1849  4.7.2014 22:59  rm .git
+ 1850  4.7.2014 23:01  bower install
+ 1851  4.7.2014 23:01  subl gulpfile.coffee
+ 1852  4.7.2014 23:02  subl readme.txt
+ 1853  4.7.2014 23:02  npm install gulp
+ 1854  4.7.2014 23:02  npm install gulp --save-dev
+ 1855  4.7.2014 23:03  npm install --save-dev cofffee-script
+ 1856  4.7.2014 23:03  npm install --save-dev coffee-script
+ 1857  4.7.2014 23:04  npm install --save-dev gulp-flatten
+ 1858  4.7.2014 23:04  npm install --save-dev gulp-filter
+ 1859  4.7.2014 23:04  npm install --save-dev gulp-plumber
+ 1860  4.7.2014 23:05  npm install --save-dev gulp-bower-files
+ 1861  4.7.2014 23:05  npm install --save-dev gulp-bower-connect
+ 1862  4.7.2014 23:05  npm install --save-dev gulp-connect
+ 1863  4.7.2014 23:05  npm install --save-dev gulp-jade
+ 1864  4.7.2014 23:05  npm install --save-dev gulp-sass
+ 1865  4.7.2014 23:05  npm install --save-dev gulp-coffee
+ 1866  4.7.2014 23:05  gulp
+ 1867  4.7.2014 23:06  cd jade
+ 1868  4.7.2014 23:06  rm -rf common
+ 1869  4.7.2014 23:06  cd sass
+ 1870  4.7.2014 23:06  cd coffee
+ 1871  4.7.2014 23:06  rm test.coffee
+ 1872  5.7.2014 00:26  rm test.
+ 1873  5.7.2014 00:26  rm test.*
+ 1874  5.7.2014 00:26  rm city.pgm
+ 1875  5.7.2014 00:26  git clone https://github.com/osmfj/tileman.git
+ 1876  5.7.2014 00:26  cd tileman
+ 1877  5.7.2014 00:26  vagrant init
+ 1878  5.7.2014 01:00  cd nginx
+ 1879  5.7.2014 01:01  cat tileman_
+ 1880  5.7.2014 01:01  cat tileman_proxy_params
+ 1881  5.7.2014 01:01  cd sites
+ 1882  5.7.2014 01:01  cat tileman-proxy
+ 1883  5.7.2014 01:02  cat README.md
+ 1884  5.7.2014 01:02  vim INSTALL.md
+ 1885  5.7.2014 01:03  vagrant
+ 1886  5.7.2014 01:26  cd mimamorlAndroid
+ 1887  5.7.2014 01:32  brew tap peco/peco
+ 1888  5.7.2014 01:32  brew install peco
+ 1889  5.7.2014 01:40  vim ~/.tigrc
+ 1890  5.7.2014 01:41  q
+ 1891  5.7.2014 01:41  cd mimamorlRestClient
+ 1892  5.7.2014 01:41  tig
+ 1893  5.7.2014 13:36  peco
+ 1894  5.7.2014 14:19  cd /Applications/Xcode6-Beta2.app/Contents/Developer/Platforms/iPhoneOS.platform
+ 1895  5.7.2014 14:20  cd /Applications/Xcode
+ 1896  5.7.2014 14:20  cd /Applications/Xcode.app
+ 1897  5.7.2014 14:20  cd Contents/Developer/Platforms
+ 1898  5.7.2014 14:20  cd iPhoneOS.platform
+ 1899  5.7.2014 14:20  cd Dev
+ 1900  5.7.2014 14:20  cd Developer
+ 1901  5.7.2014 14:20  cd SDKs
+ 1902  5.7.2014 14:25  mkdir go
+ 1903  5.7.2014 14:25  subl test.go
+ 1904  5.7.2014 14:25  go test.go
+ 1905  5.7.2014 14:25  go hel
+ 1906  5.7.2014 14:25  go build test.go
+ 1907  5.7.2014 14:25  ./test
+ 1908  5.7.2014 14:26  ssh test
+ 1909  5.7.2014 14:28  brew unling go
+ 1910  5.7.2014 14:28  brew unlink go
+ 1911  5.7.2014 14:28  brew install go --cross-compile-common
+ 1912  5.7.2014 14:38  rm test.go
+ 1913  5.7.2014 14:40  sudo brew install pango
+ 1914  5.7.2014 14:40  brew install pango
+ 1915  5.7.2014 14:42  brew install gtk+
+ 1916  5.7.2014 14:43  brew install xcb-shm
+ 1917  5.7.2014 14:44  brew install gdk2
+ 1918  5.7.2014 14:44  brew install gdk2.0
+ 1919  5.7.2014 14:44  brew install gtk2
+ 1920  5.7.2014 14:45  brew install cairo
+ 1921  5.7.2014 14:47  pkg-config --cflags --print-errors cairo
+ 1922  5.7.2014 14:48  cd /usr/local/lib/pkgconfig/
+ 1923  5.7.2014 14:48  cd X11
+ 1924  5.7.2014 14:49  cd /opt/X11
+ 1925  5.7.2014 14:49  cd lib/pkgconfig
+ 1926  5.7.2014 14:51  rm -rf _go
+ 1927  5.7.2014 16:24  cp -r /Applications/Xcode.app/Contents/
+ 1928  5.7.2014 16:25  cp -r /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk .
+ 1929  5.7.2014 21:15  ghci -XTemplateHaskell
+ 1930  5.7.2014 21:27  subl product.c
+ 1931  5.7.2014 21:30  gcc product.c
+ 1932  5.7.2014 21:30  mv product.c sum.c
+ 1933  5.7.2014 21:31  gcc sum.c
+ 1934  5.7.2014 22:49  ghci
+ 1935  5.7.2014 23:14  cabal
+ 1936  5.7.2014 23:15  cabal update
+ 1937  5.7.2014 23:16  brew install xmonad
+ 1938  5.7.2014 23:22  apt-get
+ 1939  5.7.2014 23:27  cabal install xmonad
+ 1940  5.7.2014 23:32  cabal install xmonad-contrib
+ 1941  5.7.2014 23:34  ls -a | peco
+ 1942  5.7.2014 23:34  cd 0.11
+ 1943  5.7.2014 23:35  ls | peco
+ 1944  5.7.2014 23:36  ./xmonad
+ 1945  5.7.2014 23:37  tax xvf xmonad-0.11.tar.gz
+ 1946  5.7.2014 23:37  tar xvf xmonad-0.11.tar.gz
+ 1947  5.7.2014 23:37  cd xmonad-0.11
+ 1948  5.7.2014 23:37  cat xmonad.
+ 1949  5.7.2014 23:37  cat xmonad.hs
+ 1950  5.7.2014 23:38  cp ~/.cabal/packages/hackage.haskell.org/xmonad/0.11/xmonad-0.11/man/xmonad.hs .
+ 1951  5.7.2014 23:44  subl xmonad.errors
+ 1952  5.7.2014 23:47  xmonad --recompile
+ 1953  5.7.2014 23:48  cat xmonad.errors
+ 1954  5.7.2014 23:52  subl xmonad.
+ 1955  5.7.2014 23:58  cd OSXMonad
+ 1956  6.7.2014 00:00  subl xmonad.h
+ 1957  6.7.2014 00:03  cabal install "X11 >=1.5.0.0 && <1.6"
+ 1958  6.7.2014 00:03  ccabal install "utf8-string ==0.3.*"
+ 1959  6.7.2014 00:03  cabal install "utf8-string ==0.3.*"
+ 1960  6.7.2014 00:04  xterm
+ 1961  6.7.2014 00:05  mkdir ~/build-xmonad
+ 1962  6.7.2014 00:05  cd build-xmonad
+ 1963  6.7.2014 00:05  curl -O http://hackage.haskell.org/packages/archive/xmonad/0.10/xmonad-0.10.tar.gz
+ 1964  6.7.2014 00:06  xmonad -version
+ 1965  6.7.2014 00:06  xmonad -v
+ 1966  6.7.2014 00:06  xmonad --version
+ 1967  6.7.2014 00:06  curl -O http://hackage.haskell.org/packages/archive/xmonad/0.11/xmonad-0.11.tar.gz
+ 1968  6.7.2014 00:07  rm -rf build-xmonad
+ 1969  6.7.2014 00:07  cd 0.11/xmonad-0.11
+ 1970  6.7.2014 00:07  cd man
+ 1971  6.7.2014 00:07  cd util
+ 1972  6.7.2014 00:13  sudo xmonad
+ 1973  6.7.2014 00:14  \M-^M
+ 1974  6.7.2014 00:30  kill 79660
+ 1975  6.7.2014 00:31  kill 79510
+ 1976  6.7.2014 00:37  brew update && brew install xctool
+ 1977  6.7.2014 00:38  sudo xcodebuild -license
+ 1978  6.7.2014 00:38  gem install cocoapods
+ 1979  6.7.2014 00:40   clea
+ 1980  6.7.2014 00:46  cp /private/etc/X11/xinit/xinitrc ~/.xinitrc
+ 1981  6.7.2014 00:47  mkdir .xinitrc.d
+ 1982  6.7.2014 00:47  cd .xinitrc.d
+ 1983  6.7.2014 00:47  subl 90-xmonad.sh
+ 1984  6.7.2014 00:47  chmod +x ~/.xinitrc.d/90-xmonad.sh
+ 1985  6.7.2014 00:47  ./90-xmonad.sh
+ 1986  6.7.2014 00:49  xterm&
+ 1987  6.7.2014 00:51  cd hackage.haskell.org/
+ 1988  6.7.2014 00:51  cd xmonad-contrib
+ 1989  6.7.2014 00:53  brew install darcs
+ 1990  6.7.2014 00:53  rm -rf .xmonad
+ 1991  6.7.2014 00:54  rm xmonad
+ 1992  6.7.2014 00:54  rm -rf xmonad-contrib
+ 1993  6.7.2014 00:54  git clone git://github.com/xmonad/osxmonad.git
+ 1994  6.7.2014 00:54  darcs get http://code.haskell.org/xmonad
+ 1995  6.7.2014 00:55  cd xmonad
+ 1996  6.7.2014 00:55  darcs apply ../osxmonad/xmonad.patch
+ 1997  6.7.2014 00:56  cd ../osxmonad
+ 1998  6.7.2014 00:56  cabal configure
+ 1999  6.7.2014 00:56  cabal install
+ 2000  6.7.2014 00:57  mkdir .xmonad
+ 2001  6.7.2014 00:57  xterm &
+ 2002  6.7.2014 00:57  cd .cabal
+ 2003  6.7.2014 00:58  cd packages
+ 2004  6.7.2014 00:58  cd hackage.haskell.org
+ 2005  6.7.2014 00:58  cd osxmonad
+ 2006  6.7.2014 00:59  startx
+ 2007  6.7.2014 01:00  xmonad &
+ 2008  6.7.2014 01:07  ls -a|pec
+ 2009  6.7.2014 01:07  ls -a|peco
+ 2010  6.7.2014 01:07  rm -rf .xinitrc.d
+ 2011  6.7.2014 01:07  gdb xmonad
+ 2012  6.7.2014 01:08  lldb xmonad
+ 2013  6.7.2014 01:09  sudo sqlite3 /Library/Application\ Support/com.apple.TCC/TCC.db "INSERT or REPLACE INTO access values ('kTCCServiceAccessibility', 'com.apple.Terminal', 0, 1, 0, NULL);"
+ 2014  6.7.2014 01:09  xmonad
+ 2015  6.7.2014 01:14  cd .xmonad
+ 2016  6.7.2014 01:14  subl xmonad.hs
+ 2017  6.7.2014 01:17     
+ 2018  6.7.2014 01:28  ps aux|peco
+ 2019  6.7.2014 01:29  kill 85545
+ 2020  6.7.2014 01:29  lear
+ 2021  6.7.2014 09:45  subl sum.c
+ 2022  6.7.2014 10:02  cabal install utf-string
+ 2023  6.7.2014 10:02  cabal install utf8-string
+ 2024  6.7.2014 11:24  ./a.out | more
+ 2025  6.7.2014 11:24  ./a.out > out
+ 2026  6.7.2014 11:24  more out
+ 2027  6.7.2014 18:52  ab kill-server
+ 2028  6.7.2014 18:52  adb kill-server
+ 2029  6.7.2014 18:52  adb
+ 2030  6.7.2014 18:52  adb
+ 2031  6.7.2014 18:52  cd /us
+ 2032  6.7.2014 18:52  cd local
+ 2033  6.7.2014 18:54  find / -n "adb" | peco
+ 2034  6.7.2014 18:54  find / -name "adb" | peco
+ 2035  6.7.2014 18:54  sudo find / -name "adb" | peco
+ 2036  6.7.2014 18:56  ./adb kill-server
+ 2037  6.7.2014 18:56  ./adb start-server
+ 2038  7.7.2014 13:30  ps |peco
+ 2039  7.7.2014 13:30  ps aux|grep zsh
+ 2040  7.7.2014 13:30  ps aux| peco
+ 2041  7.7.2014 13:31  ls
+ 2042  7.7.2014 13:36  cd .zsh
+ 2043  7.7.2014 13:55  open main.pdf
+ 2044  7.7.2014 13:59  subl ls
+ 2045  7.7.2014 13:59  mv dsl_uml.tex dsl_package.tex
+ 2046  7.7.2014 13:59  subl dsl_package.tex
+ 2047  7.7.2014 14:00  subl introduction.tex
+ 2048  7.7.2014 14:02  mv dsl_package.tex dsl_packages.tex
+ 2049  7.7.2014 14:03  gen-tex main
+ 2050  7.7.2014 22:29  cd github.com
+ 2051  7.7.2014 22:29  cd mattn
+ 2052  7.7.2014 22:29  cd example
+ 2053  7.7.2014 22:29  cd d
+ 2054  7.7.2014 22:29  cd demo
+ 2055  7.7.2014 22:30  ./demo
+ 2056  7.7.2014 22:36  subl gtk-osx-build-setup.sh
+ 2057  7.7.2014 22:36  sh gtk-osx-build-setup.sh
+ 2058  7.7.2014 22:37  make
+ 2059  7.7.2014 22:37  rm *
+ 2060  8.7.2014 14:48  ls -a
+ 2061  8.7.2014 14:48  ls -a |grep b
+ 2062  8.7.2014 14:48  ls -a |grep .b
+ 2063  8.7.2014 14:49  ls -a |grep ^.b
+ 2064  8.7.2014 14:49  ls -a |grep \^.b
+ 2065  8.7.2014 14:49  ps euf
+ 2066  8.7.2014 14:49  ps eu
+ 2067  8.7.2014 14:49  ps aux
+ 2068  8.7.2014 14:49  ps aux | peco
+ 2069  8.7.2014 15:42  cd Copy
+ 2070  8.7.2014 15:42  cd conference
+ 2071  8.7.2014 15:42  subl main.tex
+ 2072  8.7.2014 16:05  brew install graph-easy
+ 2073  8.7.2014 16:06  brew install cpanm
+ 2074  8.7.2014 16:07  cpanm install Graph::Easy
+ 2075  8.7.2014 16:07  perl
+ 2076  8.7.2014 16:07  perl -version
+ 2077  8.7.2014 16:08  echo "test -> test2" > graph-easy
+ 2078  8.7.2014 16:08  rm graph-easy
+ 2079  8.7.2014 16:08  echo "test -> test2" | graph-easy
+ 2080  8.7.2014 16:08  echo "[test] -> [test2]" | graph-easy
+ 2081  8.7.2014 16:08  echo "[test1, test3] -> [test2]" | graph-easy
+ 2082  8.7.2014 16:09  echo "[test1], [test3] <- [test2]" | graph-easy
+ 2083  8.7.2014 16:09  echo "TEST: ([test1], [test3] -> [test2])" | graph-easy
+ 2084  8.7.2014 16:10  echo "TEST: ([test1], [test3],  [test2])" | graph-easy
+ 2085  8.7.2014 16:10  echo "[test1], [test3] -> [test2]" | graph-easy
+ 2086  8.7.2014 16:10  echo "[test1], [test3] -> [test2] (TEST: [test1],[test2],[test3]" | graph-easy
+ 2087  8.7.2014 16:10  echo "[test1], [test3] -> [test2] (TEST: [test1],[test3]" | graph-easy
+ 2088  8.7.2014 16:11  echo "[test1], [test3] -> [test2] (TEST: [test1],[test3] (TEST2] [test2]" | graph-easy
+ 2089  8.7.2014 16:11  echo "[test1], [test3] -> [test2] (TEST: [test1],[test3] (TEST2] [test2])" | graph-easy
+ 2090  8.7.2014 16:11  echo "[test1], [test3] -> [test2] (TEST: [test1],[test3] (TEST2: [test2])" | graph-easy
+ 2091  8.7.2014 16:11  echo "[test1], [test3] -> [test2] (TEST: [test1],[test3] (TEST2: [test1], [test2])" | graph-easy
+ 2092  8.7.2014 16:12  dot
+ 2093  8.7.2014 16:12  echo "[test1], [test3] -> [test2] (TEST: [test1],[test3] (TEST2: [test3], [test2])" | graph-easy --output test.dot
+ 2094  8.7.2014 16:12  dot -Tpng test.dot
+ 2095  8.7.2014 16:13  cd Copy/conference
+ 2096  8.7.2014 16:13  cd scis_and_isis_2014
+ 2097  8.7.2014 16:13  dot -Tpng test.dot -o test.png
+ 2098  8.7.2014 16:14  echo "[test1], [test3] -> [test2] (TEST: [test1],[test3] (TEST2: [test3], [test2])" | graph-easy
+ 2099  8.7.2014 16:15  export PATH="$HOME/perl5/bin:$PATH"
+ 2100  8.7.2014 16:15  export PERL5LIB="$HOME/perl5/lib/perl5"
+ 2101  8.7.2014 16:15  echo "[test1], [test3] -> [test2] (TEST: [test1],[test3] (TEST2: [test3], [test2])" | gradle export PATH="$HOME/perl5/bin:$PATH"
+ 2102  8.7.2014 16:15  echo "[test1], [test3] -> [test2] (TEST: [test1],[test3] (TEST2: [test3], [test2])" | graph-easy
+ 2103  8.7.2014 16:16  more test.dot
+ 2104  8.7.2014 16:18  open test.png
+ 2105  8.7.2014 16:18  cd Graph
+ 2106  8.7.2014 16:18  cd Easy
+ 2107  8.7.2014 16:19  cd Edge
+ 2108  8.7.2014 16:19  cat As_ascii.pm
+ 2110  8.7.2014 16:20  cd Parser
+ 2111  8.7.2014 16:20  more Parser
+ 2112  8.7.2014 16:20  more Parser.pm
+ 2113  8.7.2014 21:57  ls- a
+ 2114  8.7.2014 21:57  ls -l | peco
+ 2115  8.7.2014 21:57  vim zshrc
+ 2116  8.7.2014 21:58  export PATH=~/perl5/bin
+ 2117  8.7.2014 21:59  cd perl5
+ 2118  8.7.2014 22:00  graph-easy
+ 2119  8.7.2014 22:01  echo "[ user ] --> [ proxy ] --> [ web1 ], [ web2 ]" | graph-easy
+ 2120  10.7.2014 14:18  ./gradlew ass
+ 2121  10.7.2014 14:20  ./gradle clean test
+ 2122  10.7.2014 14:27  gradle :android-sample-espresso-tests:connectedCheck
+ 2123  10.7.2014 14:29  ./gradlew --stacktrace :android-sample-espresso-tests:connectedCheck
+ 2124  10.7.2014 14:29  ./gradlew -debug :android-sample-espresso-tests:connectedCheck
+ 2125  10.7.2014 14:30  ./gradlew -debug :aa:connectedCheck
+ 2126  10.7.2014 14:31  ./gradlew -debug :HelloAndroidCI:connectedCheck
+ 2127  10.7.2014 14:37  git remote add origin git@github.com:ababup1192/HelloAndroidCI.git
+ 2128  10.7.2014 14:54  ./gradlew build connectedCheck
+ 2129  10.7.2014 14:56  ./gradlew connectedAndroidTest
+ 2130  10.7.2014 14:59  gti commit
+ 2131  10.7.2014 15:05  vim .travis.yml
+ 2132  10.7.2014 16:18  curl "https://api.voicetext.jp/v1/tts" \\
+ 2133  11.7.2014 17:12       -o "test.wav" \\
+ 2134  11.7.2014 17:12       -u "YOUR_API_KEY:" \\
+ 2135  11.7.2014 17:12       -d "text=おはようございます" \\
+ 2136  11.7.2014 17:12       -d "speaker=hikari"
+ 2137  10.7.2014 16:18  cat test.wav
+ 2138  10.7.2014 16:18  subl test.wav
+ 2139  10.7.2014 16:18  rm test.wav
+ 2140  10.7.2014 18:59  rm Test*
+ 2141  10.7.2014 19:00  subl Private.java
+ 2142  10.7.2014 19:01  subl PrivateInh.java
+ 2143  10.7.2014 19:04  javac Private
+ 2144  10.7.2014 19:05  javac Private.java
+ 2145  10.7.2014 19:06  java Private
+ 2146  10.7.2014 19:11  subl Person.java
+ 2147  10.7.2014 19:11  subl Student.java
+ 2148  10.7.2014 19:13  javac Person.java
+ 2149  10.7.2014 19:13  javac Student
+ 2150  10.7.2014 19:45  java Student
+ 2151  10.7.2014 19:47  javac Student.java
+ 2152  11.7.2014 08:27  rm MyApplication
+ 2153  11.7.2014 08:27  rm -rf MyApplication
+ 2154  11.7.2014 08:28  rm -rf SCCP_Hellp
+ 2155  11.7.2014 08:28  cd test_application
+ 2156  11.7.2014 08:34  rm -rm MyApplication2
+ 2157  11.7.2014 08:34  rm -rf MyApplication2
+ 2158  11.7.2014 08:55  subl .travis.yml
+ 2159  11.7.2014 16:31  cd pr
+ 2160  11.7.2014 16:32  rm .travis.yml
+ 2161  11.7.2014 16:44  rm -rf osxmonad
+ 2162  11.7.2014 16:44  rm -rm xmonad
+ 2163  11.7.2014 16:44  rm -rf xmonad
+ 2164  11.7.2014 16:44  rm -rf tileman
+ 2165  11.7.2014 16:45  git clone git@github.com:inboxapp/inbox.git
+ 2166  11.7.2014 17:12  clera
+ 2167  11.7.2014 20:05  gradle build
+ 2168  11.7.2014 20:08  ./gradle release
+ 2169  11.7.2014 20:08  ./gradlew release
+ 2170  11.7.2014 20:09  ./gradlew dexRelease
+ 2171  11.7.2014 20:11  ./gradlew asseb;e
+ 2172  11.7.2014 20:11  ./gradlew asseble
+ 2173  11.7.2014 20:12  ls build
+ 2174  11.7.2014 20:12  cd exploded-aar
+ 2175  11.7.2014 20:12  cd dex-cache
+ 2176  11.7.2014 20:12  ./gradlew assembleRelease
+ 2177  11.7.2014 20:14  ./gradlew assemble
+ 2178  11.7.2014 20:26  cd generated
+ 2179  11.7.2014 20:27  cd res
+ 2180  11.7.2014 20:27  mkdir keys
+ 2181  11.7.2014 20:27  cd keys
+ 2182  11.7.2014 20:27  cp ~/.android/debug.keystore
+ 2183  11.7.2014 20:27  cp ~/.android/debug.keystore .
+ 2184  11.7.2014 20:27  ./gradlew clean assembleDebug
+ 2185  11.7.2014 20:35  subl app/build
+ 2186  11.7.2014 20:36  ./gradlew clean packageDebug
+ 2187  11.7.2014 20:37  rm app/build/outputs/apk/app-debug-unaligned.apk
+ 2188  11.7.2014 20:37  ./gradlew clean package
+ 2189  11.7.2014 20:37  ./gradlew clean packageRelease
+ 2190  11.7.2014 20:38  ls app/build/outputs/apk
+ 2191  11.7.2014 20:39  android list sdk -a -e | grep "id:"
+ 2192  11.7.2014 20:40  cd /usr/local
+ 2193  11.7.2014 20:40  cd android-sdk
+ 2194  11.7.2014 20:40  cd /Applications/Android\ Studio.app
+ 2195  11.7.2014 20:41  cd platform-tools
+ 2196  11.7.2014 20:41  cd build-tools
+ 2197  11.7.2014 20:41  cd android-4.2.2
+ 2198  11.7.2014 20:41  ./android list sdk -a -e | grep "id:"
+ 2199  11.7.2014 21:14  cd outputs
+ 2200  11.7.2014 21:14  cd apk
+ 2201  11.7.2014 21:19  history curl
+ 2203  11.7.2014 21:30  echo test >> memo
+ 2204  11.7.2014 21:30  echo test > memo
+ 2205  11.7.2014 21:42  rm memo
+ 2206  11.7.2014 22:09  gradle --full-stacktrace connectedCheck
+ 2207  11.7.2014 22:10  gradle connectedCheck
+ 2208  11.7.2014 22:10  ./gradle connectedCheck
+ 2209  11.7.2014 22:24  cd /Applications
+ 2210  11.7.2014 22:24  cd Android\ Studio.app
+ 2211  11.7.2014 22:24  scd sdk
+ 2212  11.7.2014 22:24  cd tools
+ 2213  11.7.2014 22:25  ./android list targets
+ 2214  11.7.2014 22:25  ./android list targets | grep id
+ 2215  12.7.2014 10:17  subl application.log
+ 2216  14.7.2014 13:28  d scala
+ 2217  14.7.2014 13:44  cd haskell
+ 2218  14.7.2014 13:52  subl lucky.hs
+ 2219  14.7.2014 13:52  subl take.hs
+ 2220  14.7.2014 13:54  subl mySum.hs
+ 2221  14.7.2014 13:54  subl replicate.hs
+ 2222  14.7.2014 13:56  subl reverse.hs
+ 2223  14.7.2014 13:57  subl myMaximum.hs
+ 2224  14.7.2014 14:03  gchi
+ 2225  14.7.2014 14:11  cd WorkSpace/program/haskell
+ 2226  14.7.2014 14:11  subl mySum.hs
+ 2227  14.7.2014 14:13  ghci
+ 2228  14.7.2014 21:21  echo "[test] <-> [test2]"| graph-easy
+ 2229  14.7.2014 21:21  echo "[test] <=> [test2]"| graph-easy
+ 2230  14.7.2014 21:21  echo "[User] <=> [test2]"| graph-easy
+ 2231  14.7.2014 21:21  echo "[User] *<= [test2]"| graph-easy
+ 2232  14.7.2014 21:21  echo "[User] <*= [test2]"| graph-easy
+ 2233  14.7.2014 21:22  echo "*[User] <= [test2]"| graph-easy
+ 2234  14.7.2014 21:22  echo "[User] <= [test2]"| graph-easy
+ 2235  14.7.2014 21:22  echo "[User] <- [test2]"| graph-easy
+ 2236  14.7.2014 21:22  echo "[User] <-> [test2]"| graph-easy
+ 2237  14.7.2014 21:22  echo "[User] <--> [test2]" | graph-easy
+ 2238  14.7.2014 21:22  echo "[User] --> [test2]" | graph-easy
+ 2239  14.7.2014 21:24  echo "[User] --*--> [test2]" | graph-easy
+ 2240  14.7.2014 21:24  echo "[User] -*-> [test2]" | graph-easy
+ 2241  14.7.2014 21:24  echo "[User] -car-> [test2]" | graph-easy
+ 2242  14.7.2014 21:24  echo "[User] -- car --> [test2]" | graph-easy
+ 2243  14.7.2014 21:25  echo "[User] -- * --> [test2]" | graph-easy
+ 2244  14.7.2014 21:25  echo "[User] -- * --* [test2]" | graph-easy
+ 2245  14.7.2014 21:25  echo "[User] --<> [test2]" | graph-easy
+ 2246  14.7.2014 21:25  echo "[User] -- * --<> [test2]" | graph-easy
+ 2247  16.7.2014 22:55  git remote add origin git@github.com:ababup1192/AndroidRSP.git
+ 2248  16.7.2014 22:56  git branch develop
+ 2249  16.7.2014 23:49  git push -u origin develop
+ 2250  17.7.2014 00:51  find ./app/src/main/java -name"*.java" | xargs wc -l
+ 2251  17.7.2014 00:51  git checkout master
+ 2252  17.7.2014 00:51  find ./app/src/main/java -name "*.java" | xargs wc -l
+ 2253  17.7.2014 00:52  git checkout develop
+ 2254  17.7.2014 12:13  cd HelloAndroid
+ 2255  17.7.2014 12:13  cd HelloAndroidCI
+ 2256  17.7.2014 12:13  cd .
+ 2257  17.7.2014 12:18  sh gradlew
+ 2258  17.7.2014 12:24  cd ActiveAndroid-master
+ 2259  17.7.2014 12:24  cd gradle
+ 2260  17.7.2014 12:24  sh gradlew build
+ 2261  17.7.2014 16:49  cd na
+ 2262  17.7.2014 16:49  cd RSP
+ 2263  19.7.2014 12:40  cd Quiz
+ 2264  19.7.2014 12:42  git remote add origin git@github.com:ababup1192/AndroidQuiz.git
+ 2265  21.7.2014 08:12  cd ミマモール
+ 2266  21.7.2014 08:12  cd mimamorlHTML
+ 2267  21.7.2014 08:16  vim id_rsa.pub
+ 2268  21.7.2014 08:18  ssh-keygen > github.pub
+ 2269  21.7.2014 08:18  cat github.pub
+ 2270  21.7.2014 08:18  n
+ 2271  21.7.2014 08:18  rm github.pub
+ 2272  21.7.2014 08:19  ssh-keygen
+ 2273  21.7.2014 08:19  subl github_rsa.pub
+ 2274  21.7.2014 08:20  git remote add orig git@github.com:Unirings/mimamorlHTML.git
+ 2275  21.7.2014 08:20  git push -u orig master:topic
+ 2276  21.7.2014 08:21  git remote
+ 2277  21.7.2014 08:21  git remote orig
+ 2278  21.7.2014 08:23  git remote set-url orig https://github.com/Unirings/mimamorlHTML.git
+ 2279  21.7.2014 08:24  git push -u orig master
+ 2280  21.7.2014 08:29  ssh git@github.com:Unirings/mimamorlHTML.git
+ 2281  21.7.2014 08:29  ssh git@github.com:Unirings
+ 2282  21.7.2014 08:29  ssh git@github.com
+ 2283  21.7.2014 08:31  rm github_rsa*
+ 2284  21.7.2014 08:33  mkdir unirings
+ 2285  21.7.2014 08:33  ssh-keygen -t rsa -C "support@unirings.net" -f ./unirings/id_rsa
+ 2286  21.7.2014 08:34  cd _comp_dumpfile
+ 2287  21.7.2014 08:34  cd .git
+ 2288  21.7.2014 08:34  cat co
+ 2289  21.7.2014 08:34  cat config
+ 2290  21.7.2014 08:35  git config user.name "support@unirings.net"
+ 2291  21.7.2014 08:35  git config user.name "Unirings"
+ 2292  21.7.2014 08:35  git config user.email "support@unirings.net"
+ 2293  21.7.2014 08:36  subl id_rsa.pub
+ 2294  21.7.2014 08:37  git remote set-url git@github.com:Unirings/mimamorlHTML.git
+ 2295  21.7.2014 08:37  git remote orig set-url git@github.com:Unirings/mimamorlHTML.git
+ 2296  21.7.2014 08:37  git remote set-url orig git@github.com:Unirings/mimamorlHTML.git
+ 2297  21.7.2014 08:37  git push -u orig topic
+ 2298  21.7.2014 08:40  ssh -T git@github
+ 2299  21.7.2014 08:40  ssh -T git@github.com
+ 2300  21.7.2014 16:37  cd ls
+ 2301  21.7.2014 16:37  subl Equals.java
+ 2302  21.7.2014 17:06  javac Equals.java
+ 2303  21.7.2014 17:06  java Equals
+ 2304  21.7.2014 17:24  open vl_packages.png
+ 2305  21.7.2014 17:24  subl vl_packages.png
+ 2306  24.7.2014 08:58  subl project/Build.scala
+ 2307  24.7.2014 08:59  cd scalaz
+ 2308  24.7.2014 13:38  cd /cores
+ 2309  25.7.2014 08:49  we
+ 2310  25.7.2014 09:38  tmux CC
+ 2311  25.7.2014 09:38  tmux -CC
+ 2312  26.7.2014 10:47  cd WorkSpace/o
+ 2313  26.7.2014 10:47  cd WorkSpace/ls
+ 2314  26.7.2014 10:48  mv test.c triple.c
+ 2315  26.7.2014 11:08  subl triple.scala
+ 2316  26.7.2014 11:09  mv triple.scala Triple.scala
+ 2317  26.7.2014 11:09  subl Triple.scala
+ 2318  26.7.2014 11:29  scala Trip
+ 2319  26.7.2014 11:29  scala Triple.
+ 2320  26.7.2014 11:29  rm Tripe*
+ 2321  26.7.2014 11:30  rm -rf Tripe*
+ 2322  26.7.2014 11:37  scalac Triple.scala
+ 2323  26.7.2014 11:37  scala Triple
+ 2324  27.7.2014 22:16  cd Dropbox
+ 2325  27.7.2014 22:16  cd Exam
+ 2326  27.7.2014 22:16  cd 1st\
+ 2327  27.7.2014 22:16  cd 1st\ first\ semester
+ 2328  27.7.2014 22:16  cd Dynamics
+ 2329  27.7.2014 22:17  ls |grep final | grep ans
+ 2330  28.7.2014 12:22  cd _go
+ 2331  28.7.2014 12:22  cd pkg
+ 2332  28.7.2014 12:22  cd darwin_amd64
+ 2333  28.7.2014 12:22  cd github.com/mattn/go-gtk
+ 2334  28.7.2014 14:28  cd mimamorl_task
+ 2335  28.7.2014 14:28  cd mimamorl
+ 2336  28.7.2014 14:42  mysql -u mimrmol -p
+ 2337  28.7.2014 14:43  mysql -u mimmorl -p
+ 2338  28.7.2014 15:17  mysql -u mimamorl -p
+ 2339  28.7.2014 20:23  play compile
+ 2340  28.7.2014 20:27  cd ...
+ 2341  28.7.2014 20:36  play-dist mimamorlAPI
+ 2342  29.7.2014 22:08  nslookup
+ 2343  29.7.2014 22:32  grep -v # test
+ 2344  29.7.2014 22:32  grep -v "#" test
+ 2345  29.7.2014 22:34  cat test| \\
+ 2346  30.7.2014 18:59  cat
+ 2347  29.7.2014 22:42  echo "aiueo" | sed "s/iue/k/"
+ 2348  29.7.2014 22:42  echo "aiueoiue" | sed "s/iue/k/"
+ 2349  29.7.2014 22:43  echo "aiueoiue" | sed "s/iue/k/g"
+ 2350  29.7.2014 22:46  echo "f1(f2(f3))" | sed "s/\(.*)/f4/"
+ 2351  29.7.2014 22:46  echo "f1(f2(f3))" | sed "s/^(.*)/f4/"
+ 2352  29.7.2014 22:46  echo "f1(f2(f3))" | sed "s/^((.*))/f4/"
+ 2353  29.7.2014 22:46  echo "f1(f2(f3))" | sed "s/(.*)/f4/"
+ 2354  29.7.2014 22:51  echo "私は人です。" | sed "s/は/サル/"
+ 2355  29.7.2014 22:52  echo "私は.です。" | sed "s/./サル/"
+ 2356  29.7.2014 22:53  echo "私は.です。" | sed "s/\./サル/"
+ 2357  29.7.2014 22:55  echo "人人人人" | sed "s/^人猿$/猿/"
+ 2358  29.7.2014 22:55  echo "人人人人" | sed "s/^人*猿$/猿/"
+ 2359  29.7.2014 22:55  echo "人人人人" | sed "s/^人.*猿$/猿/"
+ 2360  29.7.2014 22:55  echo "人人人人" | sed "s/^人.*$/猿/"
+ 2361  29.7.2014 22:55  echo "人人人人" | sed "s/^人.*人$/猿/"
+ 2362  29.7.2014 22:55  echo "人人人人" | sed "s/^人人$/猿/"
+ 2363  29.7.2014 22:55  echo "人人人人" | sed "s/^人*人$/猿/"
+ 2364  29.7.2014 23:00  echo "f1(t)b" | sed "s/(.)/a/"
+ 2365  29.7.2014 23:02  echo "人人人人" | sed "s/^人/猿/"
+ 2366  29.7.2014 23:02  echo "人人人人" | sed "s/人$/猿/"
+ 2367  29.7.2014 23:03  echo "人人人人" | sed "s/人+/猿/"
+ 2368  29.7.2014 23:03  echo "人人人人" | sed "s/+/猿/"
+ 2369  29.7.2014 23:03  echo "人人人人" | sed "s/人+*/猿/"
+ 2370  29.7.2014 23:03  echo "人人人人" | sed "s/人*/猿/"
+ 2371  29.7.2014 23:04  echo "人人人人" | sed "s/^人*/猿/"
+ 2372  29.7.2014 23:04  echo "人人人人" | sed "s/^人+/猿/"
+ 2373  29.7.2014 23:09  test
+ 2374  29.7.2014 23:09  ls test
+ 2375  29.7.2014 23:10  "subl test"
+ 2376  29.7.2014 23:14  setenv
+ 2377  29.7.2014 23:14  env
+ 2378  29.7.2014 23:14  env | grep SHELL
+ 2379  30.7.2014 09:35  mysql.server stop
+ 2380  30.7.2014 09:36  ps aux|grep mysq server
+ 2381  30.7.2014 09:36  ps aux|grep mysql
+ 2382  30.7.2014 09:36  sudo mysql.server start
+ 2383  30.7.2014 09:36  sudo mysql.server stop
+ 2384  30.7.2014 11:49  cd mimamorlAPI
+ 2385  30.7.2014 18:53  cd play-scala
+ 2386  30.7.2014 19:01  mv play-scala play-login-system
+ 2387  30.7.2014 19:01  subl project/plugins.sbt
+ 2388  30.7.2014 19:01  subl project/build.properties
+ 2389  30.7.2014 19:24  cd WorkSpace/program/mimamorl
+ 2390  30.7.2014 19:24  cd mimamorlWeb
+ 2391  30.7.2014 19:30  play-dist mimamorlWeb
+ 2392  30.7.2014 19:36  more application.log
+ 2393  30.7.2014 19:37  cd play-login-system
+ 2394  30.7.2014 20:36  sbt versino
+ 2395  30.7.2014 20:36  subl plugins.sbt
+ 2396  30.7.2014 22:12  play
+ 2397  30.7.2014 22:26  ls -a |grep h
+ 2398  30.7.2014 22:26  ls -a |grep h2
+ 2399  30.7.2014 23:39  git clone https://github.com/sne11ius/play-silhouette-slick-seed.git
+ 2400  30.7.2014 23:39  cd play-silhouette-slick-seed
+ 2401  31.7.2014 18:54  cd go
+ 2402  31.7.2014 18:54  gc hello
+ 2403  31.7.2014 18:54  gc hello.go
+ 2404  31.7.2014 18:54  subl hello.go
+ 2405  31.7.2014 18:55  go hello.go
+ 2406  31.7.2014 18:55  go run hello.go
+ 2407  31.7.2014 18:56  go build hello.go
+ 2408  31.7.2014 18:57  ./hello
+ 2409  31.7.2014 18:59  GOOS=linux GOARCH=386 go build hello.go
+ 2410  31.7.2014 18:59  file hello
+ 2411  31.7.2014 19:01  GOOS=solaris GOARCH=386 go build hello.go
+ 2412  31.7.2014 19:04  rm hello
+ 2413  31.7.2014 19:08  brew uninstall go
+ 2414  31.7.2014 19:08  brew install go --cross-compile-all
+ 2415  31.7.2014 19:15  go -version
+ 2416  31.7.2014 19:15  go -
+ 2417  31.7.2014 19:15  go --
+ 2418  31.7.2014 19:15  go -v
+ 2419  31.7.2014 19:15  go -vv
+ 2420  31.7.2014 19:15  go --version
+ 2421  31.7.2014 19:15  go
+ 2422  31.7.2014 19:15  go help
+ 2423  31.7.2014 19:15  go version
+ 2424  31.7.2014 19:16  GOOS=solaris GOARCH=86 go build hello.go
+ 2425  31.7.2014 19:16  GOOS=solaris  go build hello.go
+ 2426  31.7.2014 19:16  GOOS=solaris GOARCH=amd64 go build hello.go
+ 2427  31.7.2014 19:23  cd hello-scal
+ 2428  31.7.2014 19:23  cd hello-scala
+ 2429  31.7.2014 19:28  cd target/scala-2.11
+ 2430  31.7.2014 19:28  java 0jar hello-scala_2.11-1.0.jar
+ 2431  31.7.2014 19:28  java -jar hello-scala_2.11-1.0.jar
+ 2432  31.7.2014 19:29  cd scala
+ 2433  31.7.2014 19:29  subl Hello.scala
+ 2434  31.7.2014 19:30  cd project
+ 2435  31.7.2014 19:31  subl assembly.sbt
+ 2436  31.7.2014 19:31  cat activator-sbt-idea-shim.sbt
+ 2437  31.7.2014 19:44  java -version
+ 2438  31.7.2014 19:48  subl src/main/scala/Hello.scala
+ 2439  31.7.2014 19:52  cd scala-2.11
+ 2440  31.7.2014 19:52  java -jar hello-scala-assembly-1.0.jar
+ 2441  31.7.2014 20:02  mkdir tk_hello
+ 2442  31.7.2014 20:02  cd tk_hello
+ 2443  31.7.2014 20:05  vim hello.rb
+ 2444  31.7.2014 20:44  subl thread.rb
+ 2445  31.7.2014 20:47  ruby thread.rb
+ 2446  31.7.2014 20:55  cd Rating_aizu
+ 2447  31.7.2014 20:55  ruby rating_main.rb
+ 2448  31.7.2014 21:01  subl rating_main.rb
+ 2449  31.7.2014 21:06  cd model
+ 2450  31.7.2014 21:06  subl file_management.rb
+ 2451  3.8.2014 17:29  ssh s1220217@sshgate.u-aizu.ac.jp
+ 2453  3.8.2014 17:39  ssh -X s1220217@sshgate.u-aizu.ac.jp
+ 2454  5.8.2014 16:43  sls
+ 2455  5.8.2014 16:43  ls -l |grep bin
+ 2456  5.8.2014 16:44  cd Dow
+ 2457  5.8.2014 16:45  c
+ 2458  7.8.2014 10:30  ip
+ 2459  7.8.2014 10:31  lsof
+ 2460  7.8.2014 10:31  lsof -nP -i4TCP -s
+ 2461  7.8.2014 10:31  lsof -nP -i4TCP -sTCP:LISTEN
+ 2462  7.8.2014 10:34  ifconfig
+ 2463  11.8.2014 13:22  cd java
+ 2464  11.8.2014 13:22  javac Test.java
+ 2465  11.8.2014 13:22  java Test
+ 2466  12.8.2014 11:01  nslookup dev.classmethod.jp
+ 2468  12.8.2014 11:07  curl http://dev.classmethod.jp/smartphone/asynctaskloader/
+ 2469  12.8.2014 11:19  cd ru
+ 2470  12.8.2014 11:19  cd ruby
+ 2471  12.8.2014 11:19  cd sinatra
+ 2472  12.8.2014 11:20  subl hello.rb
+ 2473  12.8.2014 11:30  subl index.haml
+ 2474  12.8.2014 11:30  ruby hello.rb
+ 2475  12.8.2014 11:32  cd hello-play
+ 2476  12.8.2014 11:32  sbt
+ 2477  12.8.2014 11:42  curl https://google.co.jp/
+ 2478  12.8.2014 11:44  curl http://heno2.com/2ch/
+ 2479  12.8.2014 11:44  curl http://matome.naver.jp/odai/2136465129383643001
+ 2480  12.8.2014 11:44  http://matome.naver.jp/odai/2136465129383643001
+ 2481  12.8.2014 11:45  curl http://matome.naver.jp/odai/2136465129383643001 | more
+ 2482  12.8.2014 11:45  curl http://www.u-aizu.ac.jp
+ 2483  12.8.2014 11:46  curl -LI http://qiita.com/mazgi/items/585348b6cdff3e320726 -o /dev/null -w '%{http_code}\n' -s
+ 2484  12.8.2014 11:55  rm -rf hello-play
+ 2485  14.8.2014 17:53  cd android
+ 2486  14.8.2014 17:55  git remote add origin git@github.com:ababup1192/AndroidMemo.git
+ 2487  14.8.2014 18:28  git pish
+ 2488  14.8.2014 18:42  gradle --full-stacktrace clean connectedCheck
+ 2489  14.8.2014 19:19  ./gradlew --project-cache-dir=$WERCKER_CACHE_DIR connectedAndroidTest
+ 2490  14.8.2014 19:20  git commmit
+ 2491  14.8.2014 20:05  cd CITest
+ 2492  14.8.2014 20:05  ./gradlew clean connectedCheck
+ 2493  14.8.2014 20:07  git remote add origin git@github.com:ababup1192/AndroidCITest.git
+ 2494  14.8.2014 20:15  ./gradlew -v
+ 2495  14.8.2014 20:20  rm CITest
+ 2496  14.8.2014 20:20  subl wercker.yml
+ 2497  14.8.2014 20:53  ./gradlew --full-stacktrace clean connectedCheck
+ 2498  14.8.2014 21:56  cd Dropbox/技術書
+ 2499  15.8.2014 08:01  brew install dfc
+ 2500  15.8.2014 08:02  dfc
+ 2501  15.8.2014 08:07  which go
+ 2502  16.8.2014 10:40  rm -rf CITest
+ 2503  16.8.2014 10:52  cd Android\ Studio
+ 2504  16.8.2014 10:52  cd Android\ Studio-0.8.app
+ 2505  16.8.2014 10:53  cd sdk
+ 2506  16.8.2014 10:54  android
+ 2507  16.8.2014 11:33  cd deckard-gradle-master
+ 2508  16.8.2014 11:36  cd main
+ 2509  16.8.2014 11:36  cd java/com/example/robolectric
+ 2510  16.8.2014 11:36  cat DeckardActivity.java
+ 2511  16.8.2014 11:36  cd src
+ 2512  16.8.2014 11:36  cd te
+ 2513  16.8.2014 11:36  cd java/com/example/activity
+ 2514  16.8.2014 11:36  cat DeckardActivityRobolectricTest.java
+ 2515  16.8.2014 11:37  cd lib
+ 2516  17.8.2014 21:02  cd .gradle
+ 2517  17.8.2014 21:03  cd caches
+ 2518  17.8.2014 21:03  cd artifacts-26
+ 2519  17.8.2014 21:04  cd artifacts-24
+ 2520  17.8.2014 21:04  cd filestore
+ 2521  17.8.2014 21:10  cd modules-2
+ 2522  17.8.2014 21:10  cd files-2.1
+ 2523  17.8.2014 21:11  cd junit
+ 2524  17.8.2014 21:11  cd 4.11
+ 2525  17.8.2014 21:11  cd 4e031bb61df09069aeb2bffb4019e7a5034a4ee0
+ 2526  17.8.2014 21:38  ./gradlew connectedTest
+ 2527  17.8.2014 21:38  ./gradlew connectedCheck
+ 2528  17.8.2014 21:40  ./gradlew clean build
+ 2529  17.8.2014 21:48  ./gradlew test
+ 2530  17.8.2014 21:48  ./gradlew :app:test
+ 2531  18.8.2014 13:26  wget https://github.com/robolectric/deckard-gradle/archive/master.zip
+ 2532  18.8.2014 13:27  unzip master.zip
+ 2533  18.8.2014 13:27  cd deckard-gradle-master/
+ 2534  18.8.2014 13:27  ./gradlew clean test
+ 2535  18.8.2014 13:29  rm -rf deckard-gradle-master
+ 2536  18.8.2014 13:30  rm master.zip
+ 2538  20.8.2014 09:03  mkdir new
+ 2539  20.8.2014 09:03  cd new
+ 2540  20.8.2014 09:03  rm -rf new
+ 2541  20.8.2014 09:03  mkdir shiori
+ 2542  20.8.2014 09:04  emacs
+ 2543  20.8.2014 09:04  subl hello.c
+ 2544  20.8.2014 09:15  rm a.out
+ 2545  20.8.2014 09:21  file a.out
+ 2546  20.8.2014 09:24  irb
+ 2547  20.8.2014 09:25  gcc hello.c
+ 2548  20.8.2014 09:29  subl mat1.c
+ 2549  20.8.2014 10:38  gcc mat1.c
+ 2550  20.8.2014 10:38  ./a.out < out
+ 2551  20.8.2014 10:40  subl s_triple.c
+ 2552  20.8.2014 10:43  gcc triple.c
+ 2553  20.8.2014 12:02  gcc s_triple.c
+ 2554  20.8.2014 12:12  subl triple.c
+ 2555  20.8.2014 14:38  subl 1.c
+ 2556  20.8.2014 14:40  mv 1.c shiori
+ 2557  20.8.2014 14:40  kls
+ 2558  20.8.2014 14:41  gcc 1.c
+ 2559  20.8.2014 14:43  subl 2.c
+ 2560  20.8.2014 14:47  subl 3.c
+ 2561  20.8.2014 14:49  gcc 2.c
+ 2562  20.8.2014 14:50  gcc 3.c
+ 2563  20.8.2014 14:54  subl 4.c
+ 2564  20.8.2014 14:59  gcc 4.c
+ 2565  20.8.2014 15:01  subl 5.c
+ 2566  20.8.2014 15:49  mv out in
+ 2567  20.8.2014 15:53  gcc 5.c
+ 2568  20.8.2014 15:58  subl 6.c
+ 2569  20.8.2014 16:03  gcc 6.c
+ 2570  20.8.2014 16:03  ./a.out | cat -n
+ 2571  20.8.2014 16:04  ./a.out | wc
+ 2572  20.8.2014 16:05  subl 7.c
+ 2573  20.8.2014 16:13  gcc 7.c
+ 2574  20.8.2014 16:17  subl 8.c
+ 2575  20.8.2014 16:25  gcc 8.c
+ 2576  20.8.2014 16:27  subl 9.c
+ 2577  20.8.2014 16:32  gcc 9.c
+ 2578  20.8.2014 16:33  subl 10.c
+ 2579  20.8.2014 16:39  gcc 10.c
+ 2580  22.8.2014 20:48  t
+ 2581  23.8.2014 14:58  rm AndroidRepositoryTest.class
+ 2582  23.8.2014 15:14  subl build.gradle
+ 2583  23.8.2014 15:17  cd intermediates
+ 2584  23.8.2014 15:17  cd test-
+ 2585  23.8.2014 15:17  cd test-classes
+ 2586  23.8.2014 15:17  cd org/ababup1192/memo
+ 2587  23.8.2014 15:46  cd Memo
+ 2588  23.8.2014 15:46  ./gradlew clean check
+ 2589  23.8.2014 15:48  cd app
+ 2590  23.8.2014 15:48  cd build
+ 2591  23.8.2014 15:49  cd test-report
+ 2592  23.8.2014 15:49  open index.html
+ 2593  24.8.2014 01:40  git remote add origin git@github.com:ababup1192/AndroidCheckIO.git
+ 2594  24.8.2014 01:40  git push -u orign master
+ 2595  24.8.2014 15:42  cd CheckIO
+ 2596  24.8.2014 16:56  cd .android
+ 2597  24.8.2014 20:04  keytool -list -v -keystore ./debug.keystore
+ 2598  25.8.2014 20:45  curl http://weather.livedoor.com/forecast/webservice/json/v1\?city\=070030
+ 2599  25.8.2014 21:15  ssh root@ionazn.com
+ 2600  25.8.2014 21:16  cd .ssh/
+ 2601  26.8.2014 12:21  curl http://api.openweathermap.org/data/2.5/weather\?q\=AizuWakamatsu,jp
+ 2602  26.8.2014 12:21  curl http://api.openweathermap.org/data/2.5/weather\?q\=AizuWakamatsu,jp | python -m json.tool
+ 2603  27.8.2014 09:09  ls -t
+ 2604  27.8.2014 09:09  ls -lt
+ 2605  27.8.2014 20:32  curl http://api.openweathermap.org/data/2.5/weather\?q\=Aizuwakamatsu,jp | python -m json.tool
+ 2606  27.8.2014 20:44  cd AndroidStudioProjects
+ 2607  27.8.2014 20:44  cd WeatherCheckAizu
+ 2608  27.8.2014 20:53  git remote add origin git@github.com:ababup1192/AndroidWeatherInfo.git
+ 2609  27.8.2014 21:22  more local.properties
+ 2610  27.8.2014 21:22  more gradle.properties
+ 2611  27.8.2014 21:22  more build.gradle
+ 2612  27.8.2014 21:22  more WeatherCheckAizu.iml
+ 2613  27.8.2014 21:22  more .idea/gradle.xml
+ 2614  27.8.2014 21:22  more .idea/workspace.xml
+ 2615  27.8.2014 21:23  less .idea/workspace.xml
+ 2616  28.8.2014 12:26  go get github.com/mattn/go-gtk/gtk
+ 2617  28.8.2014 12:26  ls |grep gp
+ 2618  28.8.2014 12:26  ls |grep go
+ 2619  28.8.2014 12:26  ./go
+ 2620  28.8.2014 12:27  git clone  https://github.com/mattn/go-gtk
+ 2621  28.8.2014 12:27  cd go-gtk
+ 2622  28.8.2014 12:27  make install
+ 2623  28.8.2014 12:28  config
+ 2624  28.8.2014 12:28  rm -rf go-gtk
+ 2625  29.8.2014 17:02  /usr/local/activator-1.2.2/activator ; exit;
+ 2626  29.8.2014 17:18  cd /usr
+ 2627  29.8.2014 17:18  brew install typesafe-activator
+ 2628  29.8.2014 17:22  ./activator clean compile stage
+ 2629  29.8.2014 17:23  cd target
+ 2630  29.8.2014 17:24  ./activator
+ 2631  29.8.2014 17:30  brew upgrade docker
+ 2632  29.8.2014 17:30  docker version
+ 2633  29.8.2014 17:41  $(ls bin)
+ 2634  29.8.2014 17:41  bin/$(ls bin)
+ 2635  29.8.2014 18:54  brew upgrade boot2docker
+ 2636  29.8.2014 18:55  boot2docker -v up
+ 2637  29.8.2014 19:01  boot2docker -v
+ 2638  29.8.2014 19:01  boot2docker -version
+ 2639  29.8.2014 19:05  vagrant suspend
+ 2640  29.8.2014 19:12  brew uninstall boot2docker
+ 2641  29.8.2014 19:12  boot2docker version
+ 2642  29.8.2014 19:15  boot2docker download
+ 2643  29.8.2014 19:15  docker init
+ 2644  29.8.2014 19:16  boot2docker delete
+ 2645  29.8.2014 19:16  boot2docker init
+ 2646  29.8.2014 19:18  docker -d
+ 2647  29.8.2014 19:19  vim .boot2docker
+ 2648  29.8.2014 19:20  docker run hello-world
+ 2649  29.8.2014 19:21  docker -h
+ 2650  29.8.2014 19:21  docker -help
+ 2651  29.8.2014 19:21  docker --help
+ 2652  29.8.2014 19:21  docker
+ 2653  29.8.2014 19:21  docker history
+ 2654  29.8.2014 19:22  ps aux |peco
+ 2655  29.8.2014 19:27  docker run -it ubuntu:latest bash
+ 2656  29.8.2014 19:27  docker attach 983d0cda0978
+ 2657  29.8.2014 19:27  docker attach 893d0cda0978
+ 2658  29.8.2014 19:28  docker rmi ubuntu
+ 2659  29.8.2014 19:28  docker rmi c4ff7513909d
+ 2660  29.8.2014 19:29  docker rmi 565a9d68a73f
+ 2661  29.8.2014 19:29  docker rmi -f 565a9d68a73f
+ 2662  29.8.2014 19:37  cd .vim
+ 2663  29.8.2014 19:40  ssh docker@localhost:2022
+ 2664  29.8.2014 19:41  boot2docker ssh
+ 2665  29.8.2014 19:43  boot2docker up
+ 2666  29.8.2014 19:43  vim .zsh_dockerrc
+ 2667  29.8.2014 19:48  ls $(pwd)
+ 2668  29.8.2014 19:48  ls $(pwd /)
+ 2669  29.8.2014 19:49  pwd /
+ 2671  29.8.2014 19:49  man pwd
+ 2672  29.8.2014 19:49  ls -l $(pwd)
+ 2673  29.8.2014 19:52  echo $(pwd)
+ 2674  29.8.2014 19:55  mv .zsh_dockerrc .dockerrc
+ 2675  29.8.2014 19:59  ls -l |peco
+ 2676  29.8.2014 19:59  ls -a |peco
+ 2677  29.8.2014 19:59  cat .dockerc
+ 2678  29.8.2014 20:00  source zshrch
+ 2679  29.8.2014 20:00  java
+ 2680  29.8.2014 20:01  docker run ubuntu echo HelloWorld
+ 2681  29.8.2014 20:03  docker ps -a
+ 2682  29.8.2014 20:03  docker-rm-all
+ 2683  29.8.2014 20:04  docker stop
+ 2684  29.8.2014 20:04  docker -p -q
+ 2685  29.8.2014 20:04  docker -a -q
+ 2686  29.8.2014 20:05  docker ps -q
+ 2687  29.8.2014 20:05  docker ps -
+ 2688  29.8.2014 20:06  docker rmi $(docker images | awk '/^<none>/ { print $3 }')
+ 2689  29.8.2014 20:07  source .dockerrc
+ 2690  29.8.2014 20:14  dstop() { docker stop $(docker ps -a -q);}
+ 2691  29.8.2014 20:14  dbu() {docker build -t=$1 .;}
+ 2692  29.8.2014 20:14  dbu test/te
+ 2693  29.8.2014 20:18  docker-build test
+ 2694  29.8.2014 20:21  bash
+ 2695  29.8.2014 20:36  docker-rm-stop-containers
+ 2696  29.8.2014 20:37  docker-rm-image
+ 2697  29.8.2014 20:41  docker-stop-and-rm-all-images
+ 2698  29.8.2014 20:43  docker rmi $(docker ps -a -q)
+ 2699  29.8.2014 20:43  docker rm $(docker ps -a -q)
+ 2700  29.8.2014 20:46  docker rmi $(docker images -q)
+ 2701  29.8.2014 21:06  dpc
+ 2702  29.8.2014 21:07  docker run ubuntu echo "Hello World"
+ 2703  29.8.2014 21:08  dpc stop; dpc rm
+ 2704  29.8.2014 21:11  cp ../.dockerrc .
+ 2705  29.8.2014 21:11  mkdir dockerrc
+ 2706  29.8.2014 21:11  mv .dockerrc docker
+ 2707  29.8.2014 21:11  mv .dockerrc ../dockerrc
+ 2708  29.8.2014 21:12  c dockerrc
+ 2709  29.8.2014 21:12  cd dockerrc
+ 2710  29.8.2014 21:14  rm -rf dockerrc
+ 2711  29.8.2014 21:14  rm -rf docker
+ 2712  29.8.2014 21:14  cd git-info
+ 2713  29.8.2014 21:25  mkdir docker
+ 2714  29.8.2014 21:27  mkdir java_container
+ 2715  29.8.2014 21:27  vi Dockerfile
+ 2716  29.8.2014 21:34  vim sources.list
+ 2717  29.8.2014 21:44  docker-build ubuntu-java:14.04
+ 2718  29.8.2014 21:50  dpc run
+ 2719  29.8.2014 21:50  dpi run
+ 2720  29.8.2014 21:50  dpi start
+ 2721  29.8.2014 21:51  docker run -i -t ubuntu:12.04 /bin/bash
+ 2722  29.8.2014 21:52  docker run -i -t ubuntu:14.04 /bin/bash
+ 2723  29.8.2014 21:54  vim .do
+ 2724  29.8.2014 21:57  docker images -q
+ 2725  29.8.2014 21:59  docker images -a
+ 2726  29.8.2014 22:00  docker-build ubuntu:14.04
+ 2727  29.8.2014 22:04  docker -ps
+ 2728  29.8.2014 22:18  docker run ababup1192/ubuntu
+ 2729  29.8.2014 22:18  docker run ababup1192/ubuntu:14.04
+ 2730  29.8.2014 22:18  docker run ababup1192/ubuntu:14.04 bin/bash
+ 2731  29.8.2014 22:18  docker run ababup1192/ubuntu:14.04 bash
+ 2732  29.8.2014 22:19  docker ps
+ 2733  29.8.2014 22:21  docker run -i -t ababup1192/ubuntu:14.04 /bin/bash
+ 2734  29.8.2014 22:24  vim supervisord.conf
+ 2735  29.8.2014 22:33  ssh-keygen -t rsa
+ 2736  29.8.2014 22:34  cat id_rsa
+ 2737  29.8.2014 22:34  cat id_rsa.pub
+ 2738  29.8.2014 22:34  docker-build
+ 2739  29.8.2014 22:44  docker-build ababup1192/ubuntu:14.04
+ 2740  29.8.2014 22:48  man docker
+ 2741  29.8.2014 22:48  docker manual
+ 2742  29.8.2014 22:51  docker run -i -t ababup1192/ubuntu 14.04
+ 2743  29.8.2014 22:51  docker run -i -t ababup1192/ubuntu 14.04 bash
+ 2744  29.8.2014 22:51  docker run -i -t ababup1192/ubuntu:14.04 bin/bash
+ 2746  29.8.2014 23:01  cd WorkSpace/program/go
+ 2747  29.8.2014 23:01  cd do
+ 2748  29.8.2014 23:01  cat README
+ 2749  30.8.2014 09:58  cd java_container
+ 2750  30.8.2014 10:05  docker-build ababup1192/ubuntu-java:12.04
+ 2751  30.8.2014 10:10  mv java_container ubuntu_java_container
+ 2752  30.8.2014 10:10  mkdir ubuntu_play_container
+ 2753  30.8.2014 10:20  cd target/universal
+ 2754  30.8.2014 10:21  mv play-scala-1.0-SNAPSHOT myapp
+ 2755  30.8.2014 10:21  unzip play-scala-1.0-SNAPSHOT.zip
+ 2756  30.8.2014 10:21  rm play-scala-1.0-SNAPSHOT.zip
+ 2757  30.8.2014 10:21  cd bin
+ 2758  30.8.2014 10:22  cd myapp
+ 2759  30.8.2014 10:23  mv ~/WorkSpace/program/play/simple_json_test/myapp .
+ 2760  30.8.2014 10:24  docker-build ubuntu-play-api:12.04
+ 2761  30.8.2014 10:26  docker run -d -p 22 -p 9000 ubuntu-play-api:12.04
+ 2762  30.8.2014 10:26  docker ps ^a
+ 2763  30.8.2014 10:26  docker ps -q
+ 2764  30.8.2014 10:27  docker port 9000 $(docker ps -q)
+ 2765  30.8.2014 10:29  docker -p
+ 2766  30.8.2014 10:30  docker run -i -t bash sharp_leakey
+ 2767  30.8.2014 10:30  docker run -i -t sharp_leakey /bin/bash
+ 2768  30.8.2014 10:30  docker run -i -t $(docker ps -q -a) /bin/bash
+ 2769  30.8.2014 10:32  docker attach $(docker ps -q -a)
+ 2770  30.8.2014 10:33  docker log
+ 2771  30.8.2014 10:34  dpc delete
+ 2772  30.8.2014 10:39  docker run -d -p 22 -p 9000:9000 ubuntu-play:12.04
+ 2773  30.8.2014 10:43  curl localhost:9000
+ 2774  30.8.2014 10:44  dpc port
+ 2775  30.8.2014 10:44  dpc port 9000
+ 2776  30.8.2014 10:45  docker port $(docker ps -q) 9000
+ 2777  30.8.2014 10:47  dpi tag play-api
+ 2778  30.8.2014 10:47  dpi tag ababup1192/play-api
+ 2779  30.8.2014 10:48  docker tag 031063c8f7bf ababup1192/play-api
+ 2780  30.8.2014 10:50  docker port 6bab90c4ecbf 22
+ 2781  30.8.2014 10:54  docker run -d -p 22 -p localhost:9000:9000 ubuntu-play:12.4
+ 2782  30.8.2014 10:54  docker run -d -p 22 -p localhost:9000:9000 ubuntu-play:12.04
+ 2783  30.8.2014 10:55  docker run -d -p 22 -p 192.168.1.1:9000:9000 ubuntu-play:12.04
+ 2784  30.8.2014 10:55  docker run -d -p 22 -p 192.168.1.1:9000:9000 ubuntu-play-api:12.04
+ 2785  30.8.2014 10:56  docker port 3eba63fc217a 9000
+ 2786  30.8.2014 10:58  cd program/play
+ 2787  30.8.2014 10:58  scd simple_json_test
+ 2788  30.8.2014 11:00  docker
+ 2789  30.8.2014 11:00  docker rm ababup1192/play-api
+ 2790  30.8.2014 11:01  docker rmi ababup1192/play-api
+ 2791  30.8.2014 11:01  docker rmi ababup1192/play-api:latest
+ 2792  30.8.2014 11:06  docker run -t -i -p 9000 ubuntu-play-api
+ 2793  30.8.2014 11:06  docker run -t -i -p 9000 ubuntu-play-api:12.04
+ 2794  30.8.2014 11:07  docker port f04933ac3e13 9000
+ 2795  30.8.2014 11:15  docker run docker -d -p 22 -p 9000:9000 ubuntu-play-api
+ 2796  30.8.2014 11:15  docker run docker -d -p 22 -p 9000:9000 ubuntu-play-api:12.04
+ 2797  30.8.2014 11:15  docker run  -d -p 22 -p 9000:9000 ubuntu-play-api:12.04
+ 2798  30.8.2014 11:16  ssh root@localhost -p 49158
+ 2799  30.8.2014 11:18  docker rmi ubuntu-play-api:12.04
+ 2800  30.8.2014 11:21  docker run -d -p 127.0.0.1:9000:9000 ubuntu-play-api
+ 2801  30.8.2014 11:22  docker port ubuntu-play-api:latest 9000
+ 2802  30.8.2014 11:22  docker port 4fd33bfac30e 9000
+ 2803  30.8.2014 11:24  docker -i -t -p 22 -p 9000 ubuntu-play-api:12.04
+ 2804  30.8.2014 11:24  docker run -i -t -p 22 -p 9000 ubuntu-play-api:12.04
+ 2805  30.8.2014 11:24  docker run -i -t -p 22 -p 9000 ubuntu-play-api
+ 2806  30.8.2014 11:27  docker-rm-images
+ 2807  30.8.2014 11:27  cd ubuntu_java_container
+ 2808  30.8.2014 11:27  rm id_rsa
+ 2809  30.8.2014 11:27  rm id_rsa.pub
+ 2810  30.8.2014 11:27  subl supervisord.conf
+ 2811  30.8.2014 11:28  cp ~/.ssh/id_rsa.pub .
+ 2812  30.8.2014 11:28  docker-build ubuntu-java:12.04
+ 2813  30.8.2014 11:32  docker run -i -t -p 22 -p 9000:9000 ubuntu-play-api:0.1
+ 2814  30.8.2014 11:36  dpi
+ 2815  30.8.2014 11:36  dpi rm
+ 2816  30.8.2014 11:36  docker-build ubuntu-play-api:0.1
+ 2817  30.8.2014 11:37  docker run -i -t -p 22:22 -p 9000:9000 ubuntu-play-api:0.1
+ 2818  30.8.2014 11:40  docker-stop-containers
+ 2819  30.8.2014 11:40  vim Dockerfile
+ 2820  30.8.2014 12:08  docker ps -a -q
+ 2821  30.8.2014 12:09  docker run -i -t -p 9000:9000
+ 2822  30.8.2014 12:10  docker run -i -t -p 9000:9000 ubuntu-play-api:0.1
+ 2823  30.8.2014 12:10  docker port b8ea5b96cef5 9000
+ 2824  30.8.2014 12:12  lcar
+ 2825  30.8.2014 12:17  source .zshrc
+ 2826  30.8.2014 16:00  dcoker images
+ 2827  30.8.2014 16:01  dcoker image
+ 2828  30.8.2014 16:01  docker image
+ 2829  30.8.2014 16:01  cd ubuntu_
+ 2830  30.8.2014 16:03  docker run -t -i -p 22 -p 9000:9000 ubuntu-play-api:0.1
+ 2831  30.8.2014 16:04  docker port d3e54593093e 9000
+ 2832  30.8.2014 16:07  dcoker run -d -p 22 -p 9000:9000 ubuntu-play-api:0.1
+ 2833  30.8.2014 16:08  docker logs 3fc8b5e1f68b
+ 2834  30.8.2014 16:23  ssh root@localhost -p 49154
+ 2835  30.8.2014 16:26  docker-build ubuntu-play-api
+ 2836  30.8.2014 16:26  docker run -i -t ubuntu-play-api
+ 2837  30.8.2014 16:27  docker run -i -t bin/bash ubuntu-play-api
+ 2838  30.8.2014 16:27  dcoker ps
+ 2839  30.8.2014 16:27  docker run -i -t ubuntu-play-api /bin/bash
+ 2840  30.8.2014 17:47  docker-build ubuntu-play-api:0.1
+ 2841  30.8.2014 17:48  docker run -d -p 22 -p 9000:9000 ubuntu-play-api:0.1
+ 2842  30.8.2014 17:48  docker logs a5c25e3a486c
+ 2843  30.8.2014 17:51  cat ~/.dockerrc
+ 2844  30.8.2014 17:51  more ~/.dockerrc
+ 2845  31.8.2014 10:21  boot2docker
+ 2846  31.8.2014 10:22  cd /usr/local/bin
+ 2847  31.8.2014 10:24  ls |grep fig
+ 2848  31.8.2014 10:24  cear
+ 2849  31.8.2014 10:24  chmod +x /usr/local/bin/fig
+ 2850  31.8.2014 10:30  dpc rm
+ 2851  31.8.2014 10:34  docker-rm-stopped-containers
+ 2852  31.8.2014 10:40  docker ip
+ 2853  31.8.2014 10:49  fig logs
+ 2854  31.8.2014 10:49  man fig
+ 2855  31.8.2014 10:50  sudo vim /private/etc/hosts
+ 2856  31.8.2014 11:20  fig
+ 2857  31.8.2014 11:20  fig start -d
+ 2858  31.8.2014 11:20  docke ps
+ 2859  31.8.2014 11:25  ssh -p 49156 root@dockerhost
+ 2861  31.8.2014 12:15  docker logs -f ubuntuplaycontainer_api
+ 2862  31.8.2014 12:15  docker logs -f ubuntuplaycontainer_api:latest
+ 2863  31.8.2014 12:16  docker logs -f e000f37e9d9b6
+ 2864  31.8.2014 12:16  docker logs -f e00f37e9d9b6
+ 2865  31.8.2014 12:18  ls /dev/stdout
+ 2866  31.8.2014 12:18  echo /dev/stdout
+ 2867  31.8.2014 12:18  echo test|/dev/stdout
+ 2868  31.8.2014 12:18  sudoecho test|/dev/stdout
+ 2869  31.8.2014 12:18  sudo echo test|/dev/stdout
+ 2870  31.8.2014 12:20  docker logs -f e00f37e9d9b7
+ 2871  31.8.2014 12:21  docker logs -f e00f37e9d9b7 > test
+ 2872  31.8.2014 12:21  docker logs -fd e00f37e9d9b7 > test
+ 2873  31.8.2014 12:21  docker logs -f e00f37e9d9b7 > test &
+ 2874  31.8.2014 12:21  docker logs -f e00f37e9d9b7 & > test
+ 2875  31.8.2014 12:22  docker logs -f e00f37e9d9b7 & > test &
+ 2876  31.8.2014 12:22  docker logs -f e00f37e9d9b7 > test
+ 2877  31.8.2014 12:24  activator
+ 2878  31.8.2014 12:29  cp target/universal/play-scala-1.0-SNAPSHOT.zip .
+ 2879  31.8.2014 12:29  unzip *.zip
+ 2880  31.8.2014 12:29  rm *.zip
+ 2881  31.8.2014 12:30  rm -rf play-scala-1.0-SNAPSHOT
+ 2882  31.8.2014 12:31  subl build.sbt
+ 2883  31.8.2014 12:31  activator dist
+ 2884  31.8.2014 12:33  rm target/universal/*.zip
+ 2885  31.8.2014 12:36  chmod +ux dist.sh
+ 2886  31.8.2014 12:36  cat myapp
+ 2887  31.8.2014 12:36  ls myapp
+ 2888  31.8.2014 12:41  rm -rf myapp
+ 2889  31.8.2014 12:41  cp ~/WorkSpace/program/play/simple_json_test/myapp.zip .
+ 2890  31.8.2014 12:41  unzip myapp.zip
+ 2891  31.8.2014 12:41  my simple-json-test-1.0-SNAPSHOT
+ 2892  31.8.2014 12:41  rm -rf simple-json-test-1.0-SNAPSHOT
+ 2893  31.8.2014 12:42  cd play
+ 2894  31.8.2014 12:42  cd simple_json_test
+ 2895  31.8.2014 12:42  rm myapp.zip
+ 2896  31.8.2014 12:42  subl dist.sh
+ 2897  31.8.2014 12:44  rm simple-json-test-1.0-SNAPSHOT.zip
+ 2898  31.8.2014 12:45  ./dist.sh
+ 2899  31.8.2014 12:46  cp ~/WorkSpace/program/play/simple_json_test/myapp .
+ 2900  31.8.2014 12:46  cp -r ~/WorkSpace/program/play/simple_json_test/myapp .
+ 2901  31.8.2014 12:46  dpi rmi
+ 2902  31.8.2014 12:47  docker images
+ 2903  31.8.2014 12:48  dpc logs > test
+ 2904  31.8.2014 12:48  cat test
+ 2905  31.8.2014 12:48  rm test
+ 2906  31.8.2014 12:57  boot2docker ip
+ 2907  31.8.2014 13:07  cat fig.yml
+ 2908  31.8.2014 13:08  docker-rm-all-containers
+ 2909  31.8.2014 13:08  fig up -d
+ 2910  31.8.2014 13:09  dpc logs
+ 2911  1.9.2014 10:02  cat Dockerfile
+ 2912  1.9.2014 10:37  cd iTunes
+ 2913  1.9.2014 10:37  cd Album\ Artwork
+ 2914  1.9.2014 10:37  cd iTunes\ Media
+ 2915  1.9.2014 10:37  cd M
+ 2916  1.9.2014 10:39  cp ../桜のあと\(all\ quartets\ lead\ to\ the_\)\ -\ Single/01\ 桜のあと\(All\ Quartets\ Lead\ To\ The_\).m4a .
+ 2917  1.9.2014 10:40  mv 01\ 桜のあと\(All\ Quartets\ Lead\ To\ The_\).m4a 03\ 桜のあと\(All\ Quartets\ Lead\ To\ The_\).m4a
+ 2918  1.9.2014 10:53  cd Music/iTunes/iTunes\ Media
+ 2919  1.9.2014 10:53  cd Music
+ 2920  1.9.2014 10:53  cd UNISON\ SQUARE\ GARDEN
+ 2921  1.9.2014 10:53  rm 03\ 桜のあと\(All\ Quartets\ Lead\ To\ The_\).m4a
+ 2922  1.9.2014 10:54  rm -rf Catcher\ In\ The\ Spy
+ 2923  1.9.2014 11:02  cd C
+ 2924  1.9.2014 11:02  cd Catcher\ In\ The\ Spy
+ 2925  1.9.2014 15:38  mkdir vagrant
+ 2926  1.9.2014 15:38  brew upgrade vagrant
+ 2927  1.9.2014 15:39  vagrant -version
+ 2928  1.9.2014 15:39  vagrant -v
+ 2929  1.9.2014 15:45  vagrant box
+ 2930  1.9.2014 15:45  vagrant box remove centos-x86-64
+ 2931  1.9.2014 15:58  vagrant box add centos64 http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.5-x86_64-v20140504.box
+ 2932  1.9.2014 16:38  mkdir ansible-tutorial
+ 2933  1.9.2014 16:39  vagrant init centos64
+ 2934  1.9.2014 16:41  mv ~/.vagrant.d/boxes/centos64 ~/.vagrant.d/boxes/centos6
+ 2935  1.9.2014 16:42  rm -rf ~/.vagrant.d/boxes/centos-x86-64
+ 2936  1.9.2014 16:42  rm Vagrantfile
+ 2937  1.9.2014 16:42  vagrant box list
+ 2938  1.9.2014 16:42  vagrant init centos6
+ 2939  1.9.2014 16:47  vagrant suspend node1
+ 2940  1.9.2014 16:47  vagrant suspend node2
+ 2941  1.9.2014 17:06  vagrant ssh-config node1 > ssh_config
+ 2942  1.9.2014 17:06  vagrant ssh-config node2 >> ssh_config
+ 2943  1.9.2014 17:06  rm ssh_config
+ 2944  1.9.2014 17:07  scp
+ 2945  1.9.2014 17:07  man scp
+ 2946  1.9.2014 17:09  brew install python
+ 2947  1.9.2014 17:10  easy_installpip
+ 2948  1.9.2014 17:10  easy_install pip
+ 2949  1.9.2014 17:10  python
+ 2950  1.9.2014 17:20  vagrant global-status
+ 2951  1.9.2014 17:52  mv ansible-tutorial my-ansible-tutorial
+ 2952  1.9.2014 17:53  git clone https://github.com/yteraoka/ansible-tutorial.git
+ 2953  1.9.2014 17:53  git checkout origin/playbook
+ 2954  1.9.2014 17:53  git branch
+ 2955  1.9.2014 17:54  subl wordpress.yml
+ 2956  1.9.2014 17:55  pip
+ 2957  1.9.2014 17:55  pip install ansible
+ 2958  1.9.2014 17:55  sudo pip install ansible
+ 2959  1.9.2014 17:57  ansible-playbook --list-tasks -i test-servers site.yml
+ 2960  1.9.2014 18:04  vagrant status node1
+ 2961  1.9.2014 18:07  curl localhost:8000
+ 2962  1.9.2014 18:07  ping 192.168.33.12
+ 2963  1.9.2014 20:03  openssl passwd -salt saltltl -1 assb
+ 2964  1.9.2014 21:39  boot2docker
+ 2965  1.9.2014 21:39  boot2docker status
+ 2966  1.9.2014 21:39  clea
+ 2967  2.9.2014 10:03  ssh ionazn.com
+ 2968  2.9.2014 10:03  ssh ionazn.org
+ 2969  2.9.2014 10:16  mkdir /etc/ansible
+ 2970  2.9.2014 10:16  sudo mkdir /etc/ansible
+ 2971  2.9.2014 10:16  cd /etc/ansible
+ 2972  2.9.2014 10:16  sudo subl hosts
+ 2973  2.9.2014 10:17  sudo vim hosts
+ 2974  2.9.2014 10:17  cat hosts o
+ 2975  2.9.2014 10:17  ansible -m ping
+ 2976  2.9.2014 10:17  ansible all -m ping
+ 2977  2.9.2014 10:18  ansible all -m -S ionazn ping
+ 2978  2.9.2014 10:18  ansible all -m -U ionazn ping
+ 2979  2.9.2014 10:19  ansible all -m ping -S ionazn
+ 2980  2.9.2014 10:19  ansible all -m ping --su
+ 2981  2.9.2014 10:19  ansible all -m ping --su a
+ 2982  2.9.2014 10:20  ansible all -m ping sudo_user=ionazn
+ 2983  2.9.2014 10:20  ansible all -m ping --sudo_user=ionazn
+ 2984  2.9.2014 10:21  ansible all --sudo-user=ionazn  -m ping
+ 2985  2.9.2014 10:21  ansible ionazn.org --sudo-user=ionazn  -m ping
+ 2986  2.9.2014 10:21  ssh ionazn@ionazn.org
+ 2987  2.9.2014 10:22  ansible ionazn.org --sudo-user=ionazn askpass=True  -m ping
+ 2988  2.9.2014 10:22  ansible ionazn.org --sudo-user=ionazn --askpass=True  -m ping
+ 2989  2.9.2014 10:22  ansible ionazn.org --sudo-user=ionazn --ask_pass=True  -m ping
+ 2990  2.9.2014 10:22  anzible
+ 2991  2.9.2014 10:23  ansible
+ 2992  2.9.2014 10:23  ansible ionazn.org --sudo-user=ionazn --ask-pass=True  -m ping
+ 2993  2.9.2014 10:23  ansible ionazn.org --sudo-user=ionazn --ask-pass  -m ping
+ 2994  2.9.2014 10:27  sudo vim /etc/host
+ 2995  2.9.2014 10:28  ansible free --ask-pass -m ping
+ 2996  2.9.2014 10:31  ansible free--ask-pass -m ping -c paramiko
+ 2997  2.9.2014 10:31  ansible free --ask-pass -m ping -c paramiko
+ 2998  2.9.2014 10:31  ansible free --user ionazn --ask-pass -m ping -c paramiko
+ 2999  2.9.2014 10:32  sudo vim /etc/ansible/hosts
+ 3000  2.9.2014 11:40  ansible ionazn.org -m ping
+ 3001  2.9.2014 12:00  ansible ionazn.org --user ionazn -m ping -c paramiko
+ 3002  2.9.2014 12:00  ansible ionazn.org --user ionazn --ask-pass -m ping -c paramiko
+ 3003  2.9.2014 12:31  mkdir ansible
+ 3004  2.9.2014 12:36  subl docker.yml
+ 3005  2.9.2014 13:16  vagrant simple-playbook.yml
+ 3006  2.9.2014 13:17  vagrant simple-playbook.yml > te
+ 3007  2.9.2014 13:17  cat te
+ 3008  2.9.2014 13:17  rm te
+ 3009  2.9.2014 13:18  scp -F node1@default:~/simple-playbook.yml
+ 3010  2.9.2014 13:18  scp -F node1@default:~/simple-playbook.yml .
+ 3011  2.9.2014 13:35  ╭( ・ㅂ・)و ̑̑
+ 3012  2.9.2014 14:56  cd WorkSpace/docker
+ 3013  2.9.2014 14:56  subl Dockerfile
+ 3014  2.9.2014 14:57  boot2docker start
+ 3015  2.9.2014 14:58  subl ubuntu_java_container
+ 3016  2.9.2014 14:58  subl ubuntu_java_container/Dockerfile
+ 3018  2.9.2014 14:59  docker ps
+ 3019  2.9.2014 14:59  fig up
+ 3020  2.9.2014 15:07  docker ps -a
+ 3021  2.9.2014 15:07  dpc stop
+ 3022  2.9.2014 15:07  dpc rm
+ 3023  2.9.2014 15:08  ps
+ 3024  2.9.2014 15:08  ps | grep zsh
+ 3025  2.9.2014 15:08  ps | peco
+ 3026  2.9.2014 15:15  boot2docker stop
+ 3027  2.9.2014 15:22  vagrant destryo node1
+ 3028  2.9.2014 15:24  scp -F ssh_config ~/.vagrant.d/insecure_private_key node1:.ssh/id/rsa
+ 3029  2.9.2014 15:26  vangrant ssh
+ 3030  2.9.2014 15:38  vagrant destroy node
+ 3031  2.9.2014 16:23  vagrant halt node1
+ 3032  2.9.2014 16:23  vagrant halt node2
+ 3033  2.9.2014 20:30  vagrant
+ 3034  3.9.2014 13:52  scp -F simple-playbook.yml node1:~/simple-playbook.yml
+ 3035  3.9.2014 13:52  scp -F simple-playbook.yml node1:simple-playbook.yml
+ 3036  3.9.2014 13:53  ssh vagrant
+ 3037  3.9.2014 13:58  scp ssh_config hosts node1:
+ 3038  3.9.2014 13:58  scp ssh_config hosts node1:hosts
+ 3039  3.9.2014 14:49  vagrant ssh-config > ssh_config
+ 3040  3.9.2014 14:54  cat ssh_config
+ 3041  3.9.2014 14:54  ;s
+ 3042  3.9.2014 15:26  vagrant node1
+ 3043  3.9.2014 16:19  scp -F ssh_config ~/.vagrant.d/insecure_private_key node1:.ssh/id_rsa
+ 3044  3.9.2014 16:19  scp -F ssh_config hosts node1:hosts
+ 3045  3.9.2014 16:34  scp -F ssh_config simple-playbook.yml node1:simple-playbook.yml
+ 3046  3.9.2014 16:34  vagrant ssh node1
+ 3047  3.9.2014 16:48  vagrant ssh node2
+ 3048  3.9.2014 16:55  tetris
+ 3049  3.9.2014 16:57  new-window
+ 3050  3.9.2014 17:00  cd Zomboid
+ 3051  3.9.2014 17:00  rm -rf Zomboid
+ 3052  3.9.2014 17:01  cd test
+ 3053  3.9.2014 17:01  rm -rf test
+ 3054  3.9.2014 17:03  cd inbox
+ 3055  3.9.2014 17:04  rm -rf inbox
+ 3056  3.9.2014 17:11  cd mac_home
+ 3057  3.9.2014 17:18  mkdir dotfiles
+ 3058  3.9.2014 17:20  cp ~/.dockerrc
+ 3059  3.9.2014 17:20  cp ~/.dockerrc .
+ 3060  3.9.2014 17:23  cat .dockerrc
+ 3061  3.9.2014 17:23  subl .dockerrc
+ 3062  3.9.2014 17:23  git init
+ 3063  3.9.2014 17:25  git remote add origin git@github.com:ababup1192/docker_server_dotfiles.git
+ 3064  3.9.2014 17:27  vagrant destroy node1
+ 3065  3.9.2014 17:27  vagrant destroy node2
+ 3066  3.9.2014 22:50  cd ansible-tutorial
+ 3067  3.9.2014 22:51  more common.yml
+ 3068  3.9.2014 22:51  more site.yml
+ 3069  3.9.2014 22:51  more wordpress.yml
+ 3070  3.9.2014 22:51  more test-servers
+ 3071  3.9.2014 22:52  cat epel.yml
+ 3072  3.9.2014 22:52  cat sshd.yml
+ 3073  3.9.2014 22:52  cd defaults
+ 3074  3.9.2014 22:52  cd handlers
+ 3075  3.9.2014 22:52  cat main.yml
+ 3076  4.9.2014 14:31  subl my-ansible-tutorial/simple-playbook.yml
+ 3077  4.9.2014 15:02  cat /etc/ansible/hosts my-ansible-tutorial
+ 3078  4.9.2014 15:02  cat /etc/ansible/hosts
+ 3079  4.9.2014 15:03  cd .ansible
+ 3080  4.9.2014 15:03  cd cp
+ 3082  4.9.2014 15:14  rm docker.yml
+ 3083  4.9.2014 15:24  cp ../vagrant/my-ansible-tutorial/Vagrantfile .
+ 3084  4.9.2014 15:27  subl .ssh/config
+ 3085  4.9.2014 15:28  cd .vagrant.d/
+ 3086  4.9.2014 15:28  cd boxes
+ 3087  4.9.2014 15:28  cd centos6
+ 3088  4.9.2014 15:28  cd tmp
+ 3090  4.9.2014 15:33  subl hosts
+ 3091  4.9.2014 15:36  ansible -i hosts 192.168.33.10 -m ping
+ 3092  4.9.2014 15:36  ansible -i hosts 192.168.33.10 -m ping -vvv
+ 3093  4.9.2014 15:37  cat hosts
+ 3094  4.9.2014 15:37  ansible -i hosts 192.168.33.10 -m ping -vvvv
+ 3095  4.9.2014 15:38  ansible -i hosts 192.168.33.10 -m ping -k
+ 3096  4.9.2014 15:40  ansible -i hosts 192.168.33.10 -m ping -vvvv |grep ESTABLISH
+ 3097  4.9.2014 15:40  vim ~/.ssh/config
+ 3098  4.9.2014 15:40  ansible -i hosts 192.168.33.10 -m ping
+ 3099  4.9.2014 15:41  ssh 192.168.33.19
+ 3100  4.9.2014 15:41  ssh 192.168.33.10
+ 3101  4.9.2014 15:41  ssh vagrant@192.168.33.10
+ 3102  4.9.2014 15:42  vim hosts
+ 3103  4.9.2014 15:43  touch ansible.cfg
+ 3104  4.9.2014 15:44  touch common.yml
+ 3105  4.9.2014 15:44  touch group_vars
+ 3106  4.9.2014 15:44  touch host_vars
+ 3107  4.9.2014 15:44  mkdir -p roles/common
+ 3108  4.9.2014 15:45  mkdir defaults files handlers meta tasks vars
+ 3109  4.9.2014 15:45  touch main.yml
+ 3110  4.9.2014 15:45  more Vagrantfile
+ 3111  4.9.2014 15:51  brew install tree
+ 3112  4.9.2014 15:51  gdal_contour site.yml
+ 3113  4.9.2014 15:51  to site.yml
+ 3114  4.9.2014 15:52  touch site.yml
+ 3115  4.9.2014 15:52  touch stage
+ 3116  4.9.2014 15:52  tree stage
+ 3117  4.9.2014 15:56  vim ansible.cfg
+ 3118  4.9.2014 15:57  vim stage
+ 3119  4.9.2014 15:59  subl site.yml
+ 3120  4.9.2014 15:59  subl common.yml
+ 3121  4.9.2014 16:02  cat common.yml
+ 3122  4.9.2014 16:04  subl .
+ 3123  4.9.2014 16:09  cat site.yml
+ 3124  4.9.2014 16:10  rm group_vars
+ 3125  4.9.2014 16:11  rm host_vars
+ 3126  4.9.2014 16:11  rm host
+ 3127  4.9.2014 16:11  rm hosts
+ 3128  4.9.2014 16:14  git version
+ 3129  4.9.2014 16:17  git remote add origin git@github.com:ababup1192/ansible_skeleton.git
+ 3130  4.9.2014 16:20  rm -rf *
+ 3131  4.9.2014 16:20  mv ansible_skeleton ansible_docker
+ 3132  4.9.2014 16:32  cd WorkSpace/program
+ 3133  4.9.2014 16:33  cd vagrant
+ 3134  4.9.2014 16:33  l
+ 3135  4.9.2014 16:33  scd my-ansible-tutorial
+ 3136  4.9.2014 16:33  cd my-ansible-tutorial
+ 3137  4.9.2014 16:33  subl simple-playbook.yml
+ 3138  4.9.2014 16:53  ansible-playbook site.yml -i production
+ 3139  4.9.2014 16:54  cat production -y
+ 3140  4.9.2014 17:03  git clone ansible_docker
+ 3141  4.9.2014 17:04  git clone git@github.com:ababup1192/ansible_skeleton.git
+ 3142  4.9.2014 17:04  cd ansible_skeleton
+ 3143  4.9.2014 17:07  mkdir host_vars
+ 3144  4.9.2014 17:07  mkdir group_vars
+ 3146  4.9.2014 17:07  git pull
+ 3147  4.9.2014 17:08  git log
+ 3148  4.9.2014 17:09  git add host_vers
+ 3149  4.9.2014 17:09  git add host_vars
+ 3150  4.9.2014 17:09  git add group_vars
+ 3151  4.9.2014 17:10  vim .git
+ 3152  4.9.2014 17:11  git add -f host_vars
+ 3153  4.9.2014 17:11  git status
+ 3154  4.9.2014 17:12  touch host_vars/.gitkeep
+ 3155  4.9.2014 17:12  touch group_vars/.gitkeep
+ 3156  4.9.2014 17:14  subl ionazn.org
+ 3157  4.9.2014 17:15  python -c 'import crypt; print crypt("i0naZn02", "$1$SomeSalt$")'
+ 3158  4.9.2014 17:16  python -c 'import crypt; print crypt.crypt("i0naZn02", "$1$SomeSalt$")'
+ 3159  4.9.2014 17:18  openssl passwd -1 -salt "$1$SomeSalt$" "i0naZn02"
+ 3160  4.9.2014 17:18  openssl passwd -salt "$1$SomeSalt$" "i0naZn02"
+ 3161  4.9.2014 17:19  perl -e 'print crypt("i0naZn02", "$1$SomeSalt$");'
+ 3162  4.9.2014 17:19  perl -e 'print crypt("i0naZn02", "\$1\$SomeSalt\$");'
+ 3163  4.9.2014 17:20  perl -e 'print crypt("i0naZn02", "DockerSalt");'
+ 3164  4.9.2014 17:24  cat ionazn.org
+ 3165  4.9.2014 17:25  vim host_vars/ionazn.org
+ 3166  4.9.2014 17:25  cat host_vars/ionazn.org
+ 3167  4.9.2014 17:30  mkdir vars
+ 3168  4.9.2014 17:33  cd vars
+ 3169  4.9.2014 17:34  rm ionazn.org
+ 3170  4.9.2014 17:34  cd roles/common
+ 3171  4.9.2014 17:35  cd .astah/community
+ 3172  4.9.2014 17:35  vim config
+ 3173  4.9.2014 17:36  ansible-playbook site.yml -i production
+ 3174  4.9.2014 17:36  ansible-playbook site.yml -i production -vvvv
+ 3175  4.9.2014 17:36  ansible-playbook site.yml -i production -vvvv | grep user
+ 3176  4.9.2014 17:38  ansible-playbook site.yml -i production -vvvv | grep USER
+ 3177  4.9.2014 17:39  ansible-playbook site.yml -i production -k -vv
+ 3178  4.9.2014 17:39  ansible-playbook site.yml -i production -k -vvvv
+ 3179  4.9.2014 17:40  ansible-playbook site.yml -i production -c ssh
+ 3180  4.9.2014 17:40  ansible-playbook site.yml -i production -c ssh -k
+ 3181  4.9.2014 17:41  brew install https://raw.github.com/eugeneoden/homebrew/eca9de1/Library/Formula/sshpass.rb
+ 3182  4.9.2014 17:41  ansible-playbook site.yml -i production -k
+ 3183  4.9.2014 17:43  ansible-playbook site.yml -i production -k --ask-sudo-pass
+ 3184  4.9.2014 17:45  ansible-playbook site.yml -i production -k -K
+ 3185  4.9.2014 17:48  ansible-playbook site.yml -i production -kK
+ 3186  4.9.2014 17:48  ansible-playbook site.yml -kK
+ 3187  4.9.2014 17:50  lsls
+ 3188  4.9.2014 17:50  cd group_vars
+ 3189  4.9.2014 17:50  cd host_vars
+ 3190  4.9.2014 17:50  touch .gitkeep
+ 3193  4.9.2014 17:54  subl utility.yml
+ 3194  4.9.2014 18:07  vagran status
+ 3195  4.9.2014 18:29  ansible-playbook site.yml -vvvv
+ 3196  4.9.2014 18:36  cat ~/site.retry
+ 3197  4.9.2014 20:04  ssh-add
+ 3198  4.9.2014 20:04  man ssh-add
+ 3199  4.9.2014 20:23  vim Vagrantfile
+ 3200  4.9.2014 20:26  cd ~/.ssh
+ 3201  4.9.2014 20:27  ssh-keygen -q -f ./github_deploy
+ 3202  4.9.2014 20:27  cd unirings
+ 3203  4.9.2014 20:27  ssh-add github_deploy
+ 3204  4.9.2014 20:27  ssh-add -l
+ 3205  4.9.2014 20:28  cat github_deploy.pub
+ 3206  4.9.2014 20:30  git clone git@github.com:ababup1192/sccp_project_2014_first.git
+ 3207  4.9.2014 20:31  rm -rf sccp_project_2014_first
+ 3208  4.9.2014 20:44  ansible-playbook site.yml --private-key=~/.vagrant.d/insecure_private_key
+ 3209  4.9.2014 20:44  ansible-playbook site.yml --private-key=~/.vagrant.d/insecure_private_key -t git
+ 3210  4.9.2014 20:44  cat Vagrantfile
+ 3211  4.9.2014 20:45  more Vagrantfile
+ 3212  4.9.2014 20:46  cat Vagrantfile|grep ssh
+ 3213  4.9.2014 20:47  ANSIBLE_SSH_ARGS="-o ForwardAgent=yes" ansible-playbook --private-key=~/.vagrant.d/insecure_private_key -u git
+ 3214  4.9.2014 20:47  ANSIBLE_SSH_ARGS="-o ForwardAgent=yes" ansible-playbook --private-key=~/.vagrant.d/insecure_private_key -t git
+ 3215  4.9.2014 20:48  ANSIBLE_SSH_ARGS="-o ForwardAgent=yes" ansible-playbook site.yml --private-key=~/.vagrant.d/insecure_private_key -t git
+ 3216  4.9.2014 20:55  ANSIBLE_SSH_ARGS="-o ForwardAgent=yes" ansible-playbook site.yml -t git
+ 3217  4.9.2014 20:57  subl ansible.cfg
+ 3218  4.9.2014 20:58  ansible-playbook site.yml -i production -t git
+ 3219  4.9.2014 20:58  ansible-playbook site.yml -i production -t git -kK
+ 3220  4.9.2014 21:07  ansible-playbook site.yml -t git
+ 3222  4.9.2014 22:00  cd dotfiles
+ 3223  4.9.2014 22:00  rm -rf dotfiles
+ 3224  4.9.2014 22:00  git clone git@github.com:ababup1192/docker_server_dotfiles.git
+ 3225  4.9.2014 22:01  vim .dockerrc
+ 3226  4.9.2014 22:11  cd temp/ls
+ 3227  4.9.2014 22:11  cd temp/
+ 3228  4.9.2014 22:11  cat .zshrc
+ 3229  4.9.2014 22:11  more .zshrc
+ 3230  4.9.2014 22:12  more .dockerrc
+ 3231  4.9.2014 22:25  ansible-playbook site.yml -t service
+ 3232  4.9.2014 22:38  ssh test@localhost -p 2222
+ 3235  4.9.2014 22:48  mkdir templates/etc/ssh
+ 3236  4.9.2014 22:48  cd templates
+ 3237  4.9.2014 22:48  cd etc
+ 3238  4.9.2014 22:48  cd ssh
+ 3239  4.9.2014 22:48  subl ssh_config.js
+ 3240  4.9.2014 22:57  cd ../../..
+ 3241  4.9.2014 23:07  vagrant destroy docker
+ 3242  4.9.2014 23:22  ansible-playbook site.yml -t user
+ 3243  4.9.2014 23:28  perl -e 'print crypt("docker", "DockerSalt");'
+ 3244  4.9.2014 23:29  python -c 'import crypt; print crypt.crypt("docker", "DockerSalt")'
+ 3245  4.9.2014 23:30  python -c 'import crypt; print crypt.crypt("docker?!dsada032", "DockerSalt")'
+ 3246  5.9.2014 15:41  ssh-aizuX
+ 3247  5.9.2014 16:21  subl Vagrantfile
+ 3248  5.9.2014 16:44  perl -e 'print crypt(“passwd", “$1$Salt$");'
+ 3249  5.9.2014 16:45  perl -e 'print crypt(“passwd", “""""$Salt$");'
+ 3250  5.9.2014 16:46  perl -e 'print crypt("passwd", "$1$Salt$");’
+ 3251  5.9.2014 16:46  perl -e 'print crypt("passwd", "$1$Salt$");'
+ 3252  5.9.2014 16:48  perl -e ‘print crypt(“password”, “$1$Salt$”);’
+ 3253  5.9.2014 16:48  perl -e 'print crypt("password", "$1$Salt$");'
+ 3254  5.9.2014 16:49  perl -e 'print crypt("password", "$1$Salt");'
+ 3255  5.9.2014 16:49  perl -e 'print crypt("passwrd", "$1$Salt");'
+ 3256  5.9.2014 16:49  perl -e 'print crypt("passwrd", "$1$Salt$");'
+ 3257  5.9.2014 16:49  perl -e 'print crypt("passwrd", "$1$Salt\$");'
+ 3258  5.9.2014 16:49  perl -e 'print crypt("passwrd", "\$1\$Salt\$");'
+ 3259  5.9.2014 16:50  python -c 'import crypt; print crypt.crypt(“passwd", "$1$Salt$")'
+ 3260  5.9.2014 16:53  python -c 'import crypt; print crypt.crypt("passwd", "$1$Salt$")'
+ 3261  5.9.2014 16:53  python -c 'import crypt; print crypt.crypt("docker", "$1$DockerSalt$")'
+ 3262  5.9.2014 17:00  vagrant ssh docker
+ 3263  5.9.2014 17:05  vagrant ssh
+ 3264  5.9.2014 17:13  openssl
+ 3265  5.9.2014 17:13  openssl passwd -salt 'DockerSalt' -1 'docker'
+ 3266  5.9.2014 17:16  ssh vagrant@localhost -p 2222
+ 3267  5.9.2014 17:17  vim .ssh
+ 3268  5.9.2014 17:18  vim known_hosts
+ 3269  5.9.2014 17:19  cd .vagrant.d
+ 3270  5.9.2014 17:19  cat insecure_private_key
+ 3273  5.9.2014 17:23  cat group_vars
+ 3274  5.9.2014 17:23  cat host_vars/192.168.33.10
+ 3275  5.9.2014 17:27  cat .git
+ 3276  5.9.2014 17:27  cat .gitignore
+ 3277  5.9.2014 17:27  rm -rf .git
+ 3278  5.9.2014 17:27  git init
+ 3279  5.9.2014 17:27  git remote add origin git@github.com:ababup1192/ansible_docker.git
+ 3280  5.9.2014 17:27  git push -u origin master
+ 3283  5.9.2014 17:31  subl ~/.zshrc
+ 3284  5.9.2014 17:39  cd temp
+ 3285  5.9.2014 17:44  cd WorkSpace/temp
+ 3286  5.9.2014 17:45  cd docker_server_dotfiles
+ 3287  5.9.2014 17:46  subl .zshrc
+ 3288  5.9.2014 17:50  ansible-playbook site.yml
+ 3289  5.9.2014 17:53  vagrant ssh ansible
+ 3290  5.9.2014 17:53  ssh docker@localhost -p 2222
+ 3291  5.9.2014 17:54  cd /etc
+ 3292  5.9.2014 17:55  cd paths.d
+ 3293  5.9.2014 17:55  cd mach_init.d/
+ 3294  5.9.2014 18:02  vim production
+ 3295  5.9.2014 18:04  subl production
+ 3296  5.9.2014 18:06  vim .gitignore
+ 3297  5.9.2014 18:11  openssl passwd -salt 'DockerSalt' -l 'i0naZn02'
+ 3298  5.9.2014 18:11  openssl passwd -salt 'DockerSalt' -1 'i0naZn02'
+ 3299  5.9.2014 18:12  git add .
+ 3300  5.9.2014 18:12  git add -u .
+ 3301  5.9.2014 18:12  git commit
+ 3302  5.9.2014 18:13  git push
+ 3303  5.9.2014 18:21  ansible-playbook -i production site.yml -kK -vvvv
+ 3304  5.9.2014 18:25  ansible-playbook -i production -kK -m ping
+ 3305  5.9.2014 18:25  ansible-playbook -i production -m ping -kK
+ 3306  5.9.2014 18:25  ansible-i production -m ping -kK
+ 3307  5.9.2014 18:26  ansible -i production -m ping -kK
+ 3308  5.9.2014 18:26  ansible -i production -m ping -kK
+ 3309  5.9.2014 18:26  ansible -i production -m ping -k
+ 3310  5.9.2014 18:26  ansible -i production -m ping
+ 3311  5.9.2014 18:26  ansible -i production ionazn.org -m ping
+ 3312  5.9.2014 18:27  nslookup ionazn.org
+ 3313  5.9.2014 18:29  nslookup 133.242.148.170
+ 3314  5.9.2014 18:30  ssh root@ionazn.org
+ 3315  5.9.2014 18:31  more ~/.ssh/known_hosts
+ 3316  5.9.2014 18:31  vim ~/.ssh/known_hosts
+ 3317  5.9.2014 18:31  exit
+ 3318  5.9.2014 18:31  vagrant up
+ 3319  5.9.2014 18:32  ansible -m ping -vvvv
+ 3320  5.9.2014 18:33  ansible -i stage -m ping -vvvv
+ 3321  5.9.2014 18:33  cat stage
+ 3322  5.9.2014 18:33  ansible -i stage 192.168.33.10 -m ping -vvvva
+ 3323  5.9.2014 18:33  ansible -i production ionazn.org -m ping -vvvv
+ 3324  5.9.2014 18:33  ansible -i production ionazn.org -m ping -kK
+ 3325  5.9.2014 18:34  ansible -i production ionazn.org -m ping -k
+ 3326  5.9.2014 18:34  ansible-playbook -i production -k
+ 3327  5.9.2014 18:34  ansible-playbook -i production docker-server -k
+ 3328  5.9.2014 18:35  cat production
+ 3329  5.9.2014 18:35  ansible-playbook -i production docker-server -kK
+ 3330  5.9.2014 18:35  ansible-playbook -i production -kK
+ 3331  5.9.2014 18:35  ansible-playbook -i production site.yml -kK
+ 3332  5.9.2014 18:41  free
+ 3335  5.9.2014 19:00  vagrant destroy ansible
+ 3336  5.9.2014 23:04  d
+ 3338  6.9.2014 14:30  cd .ssh
+ 3339  6.9.2014 14:30  more config
+ 3340  6.9.2014 14:30  subl config
+ 3341  6.9.2014 15:12  ls | grep bin
+ 3342  6.9.2014 15:12  vim .zshrc
+ 3343  6.9.2014 18:07  coear
+ 3344  6.9.2014 21:54  nslookup http://www.u-aizu.ac.jp
+ 3345  6.9.2014 21:54  traceroute www.u-aizu.ac.jp
+ 3346  6.9.2014 21:55  nslookup www.u-aizu.ac.jp
+ 3348  6.9.2014 23:25  cd shiori
+ 3349  6.9.2014 23:25  rm -rf shiori
+ 3350  6.9.2014 23:25  mkdir basic
+ 3351  6.9.2014 23:32  subl sort.c
+ 3352  6.9.2014 23:38  gcc sort.c
+ 3353  6.9.2014 23:42  cp sort2.c
+ 3354  6.9.2014 23:42  cp sort.c sort2.c
+ 3355  6.9.2014 23:42  subl sort2.c
+ 3356  6.9.2014 23:45  gcc sort2.c
+ 3357  6.9.2014 23:45  cp sort2.c sort3.c
+ 3358  6.9.2014 23:46  subl sort3.c
+ 3359  7.9.2014 00:03  gcc sort3.c
+ 3361  7.9.2014 00:14  gcc test.c
+ 3362  7.9.2014 00:20  mv test.c pointer.c
+ 3364  7.9.2014 21:54  ssh rose
+ 3365  8.9.2014 01:02  sftp
+ 3366  8.9.2014 01:02  sftp d8161105@sshgate.u-aizu.ac.jp
+ 3367  8.9.2014 01:11  rm pointer.c
+ 3368  8.9.2014 01:11  sftp ionazn@ionazn.org
+ 3369  8.9.2014 01:15  sftp aizu
+ 3370  8.9.2014 21:34  ks
+ 3371  9.9.2014 10:26  cd Google\ ドライブ
+ 3373  11.9.2014 20:18  mkdir aoj
+ 3374  11.9.2014 20:25  cd basic
+ 3375  11.9.2014 20:25  cat sort
+ 3376  11.9.2014 20:25  cat sort3.c
+ 3377  11.9.2014 20:28  mv aoj c
+ 3379  11.9.2014 20:28  cd aoj
+ 3380  11.9.2014 20:29  gcc v0-1.c
+ 3381  11.9.2014 20:36  ruby v0-1.rb
+ 3382  11.9.2014 20:39  subl in0-1
+ 3383  11.9.2014 20:39  ruby v0-1.rb < in0-1
+ 3384  11.9.2014 20:44  subl v0-1.java
+ 3385  11.9.2014 20:46  javac v0-1.java
+ 3386  11.9.2014 20:47  mkdir v0-1
+ 3387  11.9.2014 20:47  mv v0-1.java v0-1
+ 3388  11.9.2014 20:47  mv v0-1.java Main.java
+ 3389  11.9.2014 20:48  mv in0-1 v0-1
+ 3390  11.9.2014 20:48  mv v0-1.* v0-1
+ 3391  11.9.2014 20:48  cd v0-1
+ 3392  11.9.2014 20:48  subl Main.java
+ 3393  11.9.2014 20:49  javac Main.java
+ 3394  11.9.2014 20:52  java Main < in0-1
+ 3395  11.9.2014 20:52  subl v0-1.c
+ 3396  11.9.2014 20:52  subl v0-1.rb
+ 3397  12.9.2014 08:36  mkdir v0-2
+ 3398  12.9.2014 08:39  1
+ 3399  12.9.2014 08:41  cd v0-2
+ 3400  12.9.2014 08:59  gcc eof.c
+ 3401  12.9.2014 09:01  subl v0-2a.c
+ 3402  12.9.2014 09:08  subl eof.c
+ 3403  12.9.2014 09:18  gcc v0-2a.c
+ 3404  12.9.2014 09:18  cp v0-2a.c v0-2b.c
+ 3405  12.9.2014 09:18  subl v0-2.c
+ 3406  12.9.2014 09:18  subl v0-2b.c
+ 3407  12.9.2014 09:23  gcc v0-2b.c
+ 3408  12.9.2014 09:28  subl v0-2.rb
+ 3409  12.9.2014 09:29  ruby v0-2.rb
+ 3410  12.9.2014 09:34  ruby v0-2.rb < input
+ 3411  12.9.2014 10:17  mkdir v0-3
+ 3412  12.9.2014 10:17  cd v0-
+ 3413  12.9.2014 10:17  cd v0-3
+ 3414  12.9.2014 10:17  subl v0-3.c
+ 3415  12.9.2014 10:23  subl input
+ 3416  12.9.2014 10:23  ./a.out <input
+ 3417  12.9.2014 10:27  gcc v0-3.c
+ 3418  12.9.2014 10:27  ./a.out < input
+ 3419  12.9.2014 21:46  gcc aoj0-4.c
+ 3420  12.9.2014 21:46  2 -1 -3 1 -1 -3
+ 3421  12.9.2014 21:46  2 -1 -3 -9 9 27
+ 3423  13.9.2014 18:35  gcc aoj0-5.c
+ 3424  13.9.2014 19:11  subl reverse.c
+ 3425  13.9.2014 19:21  gcc reverse.c
+ 3426  13.9.2014 19:23  cd Downloads
+ 3427  13.9.2014 19:24  gcc pra3.c
+ 3428  13.9.2014 19:24  cd
+ 3429  13.9.2014 19:24  subl string.c
+ 3430  13.9.2014 19:50  gcc reverse2.c
+ 3431  13.9.2014 20:24  subl pointer.c
+ 3432  13.9.2014 20:26  gcc pointer.c
+ 3433  13.9.2014 20:54  gcc string.c
+ 3434  13.9.2014 22:46  gcc debt.c
+ 3435  13.9.2014 22:47  subl debt.c
+ 3436  15.9.2014 21:15  launchctl
+ 3437  15.9.2014 21:15  man launchctl
+ 3438  16.9.2014 15:09  subl sumof.c
+ 3439  16.9.2014 15:25  cp sumof.c sumof1.c
+ 3440  16.9.2014 15:25  subl sumof1.c
+ 3441  16.9.2014 15:32  gcc sumof1.c
+ 3442  16.9.2014 15:46  gcc sumof
+ 3444  16.9.2014 17:19  gcc sumof.c
+ 3445  16.9.2014 17:21  subl out
+ 3446  16.9.2014 17:23  time ./a.out < in > out
+ 3447  16.9.2014 17:23  gcc prime.c
+ 3448  16.9.2014 17:23  time ./a.out < in
+ 3449  16.9.2014 17:26  subl test.cpp
+ 3450  16.9.2014 17:26  g++ test.cpp
+ 3451  16.9.2014 17:28  cp prime.c prime.c
+ 3452  16.9.2014 17:28  cp prime.c prime2.c
+ 3453  16.9.2014 17:29  subl prime
+ 3454  16.9.2014 17:29  subl prime2.c
+ 3455  16.9.2014 17:37  gcc prime2.c
+ 3457  16.9.2014 21:08  subl test.c
+ 3458  16.9.2014 21:11  subl variable.c
+ 3459  16.9.2014 21:14  cp loop.c loop1.c
+ 3460  16.9.2014 21:15  subl loop1.c
+ 3461  16.9.2014 21:16  cp loop1.c loop2.c
+ 3462  16.9.2014 21:16  subl loop2.c
+ 3463  16.9.2014 21:19  subl array.c
+ 3464  16.9.2014 21:30  subl func.c
+ 3465  16.9.2014 22:28  gcc variable.c
+ 3466  16.9.2014 22:39  gcc loop
+ 3467  16.9.2014 22:39  gcc loop.c
+ 3468  16.9.2014 22:46  gcc loop1.c
+ 3469  16.9.2014 22:50  gcc loop2.c
+ 3470  16.9.2014 23:13  gcc array.c
+ 3471  16.9.2014 23:36  gcc func.c
+ 3473  17.9.2014 23:31  cd /Applications/iTunes.app/Contents/MacOS/iTunesHelper.app/
+ 3474  17.9.2014 23:32  cd /Library/iTunes/iTunes\ Plug-ins
+ 3490  18.9.2014 16:21  cd /Library/Application\ Support/
+ 3491  18.9.2014 16:23  ls -a
+ 3492  18.9.2014 16:26  cd Applications
+ 3494  18.9.2014 16:26  cd Library
+ 3496  18.9.2014 16:26  sudo find -n Sublime
+ 3497  18.9.2014 16:27  sudo find -name Sublime
+ 3498  18.9.2014 16:27  sudo find -name Sublime /
+ 3499  18.9.2014 16:27  sudo find / -name Sublime
+ 3500  18.9.2014 16:27  sudo find / -name "Sublime"
+ 3501  18.9.2014 16:38  cd dev
+ 3505  18.9.2014 16:38  subl prime.c
+ 3506  18.9.2014 17:44  gcc su
+ 3537  18.9.2014 18:02  gcc stuck.c
+ 3543  18.9.2014 21:28  nslookup www.google.com
+ 3544  18.9.2014 21:29  nslookup http://judge.u-aizu.ac.jp
+ 3545  18.9.2014 21:29  nslookup judge.u-aizu.ac.jp
+ 3547  18.9.2014 21:33  nslookup google.com
+ 3548  18.9.2014 21:33  nslookup google.co.jp
+ 3553  18.9.2014 23:22  say Circumscribed
+ 3555  18.9.2014 23:23  subl circle.c
+ 3556  18.9.2014 23:39  gcc circle.c
+ 3562  19.9.2014 06:11  ld
+ 3567  19.9.2014 06:12  cd /Library/Preference
+ 3568  19.9.2014 06:12  cd /Library/Preferences
+ 3570  19.9.2014 06:12  ls | grep Sub
+ 3573  19.9.2014 06:12  cd Application\ Support
+ 3579  19.9.2014 09:33  ssh aizu
+ 3581  19.9.2014 09:49  ssh -L 8080:web-int.u-aizu.ac.jp:80 d8161105@sshgate.u-aizu.ac.jp
+ 3583  19.9.2014 15:30  brew list
+ 3586  19.9.2014 15:37  ps
+ 3601  19.9.2014 16:04  sudo find / -name "subl*"
+ 3602  19.9.2014 16:05  sudo find / -name "sublime*"
+ 3605  19.9.2014 21:55  cd WorkSpace/
+ 3607  19.9.2014 22:14  ls -l /usr/bin/subl
+ 3610  20.9.2014 19:30  say doctoral
+ 3612  21.9.2014 21:01  say supplementing
+ 3616  21.9.2014 23:02  cd /
+ 3617  21.9.2014 23:02  ls -l
+ 3624  21.9.2014 23:13  cd Wo
+ 3626  21.9.2014 23:13  mkdir hoge
+ 3629  21.9.2014 23:13  tree
+ 3630  21.9.2014 23:13  tree .
+ 3635  21.9.2014 23:13  touch file1
+ 3636  21.9.2014 23:13  touch file2
+ 3637  21.9.2014 23:13  mkdir foo
+ 3638  21.9.2014 23:14  cd foo
+ 3639  21.9.2014 23:14  sl
+ 3640  21.9.2014 23:14  touch file3
+ 3641  21.9.2014 23:14  touch file4
+ 3644  21.9.2014 23:14  mkdir bar
+ 3647  21.9.2014 23:14  mkdir foobar
+ 3649  21.9.2014 23:14  cd foobar
+ 3651  21.9.2014 23:15  touch file5
+ 3655  21.9.2014 23:15  tree hoge
+ 3657  21.9.2014 23:15  cd hoge
+ 3658  21.9.2014 23:15  cd bar
+ 3660  21.9.2014 23:15  pwd
+ 3661  21.9.2014 23:47  s
+ 3664  21.9.2014 23:47  rm -rf hoge
+ 3685  22.9.2014 14:31  cd c
+ 3687  22.9.2014 14:31  mkdir ant
+ 3688  22.9.2014 14:31  cd ant
+ 3690  22.9.2014 14:31  subl fib1.c
+ 3691  22.9.2014 14:38  gcc fib1.c
+ 3693  22.9.2014 14:39  time ./a.out
+ 3694  22.9.2014 14:39  subl fib2.c
+ 3695  22.9.2014 14:41  gcc fib2.c
+ 3698  22.9.2014 14:44  subl fact.c
+ 3703  22.9.2014 14:46  gcc fact.c
+ 3704  22.9.2014 14:46  10
+ 3706  22.9.2014 14:48  subl partial.c
+ 3712  22.9.2014 15:03  ./a.out
+ 3718  22.9.2014 15:04  ./a.out
+ 3732  22.9.2014 15:08  subl in
+ 3734  22.9.2014 15:11  gcc partial.c
+ 3735  22.9.2014 15:11  ./a.out < in
+ 3736  25.9.2014 16:06  tmux
+ 3737  25.9.2014 16:07  weechat
+ 3738  25.9.2014 16:07  cd ~/WorkSpace/program/mimamorl/android/mimamorlAndroid;clear
+ 3739  25.9.2014 16:07  ssh zaoriku
+ 3740  25.9.2014 16:07  ssh mimamorl
+ 3742  25.9.2014 16:07  cd ~/Dropbox/*/src/mimamorlHTML;clear
+ 3743  25.9.2014 16:07  cd ~/Downloads;clear
+ 3744  25.9.2014 16:07  tmux selectp -R;tmux selectp -U;tmux clock-mode;tmux selectp -L
+ 3745  25.9.2014 16:07  cd ~/WorkSpace/program/mimamorl/scala/mimamorlAPI;clear
+ 3746  25.9.2014 16:07  cd ~/WorkSpace/program/mimamorl/scala/mimamorlWeb;clear
+ 3747* 25.9.2014 16:07  cd ~/Copy;clear
+ 3748* 25.9.2014 16:07  cd ~/Workspace;clear
+ 3749  26.9.2014 15:52  cd Desktop
+ 3751  26.9.2014 15:52  tee aa
+ 3752  26.9.2014 15:52  cat aa
+ 3754  26.9.2014 15:52  tee file contents
+ 3755  26.9.2014 15:52  echo test | tee file
+ 3757  26.9.2014 15:52  cat file
+ 3759  26.9.2014 15:53  rm aa
+ 3760  26.9.2014 15:53  rm contents file
+ 3764  26.9.2014 17:58  scala
+ 3766  26.9.2014 21:31  clear
+ 3768  28.9.2014 08:07  cd WorkSpace
+ 3770  28.9.2014 08:07  cd program
+ 3774  28.9.2014 08:07  cd docker
+ 3776  28.9.2014 08:07  cd ubuntu_play_container
+ 3778  28.9.2014 08:07  subl fig.yml
+ 3779* 28.9.2014 08:08  ssh ionazn
+ 3784  28.9.2014 08:09  cd ansible
+ 3788  28.9.2014 08:09  cd roles
+ 3790  28.9.2014 08:09  cd common
+ 3792  28.9.2014 08:09  cd tasks
+ 3794  28.9.2014 08:09  subl dotfiles.yml
+ 3796  28.9.2014 08:10  subl main.yml
+ 3797  28.9.2014 08:10  subl service.yml
+ 3799  28.9.2014 13:06  cd ..
+ 3800  28.9.2014 13:06  cd
+ 3801  28.9.2014 13:06  cd WorkSpace/ansible
+ 3803  28.9.2014 13:06  cd ansible_
+ 3805  28.9.2014 13:06  cd ansible_docker
+ 3807  28.9.2014 13:06  subl README
+ 3809  28.9.2014 13:07  vagrant status
+ 3810  28.9.2014 13:08  ls
+ 3811  28.9.2014 13:08  open .
+ 3813  28.9.2014 13:10  man his
+ 3814  28.9.2014 13:10  man history
+ 3815  28.9.2014 13:11  history
+ 3816  28.9.2014 13:12  history -a
+ 3817  28.9.2014 13:12  history -l
+ 3818  28.9.2014 13:12  history -all
+ 3820  28.9.2014 13:12  history
+ 3821  28.9.2014 13:13  history --all
+ 3822  28.9.2014 13:13  history -E 1

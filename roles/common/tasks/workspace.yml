@@ -1,0 +1,15 @@
+---
+- name: create a workspace directory
+  file: path=/home/{{ user_name }}/workspace state=directory
+  sudo: False
+  tags: workspace
+
+- name: create a temp directory
+  file: path=/home/{{ user_name }}/workspace/temp state=directory
+  sudo: False
+  tags: workspace
+
+- name: create a docker workspace directory
+  file: path=/home/{{ user_name }}/workspace/docker state=directory
+  sudo: False
+  tags: workspace
